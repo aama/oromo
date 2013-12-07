@@ -13,6 +13,9 @@
 	  :pos {:Pronoun, :Verb}
 	  :proClass {:Independent, :ProSuff}
 	  :tam {:Conditional, :FutureDefinite, :FutureIndefinite, :FuturePerfect, :Imperative, :Jussive, :NonPast-nonPres, :Past, :PastProgressive, :Perfect, :Pluperfect, :PluperfectProgressive, :Present, :PresentProgressive}
+	  :token-structAux {:jir-_pres, :jir-_pres+tur-_past, :jir-_presNeg, :jir-_presNeg+tur-_past, :taʔa_sg_3_m–invar, :tur-_past, :tur-_pastNeg, :⊤}
+	  :token-structMain {:hín-verb_pres, :verb_agent, :verb_infinitive+f, :verb_past, :verb_pastNeg, :verb_presNeg}
+	  :token-structure {:ha-Verb_pres-aff-sub, :hin-VerbStem-in_invariant}
 	  ]
 :lexemes {
   :PRO {:gloss "Pronoun", :lemma "Pronoun", }
@@ -421,7 +424,7 @@
 	    [:Negative, :tur-_pastNeg, :verb_infinitive+f, :FuturePerfect, :(hi)n-turre, "_NULL", "adeemuu-f", "adeemuu-f (hi)n-turre (_NULL)"],
 	    [:Affirmative, :jir-_pres, :verb_agent, :PresentProgressive, :jira, "_NULL", "adeemaa(n)", "adeemaa(n) jira (_NULL)"],
 	    [:Negative, :jir-_presNeg, :verb_infinitive+f, :FutureDefinite, :(hi)n-jiru, "_NULL", "adeemuu-f", "adeemuu-f (hi)n-jiru (_NULL)"],
-	    [:Negative, :taʔa _sg_3_m–invar, :verb_presNeg, :FutureIndefinite, :taʔa, "_NULL", "hin-adeemu(n)", "hin-adeemu(n) taʔa (_NULL)"],
+	    [:Negative, :taʔa_sg_3_m–invar, :verb_presNeg, :FutureIndefinite, :taʔa, "_NULL", "hin-adeemu(n)", "hin-adeemu(n) taʔa (_NULL)"],
 	    [:Affirmative, :tur-_past, :verb_infinitive+f, :FuturePerfect, :ture, "_NULL", "adeemuu-f(an)", "adeemuu-f(an) ture (_NULL)"],
 	    [:Affirmative, :tur-_past, :verb_past, :Pluperfect, :ture, "_NULL", "adeemee(n)", "adeemee(n) ture (_NULL)"],
 	    [:Negative, :jir-_presNeg+tur-_past, :verb_agent, :PluperfectProgressive, :(hi)n-jiru(n) ture, "_NULL", "adeemaa", "adeemaa (hi)n-jiru(n) ture (_NULL)"],
