@@ -1,24 +1,32 @@
-
-:ns {:rdf	 "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     :rdfs	 "http://www.w3.org/2000/01/rdf-schema#"
-     :aama	 "http://id.oi.uchicago.edu/aama/2013/"
-     :aamas	 "http://id.oi.uchicago.edu/aama/2013/schema/"
-     :aamav	 "http://id.oi.uchicago.edu/aama/2013/value/"
-}
-
+:lang :oromo
+:schemata [:case {:Absolutive, :Possessive, :Subject}
+	  :clauseType {:Main, :Subordinate}
+	  :copType {:Existence, :Occurrence, :Predication}
+	  :derivedStem {:Base, :M, :S, :T}
+	  :formType {:CompoundTense}
+	  :gender {:Common, :Fem, :Masc}
+	  :nonFiniteForm {:NonFinite}
+	  :number {:Plural, :Singular}
+	  :pdgmSubType {:Copula}
+	  :person {:Person1, :Person2, :Person3}
+	  :polarity {:Affirmative, :Common, :Negative}
+	  :pos {:Pronoun, :Verb}
+	  :proClass {:Independent, :ProSuff}
+	  :tam {:Conditional, :FutureDefinite, :FutureIndefinite, :FuturePerfect, :Imperative, :Jussive, :NonPast-nonPres, :Past, :PastProgressive, :Perfect, :Pluperfect, :PluperfectProgressive, :Present, :PresentProgressive}
+	  ]
 :lexemes {
-  :Oromo-PRO {:gloss "Pronoun", :lemma "Pronoun", :key :PRO}
-  :Oromo-COPULA {:gloss "Copula", :lemma "Copula", :key :COPULA}
-  :Oromo-adeem {:derivedStem :Base, :gloss "go", :lemma "adeem-", :key :adeem, :pos :Verb}
-  :Oromo-beek-am {:derivedStem :M, :gloss "be known", :lemma "beek-am-", :key :beek-am, :pos :Verb}
-  :Oromo-beek-sis {:derivedStem :S, :gloss "inform", :lemma "beek-sis-", :key :beek-sis, :pos :Verb}
-  :Oromo-beek {:derivedStem :Base, :gloss "know", :lemma "beek-", :key :beek, :pos :Verb}
-  :Oromo-beek-ad {:derivedStem :T, :gloss "realize", :lemma "beek-ad-", :key :beek-ad, :pos :Verb}
+  :PRO {:gloss "Pronoun", :lemma "Pronoun", }
+  :COPULA {:gloss "Copula", :lemma "Copula", }
+  :adeem {:derivedStem :Base, :gloss "go", :lemma "adeem-", :pos :Verb}
+  :beek-am {:derivedStem :M, :gloss "be known", :lemma "beek-am-", :pos :Verb}
+  :beek-sis {:derivedStem :S, :gloss "inform", :lemma "beek-sis-", :pos :Verb}
+  :beek {:derivedStem :Base, :gloss "know", :lemma "beek-", :pos :Verb}
+  :beek-ad {:derivedStem :T, :gloss "realize", :lemma "beek-ad-", :pos :Verb}
 }
-:terms #{
+:lxterms #{
     {:common {:derivedStem :Base,
 	    :gender :Common,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :person :Person2,
 	    :polarity :Negative,
 	    :pos :Verb,
@@ -29,7 +37,7 @@
     }
     {:common {:clauseType :Subordinate,
 	    :derivedStem :Base,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -44,7 +52,7 @@
     }
     {:common {:clauseType :Main,
 	    :derivedStem :S,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -59,7 +67,7 @@
     }
     {:common {:clauseType :Subordinate,
 	    :derivedStem :M,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -74,7 +82,7 @@
     }
     {:common {:derivedStem :Base,
 	    :gender :Common,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -85,7 +93,7 @@
     }
     {:common {:derivedStem :M,
 	    :gender :Common,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -96,7 +104,7 @@
     }
     {:common {:clauseType :Main,
 	    :derivedStem :S,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -111,7 +119,7 @@
     }
     {:common {:clauseType :Main,
 	    :derivedStem :M,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -124,7 +132,7 @@
 	    [:Common, :Singular, :Person2, "beek-am-ta"],
 	    [:Common, :Plural, :Person1, "beek-am-na"]]
     }
-    {:common {:lexkey :PRO,
+    {:common {:lexeme :PRO,
 	    :pos :Pronoun,
 	    :proClass :Independent}
     :terms [[:case, :gender, :number, :person, :token]  ;; schema
@@ -145,7 +153,7 @@
     }
     {:common {:clauseType :Subordinate,
 	    :derivedStem :M,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -160,7 +168,7 @@
     }
     {:common {:clauseType :Subordinate,
 	    :derivedStem :Base,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -175,7 +183,7 @@
     }
     {:common {:clauseType :Main,
 	    :derivedStem :M,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -190,7 +198,7 @@
     }
     {:common {:clauseType :Subordinate,
 	    :derivedStem :S,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -203,7 +211,7 @@
 	    [:Masc, :Singular, :Person3, "beek-sis-u"],
 	    [:Common, :Plural, :Person2, "beek-sif-tani/u"]]
     }
-    {:common {:lexkey :COPULA,
+    {:common {:lexeme :COPULA,
 	    :pdgmSubType :Copula,
 	    :pos :Verb}
     :terms [[:copType, :polarity, :tam, :token]  ;; schema
@@ -219,7 +227,7 @@
 	    [:Existence, :Common, :Past, "tur-"]]
     }
     {:common {:derivedStem :Base,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
@@ -234,7 +242,7 @@
     }
     {:common {:clauseType :Main,
 	    :derivedStem :Base,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -248,7 +256,7 @@
 	    [:Fem, :Singular, :Person3, "beek-ti"]]
     }
     {:common {:derivedStem :Base,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past}
@@ -262,7 +270,7 @@
 	    [:Common, :Plural, :Person2, "beek-ne"]]
     }
     {:common {:derivedStem :T,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
@@ -276,7 +284,7 @@
 	    [:Common, :Plural, :Person1, "beek-an-ne"]]
     }
     {:common {:derivedStem :S,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
@@ -291,7 +299,7 @@
     }
     {:common {:derivedStem :S,
 	    :gender :Common,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -302,7 +310,7 @@
     }
     {:common {:clauseType :Subordinate,
 	    :derivedStem :T,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -317,7 +325,7 @@
     }
     {:common {:derivedStem :T,
 	    :gender :Common,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :person :Person2,
 	    :polarity :Negative,
 	    :pos :Verb,
@@ -328,7 +336,7 @@
     }
     {:common {:derivedStem :T,
 	    :gender :Common,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :person :Person2,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -339,7 +347,7 @@
     }
     {:common {:clauseType :Main,
 	    :derivedStem :Base,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -354,7 +362,7 @@
     }
     {:common {:clauseType :Subordinate,
 	    :derivedStem :S,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -369,7 +377,7 @@
     }
     {:common {:clauseType :Subordinate,
 	    :derivedStem :T,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -383,7 +391,7 @@
 	    [:Common, :Singular, :Person1, "beek-ad-u"]]
     }
     {:common {:derivedStem :S,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past}
@@ -397,34 +405,34 @@
 	    [:Common, :Singular, :Person1, "beek-sif-ne"]]
     }
     {:common {:gender :Masc,
-	    :lexkey :adeem,
+	    :lexeme :adeem,
 	    :number :Singular,
 	    :person :Person3,
 	    :pos :Verb,
 	    :formType :CompoundTense}
     :terms [[:polarity, :token-structAux, :token-structMain, :tam, :token-aux, :token-encliticized, :token-main, :token]  ;; schema
-	    [:Negative, :jir-_presNeg, :verb_agent, :PresentProgressive, "hin-jiru", "_NULL", "adeemaa", "adeemaa hin-jiru (_NULL)"],
-	    [:Affirmative, :jir-_pres, :verb_infinitive+f, :FutureDefinite, "jira", "_NULL", "adeemuu-f(an)", "adeemuu-f(an) jira (_NULL)"],
-	    [:Negative, :tur-_past, :verb_agent, :PastProgressive, "(hi)n-turre", "_NULL", "adeemaa", "adeemaa (hi)n-turre (_NULL)"],
-	    [:Negative, :⊤, :verb_pastNeg, :Perfect, "⊤", "_NULL", "hin-adeem-ne", "hin-adeem-ne ⊤ (_NULL)"],
-	    [:Affirmative, :jir-_pres+tur-_past, :verb_agent, :PluperfectProgressive, "jira(n) ture", "_NULL", "adeemaa(n)", "adeemaa(n) jira(n) ture (_NULL)"],
-	    [:Negative, :tur-_past, :verb_presNeg, :Conditional, "ture", "_NULL", "hin-adeemu(n)", "hin-adeemu(n) ture (_NULL)"],
-	    [:Negative, :tur-_past, :verb_pastNeg, :Pluperfect, "ture", "_NULL", "hin-adeemne(n)", "hin-adeemne(n) ture (_NULL)"],
-	    [:Negative, :tur-_pastNeg, :verb_infinitive+f, :FuturePerfect, "(hi)n-turre", "_NULL", "adeemuu-f", "adeemuu-f (hi)n-turre (_NULL)"],
-	    [:Affirmative, :jir-_pres, :verb_agent, :PresentProgressive, "jira", "_NULL", "adeemaa(n)", "adeemaa(n) jira (_NULL)"],
-	    [:Negative, :jir-_presNeg, :verb_infinitive+f, :FutureDefinite, "(hi)n-jiru", "_NULL", "adeemuu-f", "adeemuu-f (hi)n-jiru (_NULL)"],
-	    [:Negative, :taʔa _sg_3_m–invar, :verb_presNeg, :FutureIndefinite, "taʔa", "_NULL", "hin-adeemu(n)", "hin-adeemu(n) taʔa (_NULL)"],
-	    [:Affirmative, :tur-_past, :verb_infinitive+f, :FuturePerfect, "ture", "_NULL", "adeemuu-f(an)", "adeemuu-f(an) ture (_NULL)"],
-	    [:Affirmative, :tur-_past, :verb_past, :Pluperfect, "ture", "_NULL", "adeemee(n)", "adeemee(n) ture (_NULL)"],
-	    [:Negative, :jir-_presNeg+tur-_past, :verb_agent, :PluperfectProgressive, "(hi)n-jiru(n) ture", "_NULL", "adeemaa", "adeemaa (hi)n-jiru(n) ture (_NULL)"],
-	    [:Affirmative, :jir-_pres, :verb_past, :Perfect, "jira", "adeemeera", "adeemee(n)", "adeemee(n) jira (adeemeera)"],
-	    [:Affirmative, :tur-_past, :hín-verb_pres, :Conditional, "ture", "_NULL", "nan/hin-adeema(n)", "nan/hin-adeema(n) ture (_NULL)"],
-	    [:Affirmative, :tur-_past, :verb_agent, :PastProgressive, "ture", "_NULL", "adeemaa(n)", "adeemaa(n) ture (_NULL)"],
-	    [:Affirmative, :taʔa_sg_3_m–invar, :hín-verb_pres, :FutureIndefinite, "taʔa", "_NULL", "nan/hin-adeema", "nan/hin-adeema taʔa (_NULL)"]]
+	    [:Negative, :jir-_presNeg, :verb_agent, :PresentProgressive, :hin-jiru, "_NULL", "adeemaa", "adeemaa hin-jiru (_NULL)"],
+	    [:Affirmative, :jir-_pres, :verb_infinitive+f, :FutureDefinite, :jira, "_NULL", "adeemuu-f(an)", "adeemuu-f(an) jira (_NULL)"],
+	    [:Negative, :tur-_past, :verb_agent, :PastProgressive, :(hi)n-turre, "_NULL", "adeemaa", "adeemaa (hi)n-turre (_NULL)"],
+	    [:Negative, :⊤, :verb_pastNeg, :Perfect, :⊤, "_NULL", "hin-adeem-ne", "hin-adeem-ne ⊤ (_NULL)"],
+	    [:Affirmative, :jir-_pres+tur-_past, :verb_agent, :PluperfectProgressive, :jira(n) ture, "_NULL", "adeemaa(n)", "adeemaa(n) jira(n) ture (_NULL)"],
+	    [:Negative, :tur-_past, :verb_presNeg, :Conditional, :ture, "_NULL", "hin-adeemu(n)", "hin-adeemu(n) ture (_NULL)"],
+	    [:Negative, :tur-_past, :verb_pastNeg, :Pluperfect, :ture, "_NULL", "hin-adeemne(n)", "hin-adeemne(n) ture (_NULL)"],
+	    [:Negative, :tur-_pastNeg, :verb_infinitive+f, :FuturePerfect, :(hi)n-turre, "_NULL", "adeemuu-f", "adeemuu-f (hi)n-turre (_NULL)"],
+	    [:Affirmative, :jir-_pres, :verb_agent, :PresentProgressive, :jira, "_NULL", "adeemaa(n)", "adeemaa(n) jira (_NULL)"],
+	    [:Negative, :jir-_presNeg, :verb_infinitive+f, :FutureDefinite, :(hi)n-jiru, "_NULL", "adeemuu-f", "adeemuu-f (hi)n-jiru (_NULL)"],
+	    [:Negative, :taʔa _sg_3_m–invar, :verb_presNeg, :FutureIndefinite, :taʔa, "_NULL", "hin-adeemu(n)", "hin-adeemu(n) taʔa (_NULL)"],
+	    [:Affirmative, :tur-_past, :verb_infinitive+f, :FuturePerfect, :ture, "_NULL", "adeemuu-f(an)", "adeemuu-f(an) ture (_NULL)"],
+	    [:Affirmative, :tur-_past, :verb_past, :Pluperfect, :ture, "_NULL", "adeemee(n)", "adeemee(n) ture (_NULL)"],
+	    [:Negative, :jir-_presNeg+tur-_past, :verb_agent, :PluperfectProgressive, :(hi)n-jiru(n) ture, "_NULL", "adeemaa", "adeemaa (hi)n-jiru(n) ture (_NULL)"],
+	    [:Affirmative, :jir-_pres, :verb_past, :Perfect, :jira, "adeemeera", "adeemee(n)", "adeemee(n) jira (adeemeera)"],
+	    [:Affirmative, :tur-_past, :hín-verb_pres, :Conditional, :ture, "_NULL", "nan/hin-adeema(n)", "nan/hin-adeema(n) ture (_NULL)"],
+	    [:Affirmative, :tur-_past, :verb_agent, :PastProgressive, :ture, "_NULL", "adeemaa(n)", "adeemaa(n) ture (_NULL)"],
+	    [:Affirmative, :taʔa_sg_3_m–invar, :hín-verb_pres, :FutureIndefinite, :taʔa, "_NULL", "nan/hin-adeema", "nan/hin-adeema taʔa (_NULL)"]]
     }
     {:common {:clauseType :Main,
 	    :derivedStem :T,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -438,7 +446,7 @@
 	    [:Masc, :Singular, :Person3, "beek-at-u"]]
     }
     {:common {:derivedStem :T,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past}
@@ -453,7 +461,7 @@
     }
     {:common {:derivedStem :M,
 	    :gender :Common,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :person :Person2,
 	    :polarity :Negative,
 	    :pos :Verb,
@@ -464,7 +472,7 @@
     }
     {:common {:clauseType :Main,
 	    :derivedStem :T,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Present}
@@ -478,7 +486,7 @@
 	    [:Common, :Plural, :Person3, "beek-at-u"]]
     }
     {:common {:case :Possessive,
-	    :lexkey :PRO,
+	    :lexeme :PRO,
 	    :pos :Pronoun,
 	    :proClass :ProSuff}
     :terms [[:gender, :number, :person, :token]  ;; schema
@@ -492,7 +500,7 @@
     }
     {:common {:derivedStem :S,
 	    :gender :Common,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :person :Person2,
 	    :polarity :Negative,
 	    :pos :Verb,
@@ -501,7 +509,7 @@
 	    [:Singular, "beek-sis-ini"],
 	    [:Plural, "beek-sis-inaa"]]
     }
-    {:common {:lexkey :beek,
+    {:common {:lexeme :beek,
 	    :pos :Verb}
     :terms [[:derivedStem, :nonFiniteForm, :token]  ;; schema
 	    [:Base, :NonFinite, "beek-sis-aa"],
@@ -518,7 +526,7 @@
 	    [:Base, :NonFinite, "beek-sif-naan"]]
     }
     {:common {:derivedStem :M,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Past}
@@ -532,7 +540,7 @@
 	    [:Masc, :Singular, :Person3, "beek-am-ne"]]
     }
     {:common {:gender :Masc,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :number :Singular,
 	    :person :Person3,
 	    :pos :Verb,
@@ -548,7 +556,7 @@
 	    [:M, :Negative, :hin-VerbStem-in_invariant, "hin-beek-am-in"]]
     }
     {:common {:derivedStem :M,
-	    :lexkey :beek,
+	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Past}
