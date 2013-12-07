@@ -1,0 +1,563 @@
+
+:ns {:rdf	 "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     :rdfs	 "http://www.w3.org/2000/01/rdf-schema#"
+     :aama	 "http://id.oi.uchicago.edu/aama/2013/"
+     :aamas	 "http://id.oi.uchicago.edu/aama/2013/schema/"
+     :aamav	 "http://id.oi.uchicago.edu/aama/2013/value/"
+}
+
+:lexemes {
+  :Oromo-PRO {:gloss "Pronoun", :lemma "Pronoun", :key :PRO}
+  :Oromo-COPULA {:gloss "Copula", :lemma "Copula", :key :COPULA}
+  :Oromo-adeem {:derivedStem :Base, :gloss "go", :lemma "adeem-", :key :adeem, :pos :Verb}
+  :Oromo-beek-am {:derivedStem :M, :gloss "be known", :lemma "beek-am-", :key :beek-am, :pos :Verb}
+  :Oromo-beek-sis {:derivedStem :S, :gloss "inform", :lemma "beek-sis-", :key :beek-sis, :pos :Verb}
+  :Oromo-beek {:derivedStem :Base, :gloss "know", :lemma "beek-", :key :beek, :pos :Verb}
+  :Oromo-beek-ad {:derivedStem :T, :gloss "realize", :lemma "beek-ad-", :key :beek-ad, :pos :Verb}
+}
+:terms #{
+    {:common {:derivedStem :Base,
+	    :gender :Common,
+	    :lexkey :beek,
+	    :person :Person2,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Imperative}
+    :terms [[:number, :token]  ;; schema
+	    [:Singular, "beek-ini"],
+	    [:Plural, "beek-inaa"]]
+    }
+    {:common {:clauseType :Subordinate,
+	    :derivedStem :Base,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "beek-ani/u"],
+	    [:Common, :Singular, :Person1, "beek-u"],
+	    [:Masc, :Singular, :Person3, "beek-u"],
+	    [:Fem, :Singular, :Person3, "beek-tu"],
+	    [:Common, :Singular, :Person2, "beek-tu"],
+	    [:Common, :Plural, :Person2, "beek-tani/u"],
+	    [:Common, :Plural, :Person1, "beek-nu"]]
+    }
+    {:common {:clauseType :Main,
+	    :derivedStem :S,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "beek-sif-ti"],
+	    [:Common, :Singular, :Person2, "beek-sif-ta"],
+	    [:Common, :Singular, :Person1, "beek-sis-a"],
+	    [:Masc, :Singular, :Person3, "beek-sis-a"],
+	    [:Common, :Plural, :Person3, "beek-sis-u"],
+	    [:Common, :Plural, :Person2, "beek-sif-tu"],
+	    [:Common, :Plural, :Person1, "beek-sif-na"]]
+    }
+    {:common {:clauseType :Subordinate,
+	    :derivedStem :M,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "beek-am-nu"],
+	    [:Common, :Plural, :Person3, "beek-am-ani/u"],
+	    [:Common, :Singular, :Person1, "beek-am-u"],
+	    [:Common, :Singular, :Person2, "beek-am-tu"],
+	    [:Common, :Plural, :Person2, "beek-am-tani/u"],
+	    [:Fem, :Singular, :Person3, "beek-am-tu"],
+	    [:Masc, :Singular, :Person3, "beek-am-u"]]
+    }
+    {:common {:derivedStem :Base,
+	    :gender :Common,
+	    :lexkey :beek,
+	    :person :Person2,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Imperative}
+    :terms [[:number, :token]  ;; schema
+	    [:Plural, "beek-aa"],
+	    [:Singular, "beek-i ~ -u"]]
+    }
+    {:common {:derivedStem :M,
+	    :gender :Common,
+	    :lexkey :beek,
+	    :person :Person2,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Imperative}
+    :terms [[:number, :token]  ;; schema
+	    [:Plural, "beek-am-aa"],
+	    [:Singular, "beek-am-i ~ -u"]]
+    }
+    {:common {:clauseType :Main,
+	    :derivedStem :S,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "beek-sif-tu"],
+	    [:Common, :Singular, :Person2, "beek-sif-tu"],
+	    [:Common, :Plural, :Person1, "beek-sif-nu"],
+	    [:Common, :Singular, :Person1, "beek-sis-u"],
+	    [:Common, :Plural, :Person3, "beek-sis-ani/u"],
+	    [:Masc, :Singular, :Person3, "beek-sis-u"],
+	    [:Common, :Plural, :Person2, "beek-sif-tani/u"]]
+    }
+    {:common {:clauseType :Main,
+	    :derivedStem :M,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "beek-am-u"],
+	    [:Common, :Plural, :Person2, "beek-am-tu"],
+	    [:Masc, :Singular, :Person3, "beek-am-a"],
+	    [:Fem, :Singular, :Person3, "beek-am-ti"],
+	    [:Common, :Singular, :Person1, "beek-am-a"],
+	    [:Common, :Singular, :Person2, "beek-am-ta"],
+	    [:Common, :Plural, :Person1, "beek-am-na"]]
+    }
+    {:common {:lexkey :PRO,
+	    :pos :Pronoun,
+	    :proClass :Independent}
+    :terms [[:case, :gender, :number, :person, :token]  ;; schema
+	    [:Absolutive, :Common, :Singular, :Person2, "sei"],
+	    [:Subject, :Common, :Plural, :Person3, "isaan(i)"],
+	    [:Absolutive, :Masc, :Singular, :Person3, "isa"],
+	    [:Subject, :Common, :Plural, :Person1, "nuy"],
+	    [:Subject, :Fem, :Singular, :Person3, "iseen(i)"],
+	    [:Subject, :Masc, :Singular, :Person3, "inni"],
+	    [:Absolutive, :Fem, :Singular, :Person3, "iše"],
+	    [:Absolutive, :Common, :Plural, :Person1, "nu"],
+	    [:Subject, :Common, :Singular, :Person1, "an(i)"],
+	    [:Absolutive, :Common, :Plural, :Person3, "isaan"],
+	    [:Absolutive, :Common, :Singular, :Person1, "(a)na"],
+	    [:Subject, :Common, :Singular, :Person2, "at(i)"],
+	    [:Subject, :Common, :Plural, :Person2, "isin(i)"],
+	    [:Absolutive, :Common, :Plural, :Person2, "isin"]]
+    }
+    {:common {:clauseType :Subordinate,
+	    :derivedStem :M,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "beek-am-ne"],
+	    [:Common, :Singular, :Person1, "beek-am-ne"],
+	    [:Fem, :Singular, :Person3, "beek-am-ne"],
+	    [:Masc, :Singular, :Person3, "beek-am-ne"],
+	    [:Common, :Singular, :Person2, "beek-am-ne"],
+	    [:Common, :Plural, :Person1, "beek-am-ne"],
+	    [:Common, :Plural, :Person3, "beek-am-ne"]]
+    }
+    {:common {:clauseType :Subordinate,
+	    :derivedStem :Base,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "beek-ne"],
+	    [:Common, :Singular, :Person1, "beek-ne"],
+	    [:Common, :Singular, :Person2, "beek-ne"],
+	    [:Common, :Plural, :Person2, "beek-ne"],
+	    [:Fem, :Singular, :Person3, "beek-ne"],
+	    [:Common, :Plural, :Person3, "beek-ne"],
+	    [:Common, :Plural, :Person1, "beek-ne"]]
+    }
+    {:common {:clauseType :Main,
+	    :derivedStem :M,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "beek-am-ani/u"],
+	    [:Common, :Singular, :Person1, "beek-am-u"],
+	    [:Masc, :Singular, :Person3, "beek-am-u"],
+	    [:Common, :Singular, :Person2, "beek-am-tu"],
+	    [:Common, :Plural, :Person1, "beek-am-nu"],
+	    [:Common, :Plural, :Person2, "beek-am-tani/u"],
+	    [:Fem, :Singular, :Person3, "beek-am-tu"]]
+    }
+    {:common {:clauseType :Subordinate,
+	    :derivedStem :S,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "beek-sif-nu"],
+	    [:Common, :Plural, :Person3, "beek-sis-ani/u"],
+	    [:Common, :Singular, :Person1, "beek-sis-u"],
+	    [:Common, :Singular, :Person2, "beek-sif-tu"],
+	    [:Fem, :Singular, :Person3, "beek-sif-tu"],
+	    [:Masc, :Singular, :Person3, "beek-sis-u"],
+	    [:Common, :Plural, :Person2, "beek-sif-tani/u"]]
+    }
+    {:common {:lexkey :COPULA,
+	    :pdgmSubType :Copula,
+	    :pos :Verb}
+    :terms [[:copType, :polarity, :tam, :token]  ;; schema
+	    [:Predication, :Negative, :Present, "miti"],
+	    [:Predication, :Affirmative, :Present, "ɗa"],
+	    [:Occurrence, :Common, :NonPast-nonPres, "taʔ-"],
+	    [:Existence, :Common, :NonPast-nonPres, "taʔ-"],
+	    [:Predication, :Common, :Past, "tur-"],
+	    [:Occurrence, :Common, :Past, "taʔ-"],
+	    [:Existence, :Common, :Present, "jir-"],
+	    [:Occurrence, :Common, :Present, "taʔ-"],
+	    [:Predication, :Common, :NonPast-nonPres, "taʔ-"],
+	    [:Existence, :Common, :Past, "tur-"]]
+    }
+    {:common {:derivedStem :Base,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Past}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "beek-an(i)"],
+	    [:Common, :Plural, :Person1, "beek-ne"],
+	    [:Common, :Plural, :Person2, "beek-tan(i)"],
+	    [:Fem, :Singular, :Person3, "beek-te"],
+	    [:Common, :Singular, :Person1, "beek-e"],
+	    [:Masc, :Singular, :Person3, "beek-e"],
+	    [:Common, :Singular, :Person2, "beek-te"]]
+    }
+    {:common {:clauseType :Main,
+	    :derivedStem :Base,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "beek-ta"],
+	    [:Common, :Plural, :Person3, "beek-u"],
+	    [:Masc, :Singular, :Person3, "beek-a"],
+	    [:Common, :Plural, :Person1, "beek-na"],
+	    [:Common, :Singular, :Person1, "beek-a"],
+	    [:Common, :Plural, :Person2, "beek-tu"],
+	    [:Fem, :Singular, :Person3, "beek-ti"]]
+    }
+    {:common {:derivedStem :Base,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Past}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "beek-ne"],
+	    [:Fem, :Singular, :Person3, "beek-ne"],
+	    [:Common, :Singular, :Person2, "beek-ne"],
+	    [:Common, :Plural, :Person1, "beek-ne"],
+	    [:Common, :Singular, :Person1, "beek-ne"],
+	    [:Masc, :Singular, :Person3, "beek-ne"],
+	    [:Common, :Plural, :Person2, "beek-ne"]]
+    }
+    {:common {:derivedStem :T,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Past}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "beek-at-tan(i)"],
+	    [:Common, :Plural, :Person3, "beek-at-an(i)"],
+	    [:Common, :Singular, :Person2, "beek-at-te"],
+	    [:Common, :Singular, :Person1, "beek-ad-e"],
+	    [:Masc, :Singular, :Person3, "beek-at-e"],
+	    [:Fem, :Singular, :Person3, "beek-at-te"],
+	    [:Common, :Plural, :Person1, "beek-an-ne"]]
+    }
+    {:common {:derivedStem :S,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Past}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "beek-sif-tan(i)"],
+	    [:Common, :Singular, :Person1, "beek-sis-e"],
+	    [:Common, :Singular, :Person2, "beek-sif-te"],
+	    [:Fem, :Singular, :Person3, "beek-sif-te"],
+	    [:Common, :Plural, :Person3, "beek-sis-an(i)"],
+	    [:Common, :Plural, :Person1, "beek-sif-ne"],
+	    [:Masc, :Singular, :Person3, "beek-sis-e"]]
+    }
+    {:common {:derivedStem :S,
+	    :gender :Common,
+	    :lexkey :beek,
+	    :person :Person2,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Imperative}
+    :terms [[:number, :token]  ;; schema
+	    [:Singular, "beek-sis-i ~ -u"],
+	    [:Plural, "beek-sis-aa"]]
+    }
+    {:common {:clauseType :Subordinate,
+	    :derivedStem :T,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Singular, :Person2, "beek-an-ne"],
+	    [:Fem, :Singular, :Person3, "beek-an-ne"],
+	    [:Common, :Singular, :Person1, "beek-an-ne"],
+	    [:Common, :Plural, :Person1, "beek-an-ne"],
+	    [:Common, :Plural, :Person2, "beek-an-ne"],
+	    [:Masc, :Singular, :Person3, "beek-an-ne"],
+	    [:Common, :Plural, :Person3, "beek-an-ne"]]
+    }
+    {:common {:derivedStem :T,
+	    :gender :Common,
+	    :lexkey :beek,
+	    :person :Person2,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Imperative}
+    :terms [[:number, :token]  ;; schema
+	    [:Singular, "beek-at-ini"],
+	    [:Plural, "beek-at-inaa"]]
+    }
+    {:common {:derivedStem :T,
+	    :gender :Common,
+	    :lexkey :beek,
+	    :person :Person2,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Imperative}
+    :terms [[:number, :token]  ;; schema
+	    [:Plural, "beek-at-aa"],
+	    [:Singular, "beek-at-i ~ -u"]]
+    }
+    {:common {:clauseType :Main,
+	    :derivedStem :Base,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Singular, :Person1, "beek-u"],
+	    [:Common, :Plural, :Person2, "beek-tani/u"],
+	    [:Common, :Plural, :Person1, "beek-nu"],
+	    [:Common, :Plural, :Person3, "beek-ani/u"],
+	    [:Common, :Singular, :Person2, "beek-tu"],
+	    [:Fem, :Singular, :Person3, "beek-tu"],
+	    [:Masc, :Singular, :Person3, "beek-u"]]
+    }
+    {:common {:clauseType :Subordinate,
+	    :derivedStem :S,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "beek-sif-ne"],
+	    [:Common, :Singular, :Person2, "beek-sif-ne"],
+	    [:Common, :Singular, :Person1, "beek-sif-ne"],
+	    [:Common, :Plural, :Person1, "beek-sif-ne"],
+	    [:Common, :Plural, :Person2, "beek-sif-ne"],
+	    [:Fem, :Singular, :Person3, "beek-sif-ne"],
+	    [:Masc, :Singular, :Person3, "beek-sif-ne"]]
+    }
+    {:common {:clauseType :Subordinate,
+	    :derivedStem :T,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "beek-at-tu"],
+	    [:Common, :Singular, :Person2, "beek-at-tu"],
+	    [:Common, :Plural, :Person3, "beek-at-ani/u"],
+	    [:Common, :Plural, :Person2, "beek-at-tani/u"],
+	    [:Masc, :Singular, :Person3, "beek-at-u"],
+	    [:Common, :Plural, :Person1, "beek-an-nu"],
+	    [:Common, :Singular, :Person1, "beek-ad-u"]]
+    }
+    {:common {:derivedStem :S,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Past}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "beek-sif-ne"],
+	    [:Common, :Plural, :Person1, "beek-sif-ne"],
+	    [:Common, :Plural, :Person2, "beek-sif-ne"],
+	    [:Fem, :Singular, :Person3, "beek-sif-ne"],
+	    [:Common, :Singular, :Person2, "beek-sif-ne"],
+	    [:Masc, :Singular, :Person3, "beek-sif-ne"],
+	    [:Common, :Singular, :Person1, "beek-sif-ne"]]
+    }
+    {:common {:gender :Masc,
+	    :lexkey :adeem,
+	    :number :Singular,
+	    :person :Person3,
+	    :pos :Verb,
+	    :formType :CompoundTense}
+    :terms [[:polarity, :token-structAux, :token-structMain, :tam, :token-aux, :token-encliticized, :token-main, :token]  ;; schema
+	    [:Negative, :jir-_presNeg, :verb_agent, :PresentProgressive, "hin-jiru", "_NULL", "adeemaa", "adeemaa hin-jiru (_NULL)"],
+	    [:Affirmative, :jir-_pres, :verb_infinitive+f, :FutureDefinite, "jira", "_NULL", "adeemuu-f(an)", "adeemuu-f(an) jira (_NULL)"],
+	    [:Negative, :tur-_past, :verb_agent, :PastProgressive, "(hi)n-turre", "_NULL", "adeemaa", "adeemaa (hi)n-turre (_NULL)"],
+	    [:Negative, :⊤, :verb_pastNeg, :Perfect, "⊤", "_NULL", "hin-adeem-ne", "hin-adeem-ne ⊤ (_NULL)"],
+	    [:Affirmative, :jir-_pres+tur-_past, :verb_agent, :PluperfectProgressive, "jira(n) ture", "_NULL", "adeemaa(n)", "adeemaa(n) jira(n) ture (_NULL)"],
+	    [:Negative, :tur-_past, :verb_presNeg, :Conditional, "ture", "_NULL", "hin-adeemu(n)", "hin-adeemu(n) ture (_NULL)"],
+	    [:Negative, :tur-_past, :verb_pastNeg, :Pluperfect, "ture", "_NULL", "hin-adeemne(n)", "hin-adeemne(n) ture (_NULL)"],
+	    [:Negative, :tur-_pastNeg, :verb_infinitive+f, :FuturePerfect, "(hi)n-turre", "_NULL", "adeemuu-f", "adeemuu-f (hi)n-turre (_NULL)"],
+	    [:Affirmative, :jir-_pres, :verb_agent, :PresentProgressive, "jira", "_NULL", "adeemaa(n)", "adeemaa(n) jira (_NULL)"],
+	    [:Negative, :jir-_presNeg, :verb_infinitive+f, :FutureDefinite, "(hi)n-jiru", "_NULL", "adeemuu-f", "adeemuu-f (hi)n-jiru (_NULL)"],
+	    [:Negative, :taʔa _sg_3_m–invar, :verb_presNeg, :FutureIndefinite, "taʔa", "_NULL", "hin-adeemu(n)", "hin-adeemu(n) taʔa (_NULL)"],
+	    [:Affirmative, :tur-_past, :verb_infinitive+f, :FuturePerfect, "ture", "_NULL", "adeemuu-f(an)", "adeemuu-f(an) ture (_NULL)"],
+	    [:Affirmative, :tur-_past, :verb_past, :Pluperfect, "ture", "_NULL", "adeemee(n)", "adeemee(n) ture (_NULL)"],
+	    [:Negative, :jir-_presNeg+tur-_past, :verb_agent, :PluperfectProgressive, "(hi)n-jiru(n) ture", "_NULL", "adeemaa", "adeemaa (hi)n-jiru(n) ture (_NULL)"],
+	    [:Affirmative, :jir-_pres, :verb_past, :Perfect, "jira", "adeemeera", "adeemee(n)", "adeemee(n) jira (adeemeera)"],
+	    [:Affirmative, :tur-_past, :hín-verb_pres, :Conditional, "ture", "_NULL", "nan/hin-adeema(n)", "nan/hin-adeema(n) ture (_NULL)"],
+	    [:Affirmative, :tur-_past, :verb_agent, :PastProgressive, "ture", "_NULL", "adeemaa(n)", "adeemaa(n) ture (_NULL)"],
+	    [:Affirmative, :taʔa_sg_3_m–invar, :hín-verb_pres, :FutureIndefinite, "taʔa", "_NULL", "nan/hin-adeema", "nan/hin-adeema taʔa (_NULL)"]]
+    }
+    {:common {:clauseType :Main,
+	    :derivedStem :T,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "beek-at-tani/u"],
+	    [:Fem, :Singular, :Person3, "beek-at-tu"],
+	    [:Common, :Singular, :Person2, "beek-at-tu"],
+	    [:Common, :Singular, :Person1, "beek-ad-u"],
+	    [:Common, :Plural, :Person3, "beek-at-ani/u"],
+	    [:Common, :Plural, :Person1, "beek-an-nu"],
+	    [:Masc, :Singular, :Person3, "beek-at-u"]]
+    }
+    {:common {:derivedStem :T,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Past}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Masc, :Singular, :Person3, "beek-an-ne"],
+	    [:Common, :Singular, :Person2, "beek-an-ne"],
+	    [:Common, :Plural, :Person2, "beek-an-ne"],
+	    [:Common, :Plural, :Person1, "beek-an-ne"],
+	    [:Common, :Plural, :Person3, "beek-an-ne"],
+	    [:Common, :Singular, :Person1, "beek-an-ne"],
+	    [:Fem, :Singular, :Person3, "beek-an-ne"]]
+    }
+    {:common {:derivedStem :M,
+	    :gender :Common,
+	    :lexkey :beek,
+	    :person :Person2,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Imperative}
+    :terms [[:number, :token]  ;; schema
+	    [:Singular, "beek-am-ini"],
+	    [:Plural, "beek-am-inaa"]]
+    }
+    {:common {:clauseType :Main,
+	    :derivedStem :T,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Present}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person2, "beek-at-tu"],
+	    [:Common, :Plural, :Person1, "beek-an-na"],
+	    [:Common, :Singular, :Person2, "beek-at-ta"],
+	    [:Common, :Singular, :Person1, "beek-ad-a"],
+	    [:Masc, :Singular, :Person3, "beek-at-a"],
+	    [:Fem, :Singular, :Person3, "beek-at-ti"],
+	    [:Common, :Plural, :Person3, "beek-at-u"]]
+    }
+    {:common {:case :Possessive,
+	    :lexkey :PRO,
+	    :pos :Pronoun,
+	    :proClass :ProSuff}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "-saani"],
+	    [:Common, :Plural, :Person2, "-keesan"],
+	    [:Common, :Singular, :Person1, "-koo"],
+	    [:Common, :Singular, :Person2, "-kee"],
+	    [:Masc, :Singular, :Person3, "-saa"],
+	    [:Common, :Plural, :Person1, "-keeɲɲa"],
+	    [:Fem, :Singular, :Person3, "-šee"]]
+    }
+    {:common {:derivedStem :S,
+	    :gender :Common,
+	    :lexkey :beek,
+	    :person :Person2,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Imperative}
+    :terms [[:number, :token]  ;; schema
+	    [:Singular, "beek-sis-ini"],
+	    [:Plural, "beek-sis-inaa"]]
+    }
+    {:common {:lexkey :beek,
+	    :pos :Verb}
+    :terms [[:derivedStem, :nonFiniteForm, :token]  ;; schema
+	    [:Base, :NonFinite, "beek-sis-aa"],
+	    [:Base, :NonFinite, "beek-am-naan"],
+	    [:Base, :NonFinite, "beek-aa"],
+	    [:Base, :NonFinite, "beek-an-naan"],
+	    [:Base, :NonFinite, "beek-uu"],
+	    [:Base, :NonFinite, "beek-at-aa"],
+	    [:Base, :NonFinite, "beek-naan"],
+	    [:Base, :NonFinite, "beek-sis-uu"],
+	    [:Base, :NonFinite, "beek-am-aa"],
+	    [:Base, :NonFinite, "beek-am-uu"],
+	    [:Base, :NonFinite, "beek-at-uu"],
+	    [:Base, :NonFinite, "beek-sif-naan"]]
+    }
+    {:common {:derivedStem :M,
+	    :lexkey :beek,
+	    :polarity :Negative,
+	    :pos :Verb,
+	    :tam :Past}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Fem, :Singular, :Person3, "beek-am-ne"],
+	    [:Common, :Plural, :Person3, "beek-am-ne"],
+	    [:Common, :Singular, :Person2, "beek-am-ne"],
+	    [:Common, :Singular, :Person1, "beek-am-ne"],
+	    [:Common, :Plural, :Person1, "beek-am-ne"],
+	    [:Common, :Plural, :Person2, "beek-am-ne"],
+	    [:Masc, :Singular, :Person3, "beek-am-ne"]]
+    }
+    {:common {:gender :Masc,
+	    :lexkey :beek,
+	    :number :Singular,
+	    :person :Person3,
+	    :pos :Verb,
+	    :tam :Jussive}
+    :terms [[:derivedStem, :polarity, :token-structure, :token]  ;; schema
+	    [:S, :Negative, :hin-VerbStem-in_invariant, "hin-beek-sis-in"],
+	    [:Base, :Negative, :hin-VerbStem-in_invariant, "hin-beek-in"],
+	    [:T, :Negative, :hin-VerbStem-in_invariant, "hin-beek-at-in"],
+	    [:T, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-at-u"],
+	    [:Base, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-u"],
+	    [:S, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-sis-u"],
+	    [:M, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-am-u"],
+	    [:M, :Negative, :hin-VerbStem-in_invariant, "hin-beek-am-in"]]
+    }
+    {:common {:derivedStem :M,
+	    :lexkey :beek,
+	    :polarity :Affirmative,
+	    :pos :Verb,
+	    :tam :Past}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "beek-am-an(i)"],
+	    [:Masc, :Singular, :Person3, "beek-am-e"],
+	    [:Common, :Plural, :Person2, "beek-am-tan(i)"],
+	    [:Common, :Plural, :Person1, "beek-am-ne"],
+	    [:Common, :Singular, :Person1, "beek-am-e"],
+	    [:Fem, :Singular, :Person3, "beek-am-te"],
+	    [:Common, :Singular, :Person2, "beek-am-te"]]
+    }}
