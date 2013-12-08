@@ -1486,9 +1486,9 @@
                <prop type="token-aux" val="hin-jiru"/>
                <prop type="token-encliticized" val="_NULL"/>
                <prop type="token-main" val="adeemaa"/>
-               <prop type="token" val="adeemaa hin-jiru (_NULL)"/>
-               <!-- <prop type="token" val="adeemaa"/> -->
-               <!-- <prop type="token" val="adeemaa hin-jiru (_NULL) hin-jiru (_NULL)"/> -->
+               <prop type="token-x" val="adeemaa hin-jiru (_NULL)"/>
+               <prop type="token-y" val="adeemaa"/>
+               <prop type="token" val="adeemaa hin-jiru (_NULL) hin-jiru (_NULL)"/>
             </term>
             <term id="ID1a130931-5417-4cd4-8fc0-98800d1fb8a4">
                <prop type="polarity" val="Affirmative"/>
