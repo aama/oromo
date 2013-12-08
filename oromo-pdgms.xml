@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <analysis>
-   <muterms>
-      <muterm id="OromoPRO">
+   <!-- <muterms> -->
+   <!--    <muterm id="OromoPRO"> -->
+   <!--       <prop type="gloss" val="Pronoun"/> -->
+   <!--       <prop type="lang" val="Oromo"/> -->
+   <!--       <prop type="mulabel" val="PRO"/> -->
+   <!--    </muterm> -->
+   <!-- </muterms> -->
+   <lexemes>
+      <lexeme id="Oromo-PRO">
          <prop type="gloss" val="Pronoun"/>
          <prop type="lang" val="Oromo"/>
-         <prop type="mulabel" val="PRO"/>
-      </muterm>
-   </muterms>
-   <lexemes>
+         <prop type="lemma" val="Pronoun"/>
+         <prop type="lexlabel" val="PRO"/>
+      </lexeme>
       <lexeme id="Oromo-COPULA">
          <prop type="gloss" val="Copula"/>
          <prop type="lang" val="Oromo"/>
@@ -417,7 +423,7 @@
          <pdgmnote>Gragg1976 p. 178</pdgmnote>
          <common-properties>
             <prop type="lang" val="Oromo"/>
-            <prop type="mulabel" val="PRO"/>
+            <prop type="lexlabel" val="PRO"/>
             <prop type="pos" val="Pronoun"/>
             <prop type="proClass" val="Independent"/>
          </common-properties>
@@ -1481,8 +1487,8 @@
                <prop type="token-encliticized" val="_NULL"/>
                <prop type="token-main" val="adeemaa"/>
                <prop type="token" val="adeemaa hin-jiru (_NULL)"/>
-               <prop type="token" val="adeemaa"/>
-               <prop type="token" val="adeemaa hin-jiru (_NULL) hin-jiru (_NULL)"/>
+               <!-- <prop type="token" val="adeemaa"/> -->
+               <!-- <prop type="token" val="adeemaa hin-jiru (_NULL) hin-jiru (_NULL)"/> -->
             </term>
             <term id="ID1a130931-5417-4cd4-8fc0-98800d1fb8a4">
                <prop type="polarity" val="Affirmative"/>
@@ -1516,7 +1522,7 @@
             </term>
             <term id="ID549a7c03-d0fe-4227-b731-a44107709427">
                <prop type="polarity" val="Affirmative"/>
-               <prop type="token-structAux" val="jir-_pres+ tur-_past"/>
+               <prop type="token-structAux" val="jir-_pres+tur-_past"/>
                <prop type="token-structMain" val="verb_agent"/>
                <prop type="tam" val="PluperfectProgressive"/>
                <prop type="token-aux" val="jira(n) ture"/>
@@ -1576,7 +1582,7 @@
             </term>
             <term id="ID963325f2-ebcd-4484-b180-1dfefea11839">
                <prop type="polarity" val="Negative"/>
-               <prop type="token-structAux" val="taʔa _sg 3 m –invar"/>
+               <prop type="token-structAux" val="taʔa_sg_3_m–invar"/>
                <prop type="token-structMain" val="verb_presNeg"/>
                <prop type="tam" val="FutureIndefinite"/>
                <prop type="token-aux" val="taʔa"/>
@@ -1606,7 +1612,7 @@
             </term>
             <term id="IDb39ecfc7-4e69-40be-8d1d-4b740014b872">
                <prop type="polarity" val="Negative"/>
-               <prop type="token-structAux" val="jir-_presNeg+ tur-_past"/>
+               <prop type="token-structAux" val="jir-_presNeg+tur-_past"/>
                <prop type="token-structMain" val="verb_agent"/>
                <prop type="tam" val="PluperfectProgressive"/>
                <prop type="token-aux" val="(hi)n-jiru(n) ture"/>
@@ -1646,7 +1652,7 @@
             </term>
             <term id="IDf99d6c38-a4c4-4223-99ec-2e3d0b0a6c18">
                <prop type="polarity" val="Affirmative"/>
-               <prop type="token-structAux" val="taʔa _sg 3 m –invar"/>
+               <prop type="token-structAux" val="taʔa_sg_3_m–invar"/>
                <prop type="token-structMain" val="hín-verb_pres"/>
                <prop type="tam" val="FutureIndefinite"/>
                <prop type="token-aux" val="taʔa"/>
@@ -1856,7 +1862,7 @@
          <common-properties>
             <prop type="case" val="Possessive"/>
             <prop type="lang" val="Oromo"/>
-            <prop type="mulabel" val="PRO"/>
+            <prop type="lexlabel" val="PRO"/>
             <prop type="pos" val="Pronoun"/>
             <prop type="proClass" val="ProSuff"/>
          </common-properties>
