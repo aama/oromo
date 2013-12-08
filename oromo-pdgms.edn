@@ -16,18 +16,20 @@
 	  :token-structAux {:jir-_pres, :jir-_pres+tur-_past, :jir-_presNeg, :jir-_presNeg+tur-_past, :taʔa_sg_3_m–invar, :tur-_past, :tur-_pastNeg, :⊤}
 	  :token-structMain {:hín-verb_pres, :verb_agent, :verb_infinitive+f, :verb_past, :verb_pastNeg, :verb_presNeg}
 	  :token-structure {:ha-Verb_pres-aff-sub, :hin-VerbStem-in_invariant}
+	  :token-y {:adeemaa}
 	  ]
 :lexemes {
-  :PRO {:gloss "Pronoun", :lemma "Pronoun", }
   :COPULA {:gloss "Copula", :lemma "Copula", }
+  :PRO {:gloss "Pronoun", :lemma "Pronoun", }
   :adeem {:derivedStem :Base, :gloss "go", :lemma "adeem-", :pos :Verb}
-  :beek-am {:derivedStem :M, :gloss "be known", :lemma "beek-am-", :pos :Verb}
-  :beek-sis {:derivedStem :S, :gloss "inform", :lemma "beek-sis-", :pos :Verb}
   :beek {:derivedStem :Base, :gloss "know", :lemma "beek-", :pos :Verb}
   :beek-ad {:derivedStem :T, :gloss "realize", :lemma "beek-ad-", :pos :Verb}
+  :beek-am {:derivedStem :M, :gloss "be known", :lemma "beek-am-", :pos :Verb}
+  :beek-sis {:derivedStem :S, :gloss "inform", :lemma "beek-sis-", :pos :Verb}
 }
 :lxterms #{
-    {:common {:derivedStem :Base,
+    {:label "oromo-VBaseNegImprtvSmpl-beek"
+    :common {:derivedStem :Base,
 	    :gender :Common,
 	    :lexeme :beek,
 	    :person :Person2,
@@ -38,7 +40,9 @@
 	    [:Singular, "beek-ini"],
 	    [:Plural, "beek-inaa"]]
     }
-    {:common {:clauseType :Subordinate,
+    {:label "oromo-VBaseSubAffPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Subordinate,
 	    :derivedStem :Base,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
@@ -53,7 +57,9 @@
 	    [:Common, :Plural, :Person2, "beek-tani/u"],
 	    [:Common, :Plural, :Person1, "beek-nu"]]
     }
-    {:common {:clauseType :Main,
+    {:label "oromo-VCausMainAffPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Main,
 	    :derivedStem :S,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
@@ -68,7 +74,9 @@
 	    [:Common, :Plural, :Person2, "beek-sif-tu"],
 	    [:Common, :Plural, :Person1, "beek-sif-na"]]
     }
-    {:common {:clauseType :Subordinate,
+    {:label "oromo-VPassSubAffPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Subordinate,
 	    :derivedStem :M,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
@@ -83,7 +91,9 @@
 	    [:Fem, :Singular, :Person3, "beek-am-tu"],
 	    [:Masc, :Singular, :Person3, "beek-am-u"]]
     }
-    {:common {:derivedStem :Base,
+    {:label "oromo-VBaseAffImprtvSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :Base,
 	    :gender :Common,
 	    :lexeme :beek,
 	    :person :Person2,
@@ -94,7 +104,9 @@
 	    [:Plural, "beek-aa"],
 	    [:Singular, "beek-i ~ -u"]]
     }
-    {:common {:derivedStem :M,
+    {:label "oromo-VPassAffImprtvSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :M,
 	    :gender :Common,
 	    :lexeme :beek,
 	    :person :Person2,
@@ -105,7 +117,9 @@
 	    [:Plural, "beek-am-aa"],
 	    [:Singular, "beek-am-i ~ -u"]]
     }
-    {:common {:clauseType :Main,
+    {:label "oromo-VCausMainNegPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Main,
 	    :derivedStem :S,
 	    :lexeme :beek,
 	    :polarity :Negative,
@@ -120,7 +134,9 @@
 	    [:Masc, :Singular, :Person3, "beek-sis-u"],
 	    [:Common, :Plural, :Person2, "beek-sif-tani/u"]]
     }
-    {:common {:clauseType :Main,
+    {:label "oromo-VPassMainAffPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Main,
 	    :derivedStem :M,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
@@ -135,7 +151,9 @@
 	    [:Common, :Singular, :Person2, "beek-am-ta"],
 	    [:Common, :Plural, :Person1, "beek-am-na"]]
     }
-    {:common {:lexeme :PRO,
+    {:label "oromo-PInd"
+    :note "Gragg1976 p. 178"
+    :common {:lexeme :PRO,
 	    :pos :Pronoun,
 	    :proClass :Independent}
     :terms [[:case, :gender, :number, :person, :token]  ;; schema
@@ -154,7 +172,9 @@
 	    [:Subject, :Common, :Plural, :Person2, "isin(i)"],
 	    [:Absolutive, :Common, :Plural, :Person2, "isin"]]
     }
-    {:common {:clauseType :Subordinate,
+    {:label "oromo-VPassSubNegPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Subordinate,
 	    :derivedStem :M,
 	    :lexeme :beek,
 	    :polarity :Negative,
@@ -169,7 +189,9 @@
 	    [:Common, :Plural, :Person1, "beek-am-ne"],
 	    [:Common, :Plural, :Person3, "beek-am-ne"]]
     }
-    {:common {:clauseType :Subordinate,
+    {:label "oromo-VBaseSubNegPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Subordinate,
 	    :derivedStem :Base,
 	    :lexeme :beek,
 	    :polarity :Negative,
@@ -184,7 +206,9 @@
 	    [:Common, :Plural, :Person3, "beek-ne"],
 	    [:Common, :Plural, :Person1, "beek-ne"]]
     }
-    {:common {:clauseType :Main,
+    {:label "oromo-VPassMainNegPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Main,
 	    :derivedStem :M,
 	    :lexeme :beek,
 	    :polarity :Negative,
@@ -199,7 +223,9 @@
 	    [:Common, :Plural, :Person2, "beek-am-tani/u"],
 	    [:Fem, :Singular, :Person3, "beek-am-tu"]]
     }
-    {:common {:clauseType :Subordinate,
+    {:label "oromo-VCausSubAffPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Subordinate,
 	    :derivedStem :S,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
@@ -214,7 +240,9 @@
 	    [:Masc, :Singular, :Person3, "beek-sis-u"],
 	    [:Common, :Plural, :Person2, "beek-sif-tani/u"]]
     }
-    {:common {:lexeme :COPULA,
+    {:label "oromo-VCop-have"
+    :note "Gragg1976 p. 185"
+    :common {:lexeme :COPULA,
 	    :pdgmSubType :Copula,
 	    :pos :Verb}
     :terms [[:copType, :polarity, :tam, :token]  ;; schema
@@ -229,7 +257,9 @@
 	    [:Predication, :Common, :NonPast-nonPres, "taʔ-"],
 	    [:Existence, :Common, :Past, "tur-"]]
     }
-    {:common {:derivedStem :Base,
+    {:label "oromo-VBaseAffPastSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :Base,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -243,7 +273,9 @@
 	    [:Masc, :Singular, :Person3, "beek-e"],
 	    [:Common, :Singular, :Person2, "beek-te"]]
     }
-    {:common {:clauseType :Main,
+    {:label "oromo-VBaseMainAffPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Main,
 	    :derivedStem :Base,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
@@ -258,7 +290,9 @@
 	    [:Common, :Plural, :Person2, "beek-tu"],
 	    [:Fem, :Singular, :Person3, "beek-ti"]]
     }
-    {:common {:derivedStem :Base,
+    {:label "oromo-VBaseNegPastSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :Base,
 	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
@@ -272,7 +306,9 @@
 	    [:Masc, :Singular, :Person3, "beek-ne"],
 	    [:Common, :Plural, :Person2, "beek-ne"]]
     }
-    {:common {:derivedStem :T,
+    {:label "oromo-VMidAffPastSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :T,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -286,7 +322,9 @@
 	    [:Fem, :Singular, :Person3, "beek-at-te"],
 	    [:Common, :Plural, :Person1, "beek-an-ne"]]
     }
-    {:common {:derivedStem :S,
+    {:label "oromo-VCausAffPastSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :S,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -300,7 +338,9 @@
 	    [:Common, :Plural, :Person1, "beek-sif-ne"],
 	    [:Masc, :Singular, :Person3, "beek-sis-e"]]
     }
-    {:common {:derivedStem :S,
+    {:label "oromo-VCausAffImprtvSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :S,
 	    :gender :Common,
 	    :lexeme :beek,
 	    :person :Person2,
@@ -311,7 +351,9 @@
 	    [:Singular, "beek-sis-i ~ -u"],
 	    [:Plural, "beek-sis-aa"]]
     }
-    {:common {:clauseType :Subordinate,
+    {:label "oromo-VMidSubNegPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Subordinate,
 	    :derivedStem :T,
 	    :lexeme :beek,
 	    :polarity :Negative,
@@ -326,7 +368,9 @@
 	    [:Masc, :Singular, :Person3, "beek-an-ne"],
 	    [:Common, :Plural, :Person3, "beek-an-ne"]]
     }
-    {:common {:derivedStem :T,
+    {:label "oromo-VMidNegImprtvSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :T,
 	    :gender :Common,
 	    :lexeme :beek,
 	    :person :Person2,
@@ -337,7 +381,9 @@
 	    [:Singular, "beek-at-ini"],
 	    [:Plural, "beek-at-inaa"]]
     }
-    {:common {:derivedStem :T,
+    {:label "oromo-VMidAffImprtvSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :T,
 	    :gender :Common,
 	    :lexeme :beek,
 	    :person :Person2,
@@ -348,7 +394,9 @@
 	    [:Plural, "beek-at-aa"],
 	    [:Singular, "beek-at-i ~ -u"]]
     }
-    {:common {:clauseType :Main,
+    {:label "oromo-VBaseMainNegPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Main,
 	    :derivedStem :Base,
 	    :lexeme :beek,
 	    :polarity :Negative,
@@ -363,7 +411,9 @@
 	    [:Fem, :Singular, :Person3, "beek-tu"],
 	    [:Masc, :Singular, :Person3, "beek-u"]]
     }
-    {:common {:clauseType :Subordinate,
+    {:label "oromo-VCausSubNegPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Subordinate,
 	    :derivedStem :S,
 	    :lexeme :beek,
 	    :polarity :Negative,
@@ -378,7 +428,9 @@
 	    [:Fem, :Singular, :Person3, "beek-sif-ne"],
 	    [:Masc, :Singular, :Person3, "beek-sif-ne"]]
     }
-    {:common {:clauseType :Subordinate,
+    {:label "oromo-VMidSubAffPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Subordinate,
 	    :derivedStem :T,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
@@ -393,7 +445,9 @@
 	    [:Common, :Plural, :Person1, "beek-an-nu"],
 	    [:Common, :Singular, :Person1, "beek-ad-u"]]
     }
-    {:common {:derivedStem :S,
+    {:label "oromo-VCausNegPastSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :S,
 	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
@@ -407,14 +461,16 @@
 	    [:Masc, :Singular, :Person3, "beek-sif-ne"],
 	    [:Common, :Singular, :Person1, "beek-sif-ne"]]
     }
-    {:common {:gender :Masc,
+    {:label "oromo-VCompoundTense"
+    :note "Gragg1976 p. 189"
+    :common {:gender :Masc,
 	    :lexeme :adeem,
 	    :number :Singular,
 	    :person :Person3,
 	    :pos :Verb,
 	    :formType :CompoundTense}
-    :terms [[:polarity, :token-structAux, :token-structMain, :tam, :token-aux, :token-encliticized, :token-main, :token]  ;; schema
-	    [:Negative, :jir-_presNeg, :verb_agent, :PresentProgressive, :hin-jiru, "_NULL", "adeemaa", "adeemaa hin-jiru (_NULL)"],
+    :terms [[:polarity, :token-structAux, :token-structMain, :tam, :token-aux, :token-encliticized, :token-main, :token-x, :token-y, :token]  ;; schema
+	    [:Negative, :jir-_presNeg, :verb_agent, :PresentProgressive, :hin-jiru, "_NULL", "adeemaa", "adeemaa hin-jiru (_NULL)", "adeemaa", "adeemaa hin-jiru (_NULL) hin-jiru (_NULL)"],
 	    [:Affirmative, :jir-_pres, :verb_infinitive+f, :FutureDefinite, :jira, "_NULL", "adeemuu-f(an)", "adeemuu-f(an) jira (_NULL)"],
 	    [:Negative, :tur-_past, :verb_agent, :PastProgressive, :(hi)n-turre, "_NULL", "adeemaa", "adeemaa (hi)n-turre (_NULL)"],
 	    [:Negative, :⊤, :verb_pastNeg, :Perfect, :⊤, "_NULL", "hin-adeem-ne", "hin-adeem-ne ⊤ (_NULL)"],
@@ -433,7 +489,9 @@
 	    [:Affirmative, :tur-_past, :verb_agent, :PastProgressive, :ture, "_NULL", "adeemaa(n)", "adeemaa(n) ture (_NULL)"],
 	    [:Affirmative, :taʔa_sg_3_m–invar, :hín-verb_pres, :FutureIndefinite, :taʔa, "_NULL", "nan/hin-adeema", "nan/hin-adeema taʔa (_NULL)"]]
     }
-    {:common {:clauseType :Main,
+    {:label "oromo-VMidMainNegPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Main,
 	    :derivedStem :T,
 	    :lexeme :beek,
 	    :polarity :Negative,
@@ -448,7 +506,9 @@
 	    [:Common, :Plural, :Person1, "beek-an-nu"],
 	    [:Masc, :Singular, :Person3, "beek-at-u"]]
     }
-    {:common {:derivedStem :T,
+    {:label "oromo-VMidNegPastSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :T,
 	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
@@ -462,7 +522,9 @@
 	    [:Common, :Singular, :Person1, "beek-an-ne"],
 	    [:Fem, :Singular, :Person3, "beek-an-ne"]]
     }
-    {:common {:derivedStem :M,
+    {:label "oromo-VPassNegImprtvSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :M,
 	    :gender :Common,
 	    :lexeme :beek,
 	    :person :Person2,
@@ -473,7 +535,9 @@
 	    [:Singular, "beek-am-ini"],
 	    [:Plural, "beek-am-inaa"]]
     }
-    {:common {:clauseType :Main,
+    {:label "oromo-VMidMainAffPresSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:clauseType :Main,
 	    :derivedStem :T,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
@@ -488,7 +552,9 @@
 	    [:Fem, :Singular, :Person3, "beek-at-ti"],
 	    [:Common, :Plural, :Person3, "beek-at-u"]]
     }
-    {:common {:case :Possessive,
+    {:label "oromo-PSuffPoss"
+    :note "Gragg1976 p. 178"
+    :common {:case :Possessive,
 	    :lexeme :PRO,
 	    :pos :Pronoun,
 	    :proClass :ProSuff}
@@ -501,7 +567,9 @@
 	    [:Common, :Plural, :Person1, "-keeɲɲa"],
 	    [:Fem, :Singular, :Person3, "-šee"]]
     }
-    {:common {:derivedStem :S,
+    {:label "oromo-VCausNegImprtvSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :S,
 	    :gender :Common,
 	    :lexeme :beek,
 	    :person :Person2,
@@ -512,7 +580,9 @@
 	    [:Singular, "beek-sis-ini"],
 	    [:Plural, "beek-sis-inaa"]]
     }
-    {:common {:lexeme :beek,
+    {:label "oromo-VNon-finite-beek"
+    :note "Gragg1976 p. 188"
+    :common {:lexeme :beek,
 	    :pos :Verb}
     :terms [[:derivedStem, :nonFiniteForm, :token]  ;; schema
 	    [:Base, :NonFinite, "beek-sis-aa"],
@@ -528,7 +598,9 @@
 	    [:Base, :NonFinite, "beek-at-uu"],
 	    [:Base, :NonFinite, "beek-sif-naan"]]
     }
-    {:common {:derivedStem :M,
+    {:label "oromo-VPassNegPastSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :M,
 	    :lexeme :beek,
 	    :polarity :Negative,
 	    :pos :Verb,
@@ -542,7 +614,9 @@
 	    [:Common, :Plural, :Person2, "beek-am-ne"],
 	    [:Masc, :Singular, :Person3, "beek-am-ne"]]
     }
-    {:common {:gender :Masc,
+    {:label "oromo-VJuss-beek"
+    :note "Gragg1976 p. 188"
+    :common {:gender :Masc,
 	    :lexeme :beek,
 	    :number :Singular,
 	    :person :Person3,
@@ -558,7 +632,9 @@
 	    [:M, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-am-u"],
 	    [:M, :Negative, :hin-VerbStem-in_invariant, "hin-beek-am-in"]]
     }
-    {:common {:derivedStem :M,
+    {:label "oromo-VPassAffPastSmpl-beek"
+    :note "Gragg1976 p. 188"
+    :common {:derivedStem :M,
 	    :lexeme :beek,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -572,3 +648,4 @@
 	    [:Fem, :Singular, :Person3, "beek-am-te"],
 	    [:Common, :Singular, :Person2, "beek-am-te"]]
     }}
+:muterms #{}
