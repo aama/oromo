@@ -13,14 +13,12 @@
 	  :pos {:Pronoun, :Verb}
 	  :proClass {:Independent, :ProSuff}
 	  :tam {:Conditional, :FutureDefinite, :FutureIndefinite, :FuturePerfect, :Imperative, :Jussive, :NonPast-nonPres, :Past, :PastProgressive, :Perfect, :Pluperfect, :PluperfectProgressive, :Present, :PresentProgressive}
-	  :token-structAux {:jir-_pres, :jir-_pres+tur-_past, :jir-_presNeg, :jir-_presNeg+tur-_past, :taʔa_sg_3_m–invar, :tur-_past, :tur-_pastNeg, :⊤}
-	  :token-structMain {:hín-verb_pres, :verb_agent, :verb_infinitive+f, :verb_past, :verb_pastNeg, :verb_presNeg}
-	  :token-structure {:ha-Verb_pres-aff-sub, :hin-VerbStem-in_invariant}
-	  :token-y {:adeemaa}
 	  ]
+:morphemes {
+  :PRO {:gloss "Pronoun", }
+}
 :lexemes {
   :COPULA {:gloss "Copula", :lemma "Copula", }
-  :PRO {:gloss "Pronoun", :lemma "Pronoun", }
   :adeem {:derivedStem :Base, :gloss "go", :lemma "adeem-", :pos :Verb}
   :beek {:derivedStem :Base, :gloss "know", :lemma "beek-", :pos :Verb}
   :beek-ad {:derivedStem :T, :gloss "realize", :lemma "beek-ad-", :pos :Verb}
@@ -150,27 +148,6 @@
 	    [:Common, :Singular, :Person1, "beek-am-a"],
 	    [:Common, :Singular, :Person2, "beek-am-ta"],
 	    [:Common, :Plural, :Person1, "beek-am-na"]]
-    }
-    {:label "oromo-PInd"
-    :note "Gragg1976 p. 178"
-    :common {:lexeme :PRO,
-	    :pos :Pronoun,
-	    :proClass :Independent}
-    :terms [[:case, :gender, :number, :person, :token]  ;; schema
-	    [:Absolutive, :Common, :Singular, :Person2, "sei"],
-	    [:Subject, :Common, :Plural, :Person3, "isaan(i)"],
-	    [:Absolutive, :Masc, :Singular, :Person3, "isa"],
-	    [:Subject, :Common, :Plural, :Person1, "nuy"],
-	    [:Subject, :Fem, :Singular, :Person3, "iseen(i)"],
-	    [:Subject, :Masc, :Singular, :Person3, "inni"],
-	    [:Absolutive, :Fem, :Singular, :Person3, "iše"],
-	    [:Absolutive, :Common, :Plural, :Person1, "nu"],
-	    [:Subject, :Common, :Singular, :Person1, "an(i)"],
-	    [:Absolutive, :Common, :Plural, :Person3, "isaan"],
-	    [:Absolutive, :Common, :Singular, :Person1, "(a)na"],
-	    [:Subject, :Common, :Singular, :Person2, "at(i)"],
-	    [:Subject, :Common, :Plural, :Person2, "isin(i)"],
-	    [:Absolutive, :Common, :Plural, :Person2, "isin"]]
     }
     {:label "oromo-VPassSubNegPresSmpl-beek"
     :note "Gragg1976 p. 188"
@@ -469,25 +446,25 @@
 	    :person :Person3,
 	    :pos :Verb,
 	    :formType :CompoundTense}
-    :terms [[:polarity, :token-structAux, :token-structMain, :tam, :token-aux, :token-encliticized, :token-main, :token-x, :token-y, :token]  ;; schema
-	    [:Negative, :jir-_presNeg, :verb_agent, :PresentProgressive, :hin-jiru, "_NULL", "adeemaa", "adeemaa hin-jiru (_NULL)", "adeemaa", "adeemaa hin-jiru (_NULL) hin-jiru (_NULL)"],
-	    [:Affirmative, :jir-_pres, :verb_infinitive+f, :FutureDefinite, :jira, "_NULL", "adeemuu-f(an)", "adeemuu-f(an) jira (_NULL)"],
-	    [:Negative, :tur-_past, :verb_agent, :PastProgressive, :(hi)n-turre, "_NULL", "adeemaa", "adeemaa (hi)n-turre (_NULL)"],
-	    [:Negative, :⊤, :verb_pastNeg, :Perfect, :⊤, "_NULL", "hin-adeem-ne", "hin-adeem-ne ⊤ (_NULL)"],
-	    [:Affirmative, :jir-_pres+tur-_past, :verb_agent, :PluperfectProgressive, :jira(n) ture, "_NULL", "adeemaa(n)", "adeemaa(n) jira(n) ture (_NULL)"],
-	    [:Negative, :tur-_past, :verb_presNeg, :Conditional, :ture, "_NULL", "hin-adeemu(n)", "hin-adeemu(n) ture (_NULL)"],
-	    [:Negative, :tur-_past, :verb_pastNeg, :Pluperfect, :ture, "_NULL", "hin-adeemne(n)", "hin-adeemne(n) ture (_NULL)"],
-	    [:Negative, :tur-_pastNeg, :verb_infinitive+f, :FuturePerfect, :(hi)n-turre, "_NULL", "adeemuu-f", "adeemuu-f (hi)n-turre (_NULL)"],
-	    [:Affirmative, :jir-_pres, :verb_agent, :PresentProgressive, :jira, "_NULL", "adeemaa(n)", "adeemaa(n) jira (_NULL)"],
-	    [:Negative, :jir-_presNeg, :verb_infinitive+f, :FutureDefinite, :(hi)n-jiru, "_NULL", "adeemuu-f", "adeemuu-f (hi)n-jiru (_NULL)"],
-	    [:Negative, :taʔa_sg_3_m–invar, :verb_presNeg, :FutureIndefinite, :taʔa, "_NULL", "hin-adeemu(n)", "hin-adeemu(n) taʔa (_NULL)"],
-	    [:Affirmative, :tur-_past, :verb_infinitive+f, :FuturePerfect, :ture, "_NULL", "adeemuu-f(an)", "adeemuu-f(an) ture (_NULL)"],
-	    [:Affirmative, :tur-_past, :verb_past, :Pluperfect, :ture, "_NULL", "adeemee(n)", "adeemee(n) ture (_NULL)"],
-	    [:Negative, :jir-_presNeg+tur-_past, :verb_agent, :PluperfectProgressive, :(hi)n-jiru(n) ture, "_NULL", "adeemaa", "adeemaa (hi)n-jiru(n) ture (_NULL)"],
-	    [:Affirmative, :jir-_pres, :verb_past, :Perfect, :jira, "adeemeera", "adeemee(n)", "adeemee(n) jira (adeemeera)"],
-	    [:Affirmative, :tur-_past, :hín-verb_pres, :Conditional, :ture, "_NULL", "nan/hin-adeema(n)", "nan/hin-adeema(n) ture (_NULL)"],
-	    [:Affirmative, :tur-_past, :verb_agent, :PastProgressive, :ture, "_NULL", "adeemaa(n)", "adeemaa(n) ture (_NULL)"],
-	    [:Affirmative, :taʔa_sg_3_m–invar, :hín-verb_pres, :FutureIndefinite, :taʔa, "_NULL", "nan/hin-adeema", "nan/hin-adeema taʔa (_NULL)"]]
+    :terms [[:polarity, :token-structAux, :token-structMain, :tam, :token-aux, :token-encliticized, :token-main, :token, :token, :token]  ;; schema
+	    [:Negative, "jir-_presNeg", "verb_agent", :PresentProgressive, "hin-jiru", "_NULL", "adeemaa", "adeemaa hin-jiru (_NULL)", "adeemaa", "adeemaa hin-jiru (_NULL) hin-jiru (_NULL)"],
+	    [:Affirmative, "jir-_pres", "verb_infinitive+f", :FutureDefinite, "jira", "_NULL", "adeemuu-f(an)", "adeemuu-f(an) jira (_NULL)"],
+	    [:Negative, "tur-_past", "verb_agent", :PastProgressive, "(hi)n-turre", "_NULL", "adeemaa", "adeemaa (hi)n-turre (_NULL)"],
+	    [:Negative, "⊤", "verb_pastNeg", :Perfect, "⊤", "_NULL", "hin-adeem-ne", "hin-adeem-ne ⊤ (_NULL)"],
+	    [:Affirmative, "jir-_pres+ tur-_past", "verb_agent", :PluperfectProgressive, "jira(n) ture", "_NULL", "adeemaa(n)", "adeemaa(n) jira(n) ture (_NULL)"],
+	    [:Negative, "tur-_past", "verb_presNeg", :Conditional, "ture", "_NULL", "hin-adeemu(n)", "hin-adeemu(n) ture (_NULL)"],
+	    [:Negative, "tur-_past", "verb_pastNeg", :Pluperfect, "ture", "_NULL", "hin-adeemne(n)", "hin-adeemne(n) ture (_NULL)"],
+	    [:Negative, "tur-_pastNeg", "verb_infinitive+f", :FuturePerfect, "(hi)n-turre", "_NULL", "adeemuu-f", "adeemuu-f (hi)n-turre (_NULL)"],
+	    [:Affirmative, "jir-_pres", "verb_agent", :PresentProgressive, "jira", "_NULL", "adeemaa(n)", "adeemaa(n) jira (_NULL)"],
+	    [:Negative, "jir-_presNeg", "verb_infinitive+f", :FutureDefinite, "(hi)n-jiru", "_NULL", "adeemuu-f", "adeemuu-f (hi)n-jiru (_NULL)"],
+	    [:Negative, "taʔa _sg 3 m –invar", "verb_presNeg", :FutureIndefinite, "taʔa", "_NULL", "hin-adeemu(n)", "hin-adeemu(n) taʔa (_NULL)"],
+	    [:Affirmative, "tur-_past", "verb_infinitive+f", :FuturePerfect, "ture", "_NULL", "adeemuu-f(an)", "adeemuu-f(an) ture (_NULL)"],
+	    [:Affirmative, "tur-_past", "verb_past", :Pluperfect, "ture", "_NULL", "adeemee(n)", "adeemee(n) ture (_NULL)"],
+	    [:Negative, "jir-_presNeg+ tur-_past", "verb_agent", :PluperfectProgressive, "(hi)n-jiru(n) ture", "_NULL", "adeemaa", "adeemaa (hi)n-jiru(n) ture (_NULL)"],
+	    [:Affirmative, "jir-_pres", "verb_past", :Perfect, "jira", "adeemeera", "adeemee(n)", "adeemee(n) jira (adeemeera)"],
+	    [:Affirmative, "tur-_past", "hín-verb_pres", :Conditional, "ture", "_NULL", "nan/hin-adeema(n)", "nan/hin-adeema(n) ture (_NULL)"],
+	    [:Affirmative, "tur-_past", "verb_agent", :PastProgressive, "ture", "_NULL", "adeemaa(n)", "adeemaa(n) ture (_NULL)"],
+	    [:Affirmative, "taʔa _sg 3 m –invar", "hín-verb_pres", :FutureIndefinite, "taʔa", "_NULL", "nan/hin-adeema", "nan/hin-adeema taʔa (_NULL)"]]
     }
     {:label "oromo-VMidMainNegPresSmpl-beek"
     :note "Gragg1976 p. 188"
@@ -552,21 +529,6 @@
 	    [:Fem, :Singular, :Person3, "beek-at-ti"],
 	    [:Common, :Plural, :Person3, "beek-at-u"]]
     }
-    {:label "oromo-PSuffPoss"
-    :note "Gragg1976 p. 178"
-    :common {:case :Possessive,
-	    :lexeme :PRO,
-	    :pos :Pronoun,
-	    :proClass :ProSuff}
-    :terms [[:gender, :number, :person, :token]  ;; schema
-	    [:Common, :Plural, :Person3, "-saani"],
-	    [:Common, :Plural, :Person2, "-keesan"],
-	    [:Common, :Singular, :Person1, "-koo"],
-	    [:Common, :Singular, :Person2, "-kee"],
-	    [:Masc, :Singular, :Person3, "-saa"],
-	    [:Common, :Plural, :Person1, "-keeɲɲa"],
-	    [:Fem, :Singular, :Person3, "-šee"]]
-    }
     {:label "oromo-VCausNegImprtvSmpl-beek"
     :note "Gragg1976 p. 188"
     :common {:derivedStem :S,
@@ -623,14 +585,14 @@
 	    :pos :Verb,
 	    :tam :Jussive}
     :terms [[:derivedStem, :polarity, :token-structure, :token]  ;; schema
-	    [:S, :Negative, :hin-VerbStem-in_invariant, "hin-beek-sis-in"],
-	    [:Base, :Negative, :hin-VerbStem-in_invariant, "hin-beek-in"],
-	    [:T, :Negative, :hin-VerbStem-in_invariant, "hin-beek-at-in"],
-	    [:T, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-at-u"],
-	    [:Base, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-u"],
-	    [:S, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-sis-u"],
-	    [:M, :Affirmative, :ha-Verb_pres-aff-sub, "ha-beek-am-u"],
-	    [:M, :Negative, :hin-VerbStem-in_invariant, "hin-beek-am-in"]]
+	    [:S, :Negative, "hin-VerbStem-in_invariant", "hin-beek-sis-in"],
+	    [:Base, :Negative, "hin-VerbStem-in_invariant", "hin-beek-in"],
+	    [:T, :Negative, "hin-VerbStem-in_invariant", "hin-beek-at-in"],
+	    [:T, :Affirmative, "ha-Verb_pres-aff-sub", "ha-beek-at-u"],
+	    [:Base, :Affirmative, "ha-Verb_pres-aff-sub", "ha-beek-u"],
+	    [:S, :Affirmative, "ha-Verb_pres-aff-sub", "ha-beek-sis-u"],
+	    [:M, :Affirmative, "ha-Verb_pres-aff-sub", "ha-beek-am-u"],
+	    [:M, :Negative, "hin-VerbStem-in_invariant", "hin-beek-am-in"]]
     }
     {:label "oromo-VPassAffPastSmpl-beek"
     :note "Gragg1976 p. 188"
@@ -648,4 +610,40 @@
 	    [:Fem, :Singular, :Person3, "beek-am-te"],
 	    [:Common, :Singular, :Person2, "beek-am-te"]]
     }}
-:muterms #{}
+:muterms #{
+    {:label "oromo-PInd"
+    :note "Gragg1976 p. 178"
+    :common {:morpheme :PRO,
+	    :pos :Pronoun,
+	    :proClass :Independent}
+    :terms [[:case, :gender, :number, :person, :token]  ;; schema
+	    [:Absolutive, :Common, :Singular, :Person2, "sei"],
+	    [:Subject, :Common, :Plural, :Person3, "isaan(i)"],
+	    [:Absolutive, :Masc, :Singular, :Person3, "isa"],
+	    [:Subject, :Common, :Plural, :Person1, "nuy"],
+	    [:Subject, :Fem, :Singular, :Person3, "iseen(i)"],
+	    [:Subject, :Masc, :Singular, :Person3, "inni"],
+	    [:Absolutive, :Fem, :Singular, :Person3, "iše"],
+	    [:Absolutive, :Common, :Plural, :Person1, "nu"],
+	    [:Subject, :Common, :Singular, :Person1, "an(i)"],
+	    [:Absolutive, :Common, :Plural, :Person3, "isaan"],
+	    [:Absolutive, :Common, :Singular, :Person1, "(a)na"],
+	    [:Subject, :Common, :Singular, :Person2, "at(i)"],
+	    [:Subject, :Common, :Plural, :Person2, "isin(i)"],
+	    [:Absolutive, :Common, :Plural, :Person2, "isin"]]
+    }
+    {:label "oromo-PSuffPoss"
+    :note "Gragg1976 p. 178"
+    :common {:case :Possessive,
+	    :morpheme :PRO,
+	    :pos :Pronoun,
+	    :proClass :ProSuff}
+    :terms [[:gender, :number, :person, :token]  ;; schema
+	    [:Common, :Plural, :Person3, "-saani"],
+	    [:Common, :Plural, :Person2, "-keesan"],
+	    [:Common, :Singular, :Person1, "-koo"],
+	    [:Common, :Singular, :Person2, "-kee"],
+	    [:Masc, :Singular, :Person3, "-saa"],
+	    [:Common, :Plural, :Person1, "-keeɲɲa"],
+	    [:Fem, :Singular, :Person3, "-šee"]]
+    }}
