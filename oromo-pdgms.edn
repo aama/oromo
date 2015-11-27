@@ -20,6 +20,12 @@
 	  :proClass [:Independent, :ProSuff]
 	  :tam [:Conditional, :FutureDefinite, :FutureIndefinite, :FuturePerfect, :Imperative, :Jussive, :NonPast-nonPres, :Past, :PastProgressive, :Perfect, :Pluperfect, :PluperfectProgressive, :Present, :PresentProgressive]
 	  }
+:pclass {
+           :pngClass [:person :number :gender ]
+           :synsemClass [:case :clauseType :copType :nonFiniteForm  :derivedStem :polarity :pos :proClass :tam :tenseName ]
+           :inflClass [:pdmSubType  ]
+           :otherClass [ ]
+          }
 :morphemes {
   :PRO {:gloss "Pronoun", }
 }
@@ -452,7 +458,7 @@
 	    :person :Person3,
 	    :pos :Verb,
 	    :formType :CompoundTense}
-    :terms [[:polarity, :tem, :token-note-template, :token]  ;; schema
+    :terms [[:polarity, :tam, :token-note-template, :token]  ;; schema
 	    [:Negative, :PresentProgressive, "jir-_presNeg + verb_agent + hin-jiru + _NULL + adeemaa", "adeemaa hin-jiru (_NULL)"],
 	    [:Affirmative, :FutureDefinite, "jir-_pres + verb_infinitive+f + jira + _NULL + adeemuu-f(an)", "adeemuu-f(an) jira (_NULL)"],
 	    [:Negative, :PastProgressive, "tur-_past + verb_agent + (hi)n-turre + _NULL + adeemaa", "adeemaa (hi)n-turre (_NULL)"],
