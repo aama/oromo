@@ -6,11 +6,11 @@
 :geodemoURL "http://www.ethnologue.com/language/orm http://www.ethnologue.com/language/hae http://www.ethnologue.com/language/gax http://www.ethnologue.com/language/orc"
 :geodemoTXT "Varieties and subdialects of Oromo are spoken by millions of individuals over much of central and southern Ethiopia . The variety treated here is characteristic of the west-central region, specifically Wallagga. Other more-or-less distinct varieties are the Eastern , Borana-Arsi-Guji, and Orma (spoken in Kenya)."
 :schemata{:gender [:Common :Fem :Masc],
-          :nonFiniteForm [:NonFinite],
+          :nonFiniteForm [:Participle :Gerund :Infinitive],
           :copType [:Existence :Occurrence :Predication],
-          :pdgmType [:Finite :NA]
+          :pdgmType [:Finite :NonFinite :Copula :Compound :Jussive :NA]
           :pdgmSubType [:Copula],
-          :polarity [:Affirmative :Common :Negative],
+          :polarity [:Affirmative  :Negative],
           :case [:Absolutive :Possessive :Subject],
           :pos [:Pronoun :Verb],
           :person [:Person1 :Person2 :Person3],
@@ -301,7 +301,7 @@
     }
     {:label "oromo-VCompoundTense"
     :note "Gragg1976 p. 189. Template: structAux + structMain + token-aux + token-encliticized + token-main."
-    :pdgmType :Finite
+    :pdgmType :Compound
     :common {:gender :Masc,
              :lexeme :adeem,
              :number :Singular,
@@ -330,7 +330,7 @@
     }
     {:label "oromo-VCop-have"
     :note "Gragg1976 p. 185"
-    :pdgmType :Finite
+    :pdgmType :Copula
     :common {:lexeme :COPULA,
              :pdgmSubType :Copula,
              :pos :Verb}
@@ -348,7 +348,7 @@
     }
     {:label "oromo-VJuss-beek"
     :note "Gragg1976 p. 188"
-    :pdgmType :Finite
+    :pdgmType :Jussive
     :common {:gender :Masc,
              :lexeme :beek,
              :number :Singular,
@@ -501,22 +501,22 @@
     }
     {:label "oromo-VNon-finite-beek"
     :note "Gragg1976 p. 188"
-    :pdgmType :Finite
+    :pdgmType :NonFinite
     :common {:lexeme :beek,
              :pos :Verb}
     :terms [[:derivedStem :nonFiniteForm :token],
-            [:Base :NonFinite "beek-sis-aa"],
-            [:Base :NonFinite "beek-am-naan"],
-            [:Base :NonFinite "beek-aa"],
-            [:Base :NonFinite "beek-an-naan"],
-            [:Base :NonFinite "beek-uu"],
-            [:Base :NonFinite "beek-at-aa"],
-            [:Base :NonFinite "beek-naan"],
-            [:Base :NonFinite "beek-sis-uu"],
-            [:Base :NonFinite "beek-am-aa"],
-            [:Base :NonFinite "beek-am-uu"],
-            [:Base :NonFinite "beek-at-uu"],
-            [:Base :NonFinite "beek-sif-naan"]]
+            [:S :Participle "beek-sis-aa"],
+            [:M :Gerund "beek-am-naan"],
+            [:Base :Participle "beek-aa"],
+            [:T :Gerund "beek-an-naan"],
+            [:Base :Infinitive "beek-uu"],
+            [:T :Participle "beek-at-aa"],
+            [:Base :Gerund "beek-naan"],
+            [:S :Infinitive "beek-sis-uu"],
+            [:M :Participle "beek-am-aa"],
+            [:M :Infinitive "beek-am-uu"],
+            [:T :Infinitive "beek-at-uu"],
+            [:S :Gerund "beek-sif-naan"]]
     }
     {:label "oromo-VPassAffImprtvSmpl-beek"
     :note "Gragg1976 p. 188"
