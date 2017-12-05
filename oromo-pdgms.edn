@@ -4,8 +4,9 @@
 :sgpref "orm"
 :datasource "Gragg1976"
 :geodemoURL "http://www.ethnologue.com/language/orm http://www.ethnologue.com/language/hae http://www.ethnologue.com/language/gax http://www.ethnologue.com/language/orc"
-:geodemoTXT "Varieties and subdialects of Oromo are spoken by millions of individuals over much of central and southern Ethiopia . The variety treated here is characteristic of the west-central region, specifically Wallagga. Other more-or-less distinct varieties are the Eastern , Borana-Arsi-Guji, and Orma (spoken in Kenya)."
- :schemata {:case [:Absolutive  :Possessive :Subject],
+ :geodemoTXT "Varieties and subdialects of Oromo are spoken by millions of individuals over much of central and southern Ethiopia . The variety treated here is characteristic of the west-central region, specifically Wallagga. Other more-or-less distinct varieties are the Eastern , Borana-Arsi-Guji, and Orma (spoken in Kenya)."
+ :schemata {:vmorphClass [:Compound  :Copula :Jussive :NonFin],
+            :case [:Absolutive :Possessive :Subject],
             :clauseType [:Main :Subordinate],
             :copType [:Existence :Occurrence :Predication],
             :derivedStem [:Base :M :S :T],
@@ -13,13 +14,12 @@
             :gender [:Common :Fem :Masc],
             :nonFiniteForm [:Gerund :Infinitive :Participle],
             :number [:Plural :Singular],
-            :pdgmSubType [:Copula],
             :person [:Person1 :Person2 :Person3],
             :polarity [:Affirmative :Common :Negative],
             :pos [:Pronoun :Verb],
             :proClass [:Independent :ProSuff],
             :tam [:Conditional :FutureDefinite :FutureIndefinite :FuturePerfect :Imperative :Jussive :NonPast-nonPres :Past :PastProgressive :Perfect :Pluperfect :PluperfectProgressive :Present :PresentProgressive]
-            :pdgmType [:Compound :Copula :Finite :Jussive :NonFin :PRO]}
+            :pdgmType [:Finite :PRO :VOther]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :clauseType :copType :nonFiniteForm :derivedStem :polarity :pos :proClass :tam :tenseName],
           :inflClass [:pdmSubType],
@@ -301,8 +301,9 @@
     }
     {:label "oromo-VCompoundTense"
     :note "Gragg1976 p. 189. Template: structAux + structMain + token-aux + token-encliticized + token-main."
-    :pdgmType :Compound
-    :common {:gender :Masc,
+    :pdgmType :VOther
+    :common {:vmorphClass :Compound
+             :gender :Masc,
              :lexeme :adeem,
              :number :Singular,
              :person :Person3,
@@ -330,9 +331,9 @@
     }
     {:label "oromo-VCop-have"
     :note "Gragg1976 p. 185"
-    :pdgmType :Copula
-    :common {:lexeme :COPULA,
-             :pdgmSubType :Copula,
+    :pdgmType :VOther
+    :common {:vmorphClass :Copula
+             :lexeme :COPULA,
              :pos :Verb}
     :terms [[:copType :polarity :tam :token],
             [:Existence :Common :NonPast-nonPres "taʔ-"],
@@ -348,8 +349,9 @@
     }
     {:label "oromo-VJuss-beek"
     :note "Gragg1976 p. 188"
-    :pdgmType :Jussive
-    :common {:gender :Masc,
+    :pdgmType :VOther
+    :common {:vmorphClass :Jussive
+             :gender :Masc,
              :lexeme :beek,
              :number :Singular,
              :person :Person3,
@@ -501,8 +503,9 @@
     }
     {:label "oromo-VNon-finite-beek"
     :note "Gragg1976 p. 188"
-    :pdgmType :NonFin
-    :common {:lexeme :beek,
+    :pdgmType :VOther
+    :common {:vmorphClass :NonFin
+             :lexeme :beek,
              :pos :Verb}
     :terms [[:derivedStem :nonFiniteForm :token],
             [:S :Participle "beek-sis-aa"],
