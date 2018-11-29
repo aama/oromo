@@ -5,8 +5,7 @@
  :datasource "Gragg1976"
  :geodemoURL "http://www.ethnologue.com/language/orm http://www.ethnologue.com/language/hae http://www.ethnologue.com/language/gax http://www.ethnologue.com/language/orc"
  :geodemoTXT "Varieties and subdialects of Oromo are spoken by millions of individuals over much of central and southern Ethiopia . The variety treated here is characteristic of the west-central region, specifically Wallagga. Other more-or-less distinct varieties are the Eastern , Borana-Arsi-Guji, and Orma (spoken in Kenya)."
- :schemata {:lexeme [:COPULA  :adeem :beek],
- :case [:Absolutive :Possessive :Subject],
+ :schemata { :case [:Absolutive :Possessive :Subject],
  :clauseType [:Main :Subordinate],
  :copType [:Existence :Occurrence :Predication],
  :derivedStem [:Base :M :S :T],
@@ -27,12 +26,14 @@
           :synsemClass [:case :clauseType :copType :nonFiniteForm :derivedStem :polarity :pos :proClass :tam :tenseName],
           :inflClass [:pdmSubType],
           :otherClass []}
- :lexemes{:COPULA {:gloss "Copula", :lemma "Copula"},
-          :adeem {:derivedStem :Base, :gloss "go", :lemma "adeem-", :pos :Verb},
-          :beek {:derivedStem :Base, :gloss "know", :lemma "beek-", :pos :Verb},
-          :beek-ad {:derivedStem :T, :gloss "realize", :lemma "beek-ad-", :pos :Verb},
-          :beek-am {:derivedStem :M, :gloss "be known", :lemma "beek-am-", :pos :Verb},
-          :beek-sis {:derivedStem :S, :gloss "inform", :lemma "beek-sis-", :pos :Verb}}
+ :lexemes {
+:COPULA   {:pos :Verb, :lemma "Copula", :gloss "Copula", },
+:adeem   {:pos :Verb, :lemma "adeem-", :gloss "go", :derivedStem :Base},
+:beek   {:pos :Verb, :lemma "beek-", :gloss "know", :derivedStem :Base},
+:beek-ad   {:pos :Verb, :lemma "beek-ad-", :gloss "realize", :derivedStem :T},
+:beek-am   {:pos :Verb, :lemma "beek-am-", :gloss "be known", :derivedStem :M},
+:beek-sis   {:pos :Verb, :lemma "beek-sis-", :gloss "inform", :derivedStem :S},
+}
  :termclusters [
                 {:label "oromo-VBaseAffImprtvSmpl-beek"
                  :note "Gragg1976 p. 188"
