@@ -2,41 +2,41 @@
  :lang :oromo
  :subfamily "Lowland East Cushitic Oromoid"
  :sgpref "orm"
- :datasource "Gragg1976"
+ :datasource "Gragg1976; abbrev. G76"
  :geodemoURL "http://www.ethnologue.com/language/orm http://www.ethnologue.com/language/hae http://www.ethnologue.com/language/gax http://www.ethnologue.com/language/orc"
  :geodemoTXT "Varieties and subdialects of Oromo are spoken by millions of individuals over much of central and southern Ethiopia . The variety treated here is characteristic of the west-central region, specifically Wallagga. Other more-or-less distinct varieties are the Eastern , Borana-Arsi-Guji, and Orma (spoken in Kenya)."
  :schemata { :case [:Absolutive :Possessive :Subject],
- :clauseType [:Main :Subordinate],
- :copType [:Existence :Occurrence :Predication],
- :derivedStem [:Base :M :S :T],
- :formType [:CompoundTense],
- :gender [:Common :Fem :Masc],
- :nonFiniteForm [:NonFinite],
- :number [:Plural :Singular],
- :pdgmSubType [:Copula],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Common :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:Independent :ProSuff],
- :tam [:Conditional :FutureDefinite :FutureIndefinite :FuturePerfect :Imperative :Jussive :NonPast-nonPres :Past :PastProgressive :Perfect :Pluperfect :PluperfectProgressive :Present :PresentProgressive],
- :vmorphClass [:Finite]
- }
+            :clauseType [:Main :Subordinate],
+            :copType [:Existence :Occurrence :Predication],
+            :derivedStem [:Base :M :S :T],
+            :formType [:CompoundTense],
+            :gender [:Common :Fem :Masc],
+            :nonFiniteForm [:NonFinite],
+            :number [:Plural :Singular],
+            :pdgmSubType [:Copula],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Common :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Independent :ProSuff],
+            :tam [:Conditional :FutureDefinite :FutureIndefinite :FuturePerfect :Imperative :Jussive :NonPast-nonPres :Past :PastProgressive :Perfect :Pluperfect :PluperfectProgressive :Present :PresentProgressive],
+            :vmorphClass [:Finite]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :clauseType :copType :nonFiniteForm :derivedStem :polarity :pos :proClass :tam :tenseName],
           :inflClass [:pdmSubType],
           :otherClass []}
  :lexemes {
-:COPULA   {:pos :Verb, :lemma "Copula", :gloss "Copula", },
-:adeem   {:pos :Verb, :lemma "adeem-", :gloss "go", :derivedStem :Base},
-:beek   {:pos :Verb, :lemma "beek-", :gloss "know", :derivedStem :Base},
-:beek-ad   {:pos :Verb, :lemma "beek-ad-", :gloss "realize", :derivedStem :T},
-:beek-am   {:pos :Verb, :lemma "beek-am-", :gloss "be known", :derivedStem :M},
-:beek-sis   {:pos :Verb, :lemma "beek-sis-", :gloss "inform", :derivedStem :S},
-}
+           :COPULA   {:pos :Verb, :lemma "Copula", :gloss "Copula", },
+           :adeem   {:pos :Verb, :lemma "adeem-", :gloss "go", :derivedStem :Base},
+           :beek   {:pos :Verb, :lemma "beek-", :gloss "know", :derivedStem :Base},
+           :beek-ad   {:pos :Verb, :lemma "beek-ad-", :gloss "realize", :derivedStem :T},
+           :beek-am   {:pos :Verb, :lemma "beek-am-", :gloss "be known", :derivedStem :M},
+           :beek-sis   {:pos :Verb, :lemma "beek-sis-", :gloss "inform", :derivedStem :S},
+           }
  :termclusters [
                 {:label "oromo-VBaseAffImprtvSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :Base,
                           :gender :Common,
@@ -50,7 +50,7 @@
                          [:Plural "beek-aa"]]
                  }
                 {:label "oromo-VBaseAffPastSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :Base,
                           :lexeme :beek,
@@ -67,7 +67,7 @@
                          [:Plural :Person3 :Common "beek-an(i)"]]
                  }
                 {:label "oromo-VBaseMainAffPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Main,
                           :derivedStem :Base,
@@ -85,7 +85,7 @@
                          [:Plural :Person3 :Common "beek-u"]]
                  }
                 {:label "oromo-VBaseMainNegPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Main,
                           :derivedStem :Base,
@@ -103,6 +103,7 @@
                          [:Plural :Person3 :Common "beek-ani/u"]]
                  }
                 {:label "oromo-VBaseNegImprtvSmpl-beek"
+                 :note "G76p."
                  :common {:vmorphClass :Finite,
                           :derivedStem :Base,
                           :gender :Common,
@@ -116,7 +117,7 @@
                          [:Plural "beek-inaa"]]
                  }
                 {:label "oromo-VBaseNegPastSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :Base,
                           :lexeme :beek,
@@ -133,7 +134,7 @@
                          [:Plural :Person3 :Common "beek-ne"]]
                  }
                 {:label "oromo-VBaseSubAffPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Subordinate,
                           :derivedStem :Base,
@@ -151,7 +152,7 @@
                          [:Plural :Person3 :Common "beek-ani/u"]]
                  }
                 {:label "oromo-VBaseSubNegPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Subordinate,
                           :derivedStem :Base,
@@ -169,7 +170,7 @@
                          [:Plural :Person3 :Common "beek-ne"]]
                  }
                 {:label "oromo-VCausAffImprtvSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :gender :Common,
@@ -183,7 +184,7 @@
                          [:Plural "beek-sis-aa"]]
                  }
                 {:label "oromo-VCausAffPastSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :beek,
@@ -200,7 +201,7 @@
                          [:Plural :Person3 :Common "beek-sis-an(i)"]]
                  }
                 {:label "oromo-VCausMainAffPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Main,
                           :derivedStem :S,
@@ -218,7 +219,7 @@
                          [:Plural :Person3 :Common "beek-sis-u"]]
                  }
                 {:label "oromo-VCausMainNegPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Main,
                           :derivedStem :S,
@@ -236,7 +237,7 @@
                          [:Plural :Person3 :Common "beek-sis-ani/u"]]
                  }
                 {:label "oromo-VCausNegImprtvSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :gender :Common,
@@ -250,7 +251,7 @@
                          [:Plural "beek-sis-inaa"]]
                  }
                 {:label "oromo-VCausNegPastSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :S,
                           :lexeme :beek,
@@ -267,7 +268,7 @@
                          [:Plural :Person3 :Common "beek-sif-ne"]]
                  }
                 {:label "oromo-VCausSubAffPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Subordinate,
                           :derivedStem :S,
@@ -285,7 +286,7 @@
                          [:Plural :Person3 :Common "beek-sis-ani/u"]]
                  }
                 {:label "oromo-VCausSubNegPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Subordinate,
                           :derivedStem :S,
@@ -303,7 +304,7 @@
                          [:Plural :Person3 :Common "beek-sif-ne"]]
                  }
                 {:label "oromo-VCompoundTense"
-                 :note "Gragg1976 p. 189. Template: structAux + structMain + token-aux + token-encliticized + token-main."
+                 :note "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :lexeme :adeem,
@@ -332,7 +333,7 @@
                          [:Negative :PresentProgressive "adeemaa hin-jiru (_NULL)" "jir-_presNeg + verb_agent + hin-jiru + _NULL + adeemaa"]]
                  }
                 {:label "oromo-VCop-have"
-                 :note "Gragg1976 p. 185"
+                 :note "G76p.185"
                  :common {:vmorphClass :Finite,
                           :lexeme :COPULA,
                           :pdgmSubType :Copula,
@@ -350,7 +351,7 @@
                          [:Predication :Negative :Present "miti"]]
                  }
                 {:label "oromo-VJuss-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :lexeme :beek,
@@ -369,7 +370,7 @@
                          [:T :Negative "hin-beek-at-in" "hin-VerbStem-in_invariant"]]
                  }
                 {:label "oromo-VMidAffImprtvSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :T,
                           :gender :Common,
@@ -383,7 +384,7 @@
                          [:Plural "beek-at-aa"]]
                  }
                 {:label "oromo-VMidAffPastSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :T,
                           :lexeme :beek,
@@ -400,7 +401,7 @@
                          [:Plural :Person3 :Common "beek-at-an(i)"]]
                  }
                 {:label "oromo-VMidMainAffPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Main,
                           :derivedStem :T,
@@ -418,7 +419,7 @@
                          [:Plural :Person3 :Common "beek-at-u"]]
                  }
                 {:label "oromo-VMidMainNegPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Main,
                           :derivedStem :T,
@@ -436,7 +437,7 @@
                          [:Plural :Person3 :Common "beek-at-ani/u"]]
                  }
                 {:label "oromo-VMidNegImprtvSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :T,
                           :gender :Common,
@@ -450,7 +451,7 @@
                          [:Plural "beek-at-inaa"]]
                  }
                 {:label "oromo-VMidNegPastSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :T,
                           :lexeme :beek,
@@ -467,7 +468,7 @@
                          [:Plural :Person3 :Common "beek-an-ne"]]
                  }
                 {:label "oromo-VMidSubAffPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Subordinate,
                           :derivedStem :T,
@@ -485,7 +486,7 @@
                          [:Plural :Person3 :Common "beek-at-ani/u"]]
                  }
                 {:label "oromo-VMidSubNegPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Subordinate,
                           :derivedStem :T,
@@ -503,7 +504,7 @@
                          [:Plural :Person3 :Common "beek-an-ne"]]
                  }
                 {:label "oromo-VNon-finite-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :lexeme :beek,
                           :pos :Verb}
@@ -522,7 +523,7 @@
                          [:Base :NonFinite "beek-sif-naan"]]
                  }
                 {:label "oromo-VPassAffImprtvSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :M,
                           :gender :Common,
@@ -536,7 +537,7 @@
                          [:Plural "beek-am-aa"]]
                  }
                 {:label "oromo-VPassAffPastSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :M,
                           :lexeme :beek,
@@ -553,7 +554,7 @@
                          [:Plural :Person3 :Common "beek-am-an(i)"]]
                  }
                 {:label "oromo-VPassMainAffPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Main,
                           :derivedStem :M,
@@ -571,7 +572,7 @@
                          [:Plural :Person3 :Common "beek-am-u"]]
                  }
                 {:label "oromo-VPassMainNegPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Main,
                           :derivedStem :M,
@@ -589,7 +590,7 @@
                          [:Plural :Person3 :Common "beek-am-ani/u"]]
                  }
                 {:label "oromo-VPassNegImprtvSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :M,
                           :gender :Common,
@@ -603,7 +604,7 @@
                          [:Plural "beek-am-inaa"]]
                  }
                 {:label "oromo-VPassNegPastSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :derivedStem :M,
                           :lexeme :beek,
@@ -620,7 +621,7 @@
                          [:Plural :Person3 :Common "beek-am-ne"]]
                  }
                 {:label "oromo-VPassSubAffPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Subordinate,
                           :derivedStem :M,
@@ -638,7 +639,7 @@
                          [:Plural :Person3 :Common "beek-am-ani/u"]]
                  }
                 {:label "oromo-VPassSubNegPresSmpl-beek"
-                 :note "Gragg1976 p. 188"
+                 :note "G76p.188"
                  :common {:vmorphClass :Finite,
                           :clauseType :Subordinate,
                           :derivedStem :M,
@@ -656,7 +657,7 @@
                          [:Plural :Person3 :Common "beek-am-ne"]]
                  }
                 {:label "oromo-PInd"
-                 :note "Gragg1976 p. 178"
+                 :note "G76p.178"
                  :common {                          :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -676,7 +677,7 @@
                          [:Subject :Plural :Person3 :Common "isaan(i)"]]
                  }
                 {:label "oromo-PSuffPoss"
-                 :note "Gragg1976 p. 178"
+                 :note "G76p.178"
                  :common {:case :Possessive,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ProSuff}
