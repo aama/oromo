@@ -1,0 +1,860 @@
+{
+  "lang": "oromo",
+  "subfamily": "Lowland East Cushitic Oromoid",
+  "sgpref": "orm",
+  "datasource": "Gragg1976; abbrev. G76",
+  "geodemoURL": "http://www.ethnologue.com/language/orm http://www.ethnologue.com/language/hae http://www.ethnologue.com/language/gax http://www.ethnologue.com/language/orc",
+  "geodemoTXT": "Varieties and subdialects of Oromo are spoken by millions of individuals over much of central and southern Ethiopia . The variety treated here is characteristic of the west-central region, specifically Wallagga. Other more-or-less distinct varieties are the Eastern , Borana-Arsi-Guji, and Orma (spoken in Kenya).",
+  "schemata": {
+    "pdgmSubType": [
+      "Copula"
+    ],
+    "person": [
+      "Person1",
+      "Person2",
+      "Person3"
+    ],
+    "derivedStem": [
+      "Base",
+      "M",
+      "S",
+      "T"
+    ],
+    "clauseType": [
+      "Main",
+      "Subordinate"
+    ],
+    "number": [
+      "Plural",
+      "Singular"
+    ],
+    "vmorphClass": [
+      "Finite"
+    ],
+    "nonFiniteForm": [
+      "NonFinite"
+    ],
+    "pos": [
+      "Pronoun",
+      "Verb"
+    ],
+    "proClass": [
+      "Independent",
+      "ProSuff"
+    ],
+    "formType": [
+      "CompoundTense"
+    ],
+    "pmorphClass": [
+      "ProMorph"
+    ],
+    "case": [
+      "Absolutive",
+      "Possessive",
+      "Subject"
+    ],
+    "polarity": [
+      "Affirmative",
+      "Common",
+      "Negative"
+    ],
+    "tam": [
+      "Conditional",
+      "FutureDefinite",
+      "FutureIndefinite",
+      "FuturePerfect",
+      "Imperative",
+      "Jussive",
+      "NonPast-nonPres",
+      "Past",
+      "PastProgressive",
+      "Perfect",
+      "Pluperfect",
+      "PluperfectProgressive",
+      "Present",
+      "PresentProgressive"
+    ],
+    "copType": [
+      "Existence",
+      "Occurrence",
+      "Predication"
+    ],
+    "gender": [
+      "Common",
+      "Fem",
+      "Masc"
+    ]
+  },
+  "lexemes": {
+    "COPULA": {
+      "pos": "Verb",
+      "lemma": "Copula",
+      "gloss": "Copula"
+    },
+    "adeem": {
+      "pos": "Verb",
+      "lemma": "adeem-",
+      "gloss": "go",
+      "derivedStem": "Base"
+    },
+    "beek": {
+      "pos": "Verb",
+      "lemma": "beek-",
+      "gloss": "know",
+      "derivedStem": "Base"
+    },
+    "beek-ad": {
+      "pos": "Verb",
+      "lemma": "beek-ad-",
+      "gloss": "realize",
+      "derivedStem": "T"
+    },
+    "beek-am": {
+      "pos": "Verb",
+      "lemma": "beek-am-",
+      "gloss": "be known",
+      "derivedStem": "M"
+    },
+    "beek-sis": {
+      "pos": "Verb",
+      "lemma": "beek-sis-",
+      "gloss": "inform",
+      "derivedStem": "S"
+    }
+  },
+    "termclusters": [
+      {
+        "label": "oromo-VBaseAffImprtvSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "Base",
+          "gender": "Common",
+          "lexeme": "beek",
+          "person": "Person2",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Imperative"
+        },
+        "terms": [["number","token"],
+                  ["Singular","beek-i ~ -u"],
+                  ["Plural","beek-aa"]]
+      },
+      {
+        "label": "oromo-VBaseAffPastSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "Base",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Past"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-e"],
+                  ["Singular","Person2","Common","beek-te"],
+                  ["Singular","Person3","Masc","beek-e"],
+                  ["Singular","Person3","Fem","beek-te"],
+                  ["Plural","Person1","Common","beek-ne"],
+                  ["Plural","Person2","Common","beek-tan(i)"],
+                  ["Plural","Person3","Common","beek-an(i)"]]
+      },
+      {
+        "label": "oromo-VBaseMainAffPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Main",
+          "derivedStem": "Base",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-a"],
+                  ["Singular","Person2","Common","beek-ta"],
+                  ["Singular","Person3","Masc","beek-a"],
+                  ["Singular","Person3","Fem","beek-ti"],
+                  ["Plural","Person1","Common","beek-na"],
+                  ["Plural","Person2","Common","beek-tu"],
+                  ["Plural","Person3","Common","beek-u"]]
+      },
+      {
+        "label": "oromo-VBaseMainNegPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Main",
+          "derivedStem": "Base",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-u"],
+                  ["Singular","Person2","Common","beek-tu"],
+                  ["Singular","Person3","Masc","beek-u"],
+                  ["Singular","Person3","Fem","beek-tu"],
+                  ["Plural","Person1","Common","beek-nu"],
+                  ["Plural","Person2","Common","beek-tani/u"],
+                  ["Plural","Person3","Common","beek-ani/u"]]
+      },
+      {
+        "label": "oromo-VBaseNegImprtvSmpl-beek",
+        "note": "G76p.",
+        "common": {
+          "derivedStem": "Base",
+          "gender": "Common",
+          "lexeme": "beek",
+          "person": "Person2",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Imperative"
+        },
+        "terms": [["number","token"],
+                  ["Singular","beek-ini"],
+                  ["Plural","beek-inaa"]]
+      },
+      {
+        "label": "oromo-VBaseNegPastSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "Base",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Past"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-ne"],
+                  ["Singular","Person2","Common","beek-ne"],
+                  ["Singular","Person3","Masc","beek-ne"],
+                  ["Singular","Person3","Fem","beek-ne"],
+                  ["Plural","Person1","Common","beek-ne"],
+                  ["Plural","Person2","Common","beek-ne"],
+                  ["Plural","Person3","Common","beek-ne"]]
+      },
+      {
+        "label": "oromo-VBaseSubAffPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Subordinate",
+          "derivedStem": "Base",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-u"],
+                  ["Singular","Person2","Common","beek-tu"],
+                  ["Singular","Person3","Masc","beek-u"],
+                  ["Singular","Person3","Fem","beek-tu"],
+                  ["Plural","Person1","Common","beek-nu"],
+                  ["Plural","Person2","Common","beek-tani/u"],
+                  ["Plural","Person3","Common","beek-ani/u"]]
+      },
+      {
+        "label": "oromo-VBaseSubNegPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Subordinate",
+          "derivedStem": "Base",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-ne"],
+                  ["Singular","Person2","Common","beek-ne"],
+                  ["Singular","Person3","Masc","beek-ne"],
+                  ["Singular","Person3","Fem","beek-ne"],
+                  ["Plural","Person1","Common","beek-ne"],
+                  ["Plural","Person2","Common","beek-ne"],
+                  ["Plural","Person3","Common","beek-ne"]]
+      },
+      {
+        "label": "oromo-VCausAffImprtvSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "S",
+          "gender": "Common",
+          "lexeme": "beek",
+          "person": "Person2",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Imperative"
+        },
+        "terms": [["number","token"],
+                  ["Singular","beek-sis-i ~ -u"],
+                  ["Plural","beek-sis-aa"]]
+      },
+      {
+        "label": "oromo-VCausAffPastSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "S",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Past"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-sis-e"],
+                  ["Singular","Person2","Common","beek-sif-te"],
+                  ["Singular","Person3","Masc","beek-sis-e"],
+                  ["Singular","Person3","Fem","beek-sif-te"],
+                  ["Plural","Person1","Common","beek-sif-ne"],
+                  ["Plural","Person2","Common","beek-sif-tan(i)"],
+                  ["Plural","Person3","Common","beek-sis-an(i)"]]
+      },
+      {
+        "label": "oromo-VCausMainAffPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Main",
+          "derivedStem": "S",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-sis-a"],
+                  ["Singular","Person2","Common","beek-sif-ta"],
+                  ["Singular","Person3","Masc","beek-sis-a"],
+                  ["Singular","Person3","Fem","beek-sif-ti"],
+                  ["Plural","Person1","Common","beek-sif-na"],
+                  ["Plural","Person2","Common","beek-sif-tu"],
+                  ["Plural","Person3","Common","beek-sis-u"]]
+      },
+      {
+        "label": "oromo-VCausMainNegPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Main",
+          "derivedStem": "S",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-sis-u"],
+                  ["Singular","Person2","Common","beek-sif-tu"],
+                  ["Singular","Person3","Masc","beek-sis-u"],
+                  ["Singular","Person3","Fem","beek-sif-tu"],
+                  ["Plural","Person1","Common","beek-sif-nu"],
+                  ["Plural","Person2","Common","beek-sif-tani/u"],
+                  ["Plural","Person3","Common","beek-sis-ani/u"]]
+      },
+      {
+        "label": "oromo-VCausNegImprtvSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "S",
+          "gender": "Common",
+          "lexeme": "beek",
+          "person": "Person2",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Imperative"
+        },
+        "terms": [["number","token"],
+                  ["Singular","beek-sis-ini"],
+                  ["Plural","beek-sis-inaa"]]
+      },
+      {
+        "label": "oromo-VCausNegPastSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "S",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Past"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-sif-ne"],
+                  ["Singular","Person2","Common","beek-sif-ne"],
+                  ["Singular","Person3","Masc","beek-sif-ne"],
+                  ["Singular","Person3","Fem","beek-sif-ne"],
+                  ["Plural","Person1","Common","beek-sif-ne"],
+                  ["Plural","Person2","Common","beek-sif-ne"],
+                  ["Plural","Person3","Common","beek-sif-ne"]]
+      },
+      {
+        "label": "oromo-VCausSubAffPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Subordinate",
+          "derivedStem": "S",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-sis-u"],
+                  ["Singular","Person2","Common","beek-sif-tu"],
+                  ["Singular","Person3","Masc","beek-sis-u"],
+                  ["Singular","Person3","Fem","beek-sif-tu"],
+                  ["Plural","Person1","Common","beek-sif-nu"],
+                  ["Plural","Person2","Common","beek-sif-tani/u"],
+                  ["Plural","Person3","Common","beek-sis-ani/u"]]
+      },
+      {
+        "label": "oromo-VCausSubNegPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Subordinate",
+          "derivedStem": "S",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-sif-ne"],
+                  ["Singular","Person2","Common","beek-sif-ne"],
+                  ["Singular","Person3","Masc","beek-sif-ne"],
+                  ["Singular","Person3","Fem","beek-sif-ne"],
+                  ["Plural","Person1","Common","beek-sif-ne"],
+                  ["Plural","Person2","Common","beek-sif-ne"],
+                  ["Plural","Person3","Common","beek-sif-ne"]]
+      },
+      {
+        "label": "oromo-VCompoundTense",
+        "note": "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main.",
+        "common": {
+          "gender": "Masc",
+          "lexeme": "adeem",
+          "number": "Singular",
+          "person": "Person3",
+          "pos": "Verb",
+          "formType": "CompoundTense"
+        },
+        "terms": [["polarity","tam","token","token-note"],
+                  ["Affirmative","Conditional","nan/hin-adeema(n) ture (_NULL)","tur-_past + hín-verb_pres + ture + _NULL + nan/hin-adeema(n)"],
+                  ["Affirmative","FutureDefinite","adeemuu-f(an) jira (_NULL)","jir-_pres + verb_infinitive+f + jira + _NULL + adeemuu-f(an)"],
+                  ["Affirmative","FutureIndefinite","nan/hin-adeema taʔa (_NULL)","taʔa _sg 3 m –invar + hín-verb_pres + taʔa + _NULL + nan/hin-adeema"],
+                  ["Affirmative","FuturePerfect","adeemuu-f(an) ture (_NULL)","tur-_past + verb_infinitive+f + ture + _NULL + adeemuu-f(an)"],
+                  ["Affirmative","PastProgressive","adeemaa(n) ture (_NULL)","tur-_past + verb_agent + ture + _NULL + adeemaa(n)"],
+                  ["Affirmative","Perfect","adeemee(n) jira (adeemeera)","jir-_pres + verb_past + jira + adeemeera + adeemee(n)"],
+                  ["Affirmative","Pluperfect","adeemee(n) ture (_NULL)","tur-_past + verb_past + ture + _NULL + adeemee(n)"],
+                  ["Affirmative","PluperfectProgressive","adeemaa(n) jira(n) ture (_NULL)","jir-_pres+ tur-_past + verb_agent + jira(n) ture + _NULL + adeemaa(n)"],
+                  ["Affirmative","PresentProgressive","adeemaa(n) jira (_NULL)","jir-_pres + verb_agent + jira + _NULL + adeemaa(n)"],
+                  ["Negative","Conditional","hin-adeemu(n) ture (_NULL)","tur-_past + verb_presNeg + ture + _NULL + hin-adeemu(n)"],
+                  ["Negative","FutureDefinite","adeemuu-f (hi)n-jiru (_NULL)","jir-_presNeg + verb_infinitive+f + (hi)n-jiru + _NULL + adeemuu-f"],
+                  ["Negative","FutureIndefinite","hin-adeemu(n) taʔa (_NULL)","taʔa _sg 3 m –invar + verb_presNeg + taʔa + _NULL + hin-adeemu(n)"],
+                  ["Negative","FuturePerfect","adeemuu-f (hi)n-turre (_NULL)","tur-_pastNeg + verb_infinitive+f + (hi)n-turre + _NULL + adeemuu-f"],
+                  ["Negative","PastProgressive","adeemaa (hi)n-turre (_NULL)","tur-_past + verb_agent + (hi)n-turre + _NULL + adeemaa"],
+                  ["Negative","Perfect","hin-adeem-ne ⊤ (_NULL)","⊤ + verb_pastNeg + ⊤ + _NULL + hin-adeem-ne"],
+                  ["Negative","Pluperfect","hin-adeemne(n) ture (_NULL)","tur-_past + verb_pastNeg + ture + _NULL + hin-adeemne(n)"],
+                  ["Negative","PluperfectProgressive","adeemaa (hi)n-jiru(n) ture (_NULL)","jir-_presNeg+ tur-_past + verb_agent + (hi)n-jiru(n) ture + _NULL + adeemaa"],
+                  ["Negative","PresentProgressive","adeemaa hin-jiru (_NULL)","jir-_presNeg + verb_agent + hin-jiru + _NULL + adeemaa"]]
+      },
+      {
+        "label": "oromo-VCop-have",
+        "note": "G76p.185",
+        "common": {
+          "lexeme": "COPULA",
+          "pdgmSubType": "Copula",
+          "pos": "Verb"
+        },
+        "terms": [["copType","polarity","tam","token"],
+                  ["Existence","Common","NonPast-nonPres","taʔ-"],
+                  ["Existence","Common","Past","tur-"],
+                  ["Existence","Common","Present","jir-"],
+                  ["Occurrence","Common","NonPast-nonPres","taʔ-"],
+                  ["Occurrence","Common","Past","taʔ-"],
+                  ["Occurrence","Common","Present","taʔ-"],
+                  ["Predication","Affirmative","Present","ɗa"],
+                  ["Predication","Common","NonPast-nonPres","taʔ-"],
+                  ["Predication","Common","Past","tur-"],
+                  ["Predication","Negative","Present","miti"]]
+      },
+      {
+        "label": "oromo-VJuss-beek",
+        "note": "G76p.188",
+        "common": {
+          "gender": "Masc",
+          "lexeme": "beek",
+          "number": "Singular",
+          "person": "Person3",
+          "pos": "Verb",
+          "tam": "Jussive"
+        },
+        "terms": [["derivedStem","polarity","token","tokenNote"],
+                  ["Base","Affirmative","ha-beek-u","ha-Verb_pres-aff-sub"],
+                  ["Base","Negative","hin-beek-in","hin-VerbStem-in_invariant"],
+                  ["M","Affirmative","ha-beek-am-u","ha-Verb_pres-aff-sub"],
+                  ["M","Negative","hin-beek-am-in","hin-VerbStem-in_invariant"],
+                  ["S","Affirmative","ha-beek-sis-u","ha-Verb_pres-aff-sub"],
+                  ["S","Negative","hin-beek-sis-in","hin-VerbStem-in_invariant"],
+                  ["T","Affirmative","ha-beek-at-u","ha-Verb_pres-aff-sub"],
+                  ["T","Negative","hin-beek-at-in","hin-VerbStem-in_invariant"]]
+      },
+      {
+        "label": "oromo-VMidAffImprtvSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "T",
+          "gender": "Common",
+          "lexeme": "beek",
+          "person": "Person2",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Imperative"
+        },
+        "terms": [["number","token"],
+                  ["Singular","beek-at-i ~ -u"],
+                  ["Plural","beek-at-aa"]]
+      },
+      {
+        "label": "oromo-VMidAffPastSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "T",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Past"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-ad-e"],
+                  ["Singular","Person2","Common","beek-at-te"],
+                  ["Singular","Person3","Masc","beek-at-e"],
+                  ["Singular","Person3","Fem","beek-at-te"],
+                  ["Plural","Person1","Common","beek-an-ne"],
+                  ["Plural","Person2","Common","beek-at-tan(i)"],
+                  ["Plural","Person3","Common","beek-at-an(i)"]]
+      },
+      {
+        "label": "oromo-VMidMainAffPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Main",
+          "derivedStem": "T",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-ad-a"],
+                  ["Singular","Person2","Common","beek-at-ta"],
+                  ["Singular","Person3","Masc","beek-at-a"],
+                  ["Singular","Person3","Fem","beek-at-ti"],
+                  ["Plural","Person1","Common","beek-an-na"],
+                  ["Plural","Person2","Common","beek-at-tu"],
+                  ["Plural","Person3","Common","beek-at-u"]]
+      },
+      {
+        "label": "oromo-VMidMainNegPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Main",
+          "derivedStem": "T",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-ad-u"],
+                  ["Singular","Person2","Common","beek-at-tu"],
+                  ["Singular","Person3","Masc","beek-at-u"],
+                  ["Singular","Person3","Fem","beek-at-tu"],
+                  ["Plural","Person1","Common","beek-an-nu"],
+                  ["Plural","Person2","Common","beek-at-tani/u"],
+                  ["Plural","Person3","Common","beek-at-ani/u"]]
+      },
+      {
+        "label": "oromo-VMidNegImprtvSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "T",
+          "gender": "Common",
+          "lexeme": "beek",
+          "person": "Person2",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Imperative"
+        },
+        "terms": [["number","token"],
+                  ["Singular","beek-at-ini"],
+                  ["Plural","beek-at-inaa"]]
+      },
+      {
+        "label": "oromo-VMidNegPastSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "T",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Past"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-an-ne"],
+                  ["Singular","Person2","Common","beek-an-ne"],
+                  ["Singular","Person3","Masc","beek-an-ne"],
+                  ["Singular","Person3","Fem","beek-an-ne"],
+                  ["Plural","Person1","Common","beek-an-ne"],
+                  ["Plural","Person2","Common","beek-an-ne"],
+                  ["Plural","Person3","Common","beek-an-ne"]]
+      },
+      {
+        "label": "oromo-VMidSubAffPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Subordinate",
+          "derivedStem": "T",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-ad-u"],
+                  ["Singular","Person2","Common","beek-at-tu"],
+                  ["Singular","Person3","Masc","beek-at-u"],
+                  ["Singular","Person3","Fem","beek-at-tu"],
+                  ["Plural","Person1","Common","beek-an-nu"],
+                  ["Plural","Person2","Common","beek-at-tani/u"],
+                  ["Plural","Person3","Common","beek-at-ani/u"]]
+      },
+      {
+        "label": "oromo-VMidSubNegPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Subordinate",
+          "derivedStem": "T",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-an-ne"],
+                  ["Singular","Person2","Common","beek-an-ne"],
+                  ["Singular","Person3","Masc","beek-an-ne"],
+                  ["Singular","Person3","Fem","beek-an-ne"],
+                  ["Plural","Person1","Common","beek-an-ne"],
+                  ["Plural","Person2","Common","beek-an-ne"],
+                  ["Plural","Person3","Common","beek-an-ne"]]
+      },
+      {
+        "label": "oromo-VNon-finite-beek",
+        "note": "G76p.188",
+        "common": {
+          "lexeme": "beek",
+          "pos": "Verb"
+        },
+        "terms": [["derivedStem","nonFiniteForm","token"],
+                  ["S","PresPart","beek-sis-aa"],
+                  ["M","ProgPart","beek-am-naan"],
+                  ["Base","PresPart","beek-aa"],
+                  ["Base","ProgPart","beek-an-naan"],
+                  ["Base","Infinitive","beek-uu"],
+                  ["T","PresPart","beek-at-aa"],
+                  ["Base","ProgPart","beek-naan"],
+                  ["S","Infinitive","beek-sis-uu"],
+                  ["M","PresPart","beek-am-aa"],
+                  ["M","Infinitive","beek-am-uu"],
+                  ["T","Infinitive","beek-at-uu"],
+                  ["S","ProgPart","beek-sif-naan"]]
+      },
+      {
+        "label": "oromo-VPassAffImprtvSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "M",
+          "gender": "Common",
+          "lexeme": "beek",
+          "person": "Person2",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Imperative"
+        },
+        "terms": [["number","token"],
+                  ["Singular","beek-am-i ~ -u"],
+                  ["Plural","beek-am-aa"]]
+      },
+      {
+        "label": "oromo-VPassAffPastSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "M",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Past"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-am-e"],
+                  ["Singular","Person2","Common","beek-am-te"],
+                  ["Singular","Person3","Masc","beek-am-e"],
+                  ["Singular","Person3","Fem","beek-am-te"],
+                  ["Plural","Person1","Common","beek-am-ne"],
+                  ["Plural","Person2","Common","beek-am-tan(i)"],
+                  ["Plural","Person3","Common","beek-am-an(i)"]]
+      },
+      {
+        "label": "oromo-VPassMainAffPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Main",
+          "derivedStem": "M",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-am-a"],
+                  ["Singular","Person2","Common","beek-am-ta"],
+                  ["Singular","Person3","Masc","beek-am-a"],
+                  ["Singular","Person3","Fem","beek-am-ti"],
+                  ["Plural","Person1","Common","beek-am-na"],
+                  ["Plural","Person2","Common","beek-am-tu"],
+                  ["Plural","Person3","Common","beek-am-u"]]
+      },
+      {
+        "label": "oromo-VPassMainNegPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Main",
+          "derivedStem": "M",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-am-u"],
+                  ["Singular","Person2","Common","beek-am-tu"],
+                  ["Singular","Person3","Masc","beek-am-u"],
+                  ["Singular","Person3","Fem","beek-am-tu"],
+                  ["Plural","Person1","Common","beek-am-nu"],
+                  ["Plural","Person2","Common","beek-am-tani/u"],
+                  ["Plural","Person3","Common","beek-am-ani/u"]]
+      },
+      {
+        "label": "oromo-VPassNegImprtvSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "M",
+          "gender": "Common",
+          "lexeme": "beek",
+          "person": "Person2",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Imperative"
+        },
+        "terms": [["number","token"],
+                  ["Singular","beek-am-ini"],
+                  ["Plural","beek-am-inaa"]]
+      },
+      {
+        "label": "oromo-VPassNegPastSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "derivedStem": "M",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Past"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-am-ne"],
+                  ["Singular","Person2","Common","beek-am-ne"],
+                  ["Singular","Person3","Masc","beek-am-ne"],
+                  ["Singular","Person3","Fem","beek-am-ne"],
+                  ["Plural","Person1","Common","beek-am-ne"],
+                  ["Plural","Person2","Common","beek-am-ne"],
+                  ["Plural","Person3","Common","beek-am-ne"]]
+      },
+      {
+        "label": "oromo-VPassSubAffPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Subordinate",
+          "derivedStem": "M",
+          "lexeme": "beek",
+          "polarity": "Affirmative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-am-u"],
+                  ["Singular","Person2","Common","beek-am-tu"],
+                  ["Singular","Person3","Masc","beek-am-u"],
+                  ["Singular","Person3","Fem","beek-am-tu"],
+                  ["Plural","Person1","Common","beek-am-nu"],
+                  ["Plural","Person2","Common","beek-am-tani/u"],
+                  ["Plural","Person3","Common","beek-am-ani/u"]]
+      },
+      {
+        "label": "oromo-VPassSubNegPresSmpl-beek",
+        "note": "G76p.188",
+        "common": {
+          "clauseType": "Subordinate",
+          "derivedStem": "M",
+          "lexeme": "beek",
+          "polarity": "Negative",
+          "pos": "Verb",
+          "tam": "Present"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","beek-am-ne"],
+                  ["Singular","Person2","Common","beek-am-ne"],
+                  ["Singular","Person3","Masc","beek-am-ne"],
+                  ["Singular","Person3","Fem","beek-am-ne"],
+                  ["Plural","Person1","Common","beek-am-ne"],
+                  ["Plural","Person2","Common","beek-am-ne"],
+                  ["Plural","Person3","Common","beek-am-ne"]]
+      },
+      {
+        "label": "oromo-PInd",
+        "note": "G76p.178",
+        "common": {
+          "pos": "Pronoun",
+          "proClass": "Independent"
+        },
+        "terms": [["case","number","person","gender","token"],
+                  ["Absolutive","Singular","Person1","Common","(a)na"],
+                  ["Absolutive","Singular","Person2","Common","sei"],
+                  ["Absolutive","Singular","Person3","Masc","isa"],
+                  ["Absolutive","Singular","Person3","Fem","iše"],
+                  ["Absolutive","Plural","Person1","Common","nu"],
+                  ["Absolutive","Plural","Person2","Common","isin"],
+                  ["Absolutive","Plural","Person3","Common","isaan"],
+                  ["Subject","Singular","Person1","Common","an(i)"],
+                  ["Subject","Singular","Person2","Common","at(i)"],
+                  ["Subject","Singular","Person3","Masc","inni"],
+                  ["Subject","Singular","Person3","Fem","iseen(i)"],
+                  ["Subject","Plural","Person1","Common","nuy"],
+                  ["Subject","Plural","Person2","Common","isin(i)"],
+                  ["Subject","Plural","Person3","Common","isaan(i)"]]
+      },
+      {
+        "label": "oromo-PSuffPoss",
+        "note": "G76p.178",
+        "common": {
+          "case": "Possessive",
+          "pos": "Pronoun",
+          "proClass": "ProSuff"
+        },
+        "terms": [["number","person","gender","token"],
+                  ["Singular","Person1","Common","-koo"],
+                  ["Singular","Person2","Common","-kee"],
+                  ["Singular","Person3","Masc","-saa"],
+                  ["Singular","Person3","Fem","-šee"],
+                  ["Plural","Person1","Common","-keeɲɲa"],
+                  ["Plural","Person2","Common","-keesan"],
+                  ["Plural","Person3","Common","-saani"]]
+      }
+    ]
+}
