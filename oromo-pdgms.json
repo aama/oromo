@@ -87,40 +87,40 @@
   },
   "lexemes": 
   {
-    'COPULA': {
-      'pos': 'Verb',
-      'lemma': 'Copula',
-      'gloss': 'Copula'
+    "COPULA": {
+      "pos": "Verb",
+      "lemma": "Copula",
+      "gloss": "Copula"
     }, 
-    'adeem': {
-      'pos': 'Verb',
-      'lemma': 'adeem-',
-      'gloss': 'go',
-      'derivedStem': 'B'
+    "adeem": {
+      "pos": "Verb",
+      "lemma": "adeem-",
+      "gloss": "go",
+      "derivedStem": "B"
     }, 
-    'beek': {
-      'pos': 'Verb',
-      'lemma': 'beek-',
-      'gloss': 'know',
-      'derivedStem': 'B'
+    "beek": {
+      "pos": "Verb",
+      "lemma": "beek-",
+      "gloss": "know",
+      "derivedStem": "B"
     }, 
-    'beek-ad': {
-      'pos': 'Verb',
-      'lemma': 'beek-aɗ-',
-      'gloss': 'realize',
-      'derivedStem': 'T'
+    "beek-ad": {
+      "pos": "Verb",
+      "lemma": "beek-aɗ-",
+      "gloss": "realize",
+      "derivedStem": "T"
     }, 
-    'beek-am': {
-      'pos': 'Verb',
-      'lemma': 'beek-am-',
-      'gloss': 'be known',
-      'derivedStem': 'M'
+    "beek-am": {
+      "pos": "Verb",
+      "lemma": "beek-am-",
+      "gloss": "be known",
+      "derivedStem": "M"
     }, 
-    'beek-sis': {
-      'pos': 'Verb',
-      'lemma': 'beek-sis-',
-      'gloss': 'inform',
-      'derivedStem': 'S'}
+    "beek-sis": {
+      "pos": "Verb",
+      "lemma": "beek-sis-",
+      "gloss": "inform",
+      "derivedStem": "S"}
   },
   "pdgmPropOrder": ["pos","proClass", "morphClass", "lexeme", "derivedStem","tam", "formType", "polarity", "clauseType"],
   "termclusters": [

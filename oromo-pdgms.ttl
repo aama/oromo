@@ -96,19 +96,6 @@ orm:T aamas:lang aama:Oromo .
 orm:T rdf:type aamas:DERIVEDSTEM .
 orm:T rdfs:label "T" .
 
-#SCHEMATA: formType
-orm:formType aamas:lang aama:Oromo .
-orm:FORMTYPE aamas:lang aama:Oromo .
-orm:formType rdfs:domain aamas:Term .
-orm:FORMTYPE rdfs:label "formType exponents" .
-orm:formType rdfs:label "formType" .
-orm:formType rdfs:range orm:FORMTYPE .
-orm:FORMTYPE rdfs:subClassOf orm:MuExponent .
-orm:formType rdfs:subPropertyOf orm:muProperty .
-orm:CompoundTense aamas:lang aama:Oromo .
-orm:CompoundTense rdf:type aamas:FORMTYPE .
-orm:CompoundTense rdfs:label "CompoundTense" .
-
 #SCHEMATA: gender
 orm:gender aamas:lang aama:Oromo .
 orm:GENDER aamas:lang aama:Oromo .
@@ -351,7 +338,7 @@ orm:lex-beek-ad a aamas:Lexeme ;
 	aamas:lang aama:oromo ;
 	rdfs:label "beek-ad" ;
 	orm:pos orm:Verb ; 
-	aamas:lemma "beek-ad-" ; 
+	aamas:lemma "beek-aɗ-" ; 
 	aamas:gloss "realize" ; 
 	orm:derivedStem orm:T ; 
 	.
@@ -382,7 +369,7 @@ orm:orm-PronounIndependent a aamas:Termcluster ;
 	rdfs:comment "G76p.178" 
 	.
 
-aama:ID0a4c9d2e-f042-4df9-af5d-4d905b3ca520 a aamas:Term ;
+aama:ID4f7ad83b-8a02-49be-b753-472b20ebdaba a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -394,7 +381,7 @@ aama:ID0a4c9d2e-f042-4df9-af5d-4d905b3ca520 a aamas:Term ;
 	orm:token "(a)na" ;
 	.
 
-aama:ID9f4b6038-aa05-449e-85bb-2530e0ff9626 a aamas:Term ;
+aama:ID6af53a16-4cc5-4757-b360-1f8e0785338f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -406,7 +393,7 @@ aama:ID9f4b6038-aa05-449e-85bb-2530e0ff9626 a aamas:Term ;
 	orm:token "sei" ;
 	.
 
-aama:ID44fd66e4-39a0-4ccd-9ff1-5dc2ec06f5ae a aamas:Term ;
+aama:IDde36590f-7485-4725-9e68-612d24cbdc0f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -418,7 +405,7 @@ aama:ID44fd66e4-39a0-4ccd-9ff1-5dc2ec06f5ae a aamas:Term ;
 	orm:token "isa" ;
 	.
 
-aama:ID444c7a75-d640-4987-9230-1be38faeb783 a aamas:Term ;
+aama:ID7b6d3e7a-2421-4fc5-8e84-4b798c461b55 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -430,7 +417,7 @@ aama:ID444c7a75-d640-4987-9230-1be38faeb783 a aamas:Term ;
 	orm:token "iše" ;
 	.
 
-aama:ID196c4c7c-1456-4d78-ad28-004ad48a0b7a a aamas:Term ;
+aama:ID85a06d16-9b70-4772-a6ca-38d3be0bf4dd a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -442,7 +429,7 @@ aama:ID196c4c7c-1456-4d78-ad28-004ad48a0b7a a aamas:Term ;
 	orm:token "nu" ;
 	.
 
-aama:ID6a913555-045f-4365-8c55-75b054492088 a aamas:Term ;
+aama:IDb84bbcd2-d416-489f-b7d7-c3a52fb50f45 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -454,7 +441,7 @@ aama:ID6a913555-045f-4365-8c55-75b054492088 a aamas:Term ;
 	orm:token "isin" ;
 	.
 
-aama:ID31b8fbf9-5bf1-423f-a450-f340fa575111 a aamas:Term ;
+aama:ID48cf64e6-afcb-4e53-ae6a-48219954d435 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -466,7 +453,7 @@ aama:ID31b8fbf9-5bf1-423f-a450-f340fa575111 a aamas:Term ;
 	orm:token "isaan" ;
 	.
 
-aama:IDcc6961de-98f1-4c3d-9690-be3210c10923 a aamas:Term ;
+aama:ID9ea62bc7-5fc7-400f-8a3f-59d3632fe721 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -478,7 +465,7 @@ aama:IDcc6961de-98f1-4c3d-9690-be3210c10923 a aamas:Term ;
 	orm:token "an(i)" ;
 	.
 
-aama:IDdba86d5f-f3c8-43f5-ab10-6c3fa5ee8dd7 a aamas:Term ;
+aama:ID979a3c9d-808b-4627-a662-f90444f76445 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -490,7 +477,7 @@ aama:IDdba86d5f-f3c8-43f5-ab10-6c3fa5ee8dd7 a aamas:Term ;
 	orm:token "at(i)" ;
 	.
 
-aama:IDf66c8457-e673-498d-9e39-022b5b813127 a aamas:Term ;
+aama:ID334081b8-e07a-4fca-948c-3bc41296fb2c a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -502,7 +489,7 @@ aama:IDf66c8457-e673-498d-9e39-022b5b813127 a aamas:Term ;
 	orm:token "inni" ;
 	.
 
-aama:ID01104748-6066-49c2-991a-017528ad26f0 a aamas:Term ;
+aama:ID1e2b03db-1f25-4aff-9f27-1ae7cd326e5d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -514,7 +501,7 @@ aama:ID01104748-6066-49c2-991a-017528ad26f0 a aamas:Term ;
 	orm:token "iseen(i)" ;
 	.
 
-aama:ID688670c0-8738-4c84-9543-5b69f87b59bc a aamas:Term ;
+aama:ID3855415c-59d9-43c4-8f27-1af53027ee26 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -526,7 +513,7 @@ aama:ID688670c0-8738-4c84-9543-5b69f87b59bc a aamas:Term ;
 	orm:token "nuy" ;
 	.
 
-aama:IDb46106a6-3959-4e23-b918-4fe546718090 a aamas:Term ;
+aama:ID8758df82-3765-4519-87d8-129ebe28a436 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -538,7 +525,7 @@ aama:IDb46106a6-3959-4e23-b918-4fe546718090 a aamas:Term ;
 	orm:token "isin(i)" ;
 	.
 
-aama:ID33dd413c-c18a-46f4-a83a-abefce7fef04 a aamas:Term ;
+aama:IDcbb9ae52-26dd-4c2a-8218-689a443de849 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounIndependent ;
 	orm:pos orm:Pronoun ;
@@ -558,7 +545,7 @@ orm:orm-PronounProSuff a aamas:Termcluster ;
 	rdfs:comment "G76p.178" 
 	.
 
-aama:IDac99ba84-1da6-429b-9686-51f4ddcfb63c a aamas:Term ;
+aama:ID9d0a35a3-6eaa-4382-ab82-e4711fc3ff2e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounProSuff ;
 	orm:case orm:Possessive ;
@@ -570,7 +557,7 @@ aama:IDac99ba84-1da6-429b-9686-51f4ddcfb63c a aamas:Term ;
 	orm:token "-koo" ;
 	.
 
-aama:IDd9975043-e318-42da-8ddc-3e07dda84149 a aamas:Term ;
+aama:ID94a9041d-0a2a-4149-b7a2-33a40d542fa4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounProSuff ;
 	orm:case orm:Possessive ;
@@ -582,7 +569,7 @@ aama:IDd9975043-e318-42da-8ddc-3e07dda84149 a aamas:Term ;
 	orm:token "-kee" ;
 	.
 
-aama:IDc34b9b9e-a5e4-48c6-944f-7031704d1286 a aamas:Term ;
+aama:IDa4d21102-f75d-42ca-ae01-dd41af2703cf a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounProSuff ;
 	orm:case orm:Possessive ;
@@ -594,7 +581,7 @@ aama:IDc34b9b9e-a5e4-48c6-944f-7031704d1286 a aamas:Term ;
 	orm:token "-saa" ;
 	.
 
-aama:IDdd8a69e3-0add-49e4-a1ff-f1a8323d6a82 a aamas:Term ;
+aama:ID71019df0-b1e7-41f7-8ccf-ef1af1765b8d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounProSuff ;
 	orm:case orm:Possessive ;
@@ -606,7 +593,7 @@ aama:IDdd8a69e3-0add-49e4-a1ff-f1a8323d6a82 a aamas:Term ;
 	orm:token "-šee" ;
 	.
 
-aama:ID9984ce55-cd60-44c8-9eca-2f54edcf3c8e a aamas:Term ;
+aama:ID8c68dcb0-b1cc-4513-8498-1c893e01c1b3 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounProSuff ;
 	orm:case orm:Possessive ;
@@ -618,7 +605,7 @@ aama:ID9984ce55-cd60-44c8-9eca-2f54edcf3c8e a aamas:Term ;
 	orm:token "-keeɲɲa" ;
 	.
 
-aama:IDe365466b-355d-45bb-8cb8-c7d64507011f a aamas:Term ;
+aama:IDd9049744-b18d-4e1f-bf16-6cb820179075 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounProSuff ;
 	orm:case orm:Possessive ;
@@ -630,7 +617,7 @@ aama:IDe365466b-355d-45bb-8cb8-c7d64507011f a aamas:Term ;
 	orm:token "-keesan" ;
 	.
 
-aama:IDc9808ce5-7efd-46e2-8be7-dd938b77a9ec a aamas:Term ;
+aama:ID056da87e-e3a7-42ee-9bc5-ce726abee6f9 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-PronounProSuff ;
 	orm:case orm:Possessive ;
@@ -642,397 +629,6 @@ aama:IDc9808ce5-7efd-46e2-8be7-dd938b77a9ec a aamas:Term ;
 	orm:token "-saani" ;
 	.
 
-#TERMCLUSTER: orm-Verb-adeem-ConditionalCompoundTenseAffirmative
-
-orm:orm-Verb-adeem-ConditionalCompoundTenseAffirmative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-ConditionalCompoundTenseAffirmative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID4b7cdd81-1c57-4ce6-8fd5-d23b0be9672b a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-ConditionalCompoundTenseAffirmative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:Conditional ;
-	orm:polarity orm:Affirmative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "nan/hin-adeema(n) ture (_NULL)" ;
-	orm:token-note "tur-_past + hín-verb_pres + ture + _NULL + nan/hin-adeema(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-ConditionalCompoundTenseNegative
-
-orm:orm-Verb-adeem-ConditionalCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-ConditionalCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID9215bee8-69d3-4862-ace2-f3233f44aa62 a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-ConditionalCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:Conditional ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "hin-adeemu(n) ture (_NULL)" ;
-	orm:token-note "tur-_past + verb_presNeg + ture + _NULL + hin-adeemu(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-FutureDefiniteCompoundTenseAffirmative
-
-orm:orm-Verb-adeem-FutureDefiniteCompoundTenseAffirmative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-FutureDefiniteCompoundTenseAffirmative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID37851b75-0ea9-4191-bca6-187413e57f42 a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-FutureDefiniteCompoundTenseAffirmative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:FutureDefinite ;
-	orm:polarity orm:Affirmative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemuu-f(an) jira (_NULL)" ;
-	orm:token-note "jir-_pres + verb_infinitive+f + jira + _NULL + adeemuu-f(an)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-FutureDefiniteCompoundTenseNegative
-
-orm:orm-Verb-adeem-FutureDefiniteCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-FutureDefiniteCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID0c0f7835-1268-4645-a461-fd51644e002b a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-FutureDefiniteCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:FutureDefinite ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemuu-f (hi)n-jiru (_NULL)" ;
-	orm:token-note "jir-_presNeg + verb_infinitive+f + (hi)n-jiru + _NULL + adeemuu-f" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-FutureIndefiniteCompoundTenseAffirmative
-
-orm:orm-Verb-adeem-FutureIndefiniteCompoundTenseAffirmative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-FutureIndefiniteCompoundTenseAffirmative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:IDddb0230c-aea5-4cb3-905c-fef427b8a75b a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-FutureIndefiniteCompoundTenseAffirmative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:FutureIndefinite ;
-	orm:polarity orm:Affirmative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "nan/hin-adeema taʔa (_NULL)" ;
-	orm:token-note "taʔa _sg 3 m –invar + hín-verb_pres + taʔa + _NULL + nan/hin-adeema" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-FutureIndefiniteCompoundTenseNegative
-
-orm:orm-Verb-adeem-FutureIndefiniteCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-FutureIndefiniteCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID946ac253-1ebd-4479-aaf0-4173f8052a20 a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-FutureIndefiniteCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:FutureIndefinite ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "hin-adeemu(n) taʔa (_NULL)" ;
-	orm:token-note "taʔa _sg 3 m –invar + verb_presNeg + taʔa + _NULL + hin-adeemu(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-FuturePerfectCompoundTenseNegative
-
-orm:orm-Verb-adeem-FuturePerfectCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-FuturePerfectCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID52bceb75-3e35-40e3-8a96-b6604b987bc0 a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-FuturePerfectCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:FuturePerfect ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemuu-f (hi)n-turre (_NULL)" ;
-	orm:token-note "tur-_pastNeg + verb_infinitive+f + (hi)n-turre + _NULL + adeemuu-f" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PastProgressiveCompoundTenseAffirmative
-
-orm:orm-Verb-adeem-PastProgressiveCompoundTenseAffirmative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PastProgressiveCompoundTenseAffirmative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:IDfd3dafd8-2cbe-4b75-b088-aa951099cc5c a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PastProgressiveCompoundTenseAffirmative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:PastProgressive ;
-	orm:polarity orm:Affirmative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemaa(n) ture (_NULL)" ;
-	orm:token-note "tur-_past + verb_agent + ture + _NULL + adeemaa(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PastProgressiveCompoundTenseNegative
-
-orm:orm-Verb-adeem-PastProgressiveCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PastProgressiveCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:IDcf8d4917-6d6a-49d3-a37c-ce383a6ba7a3 a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PastProgressiveCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:PastProgressive ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemaa (hi)n-turre (_NULL)" ;
-	orm:token-note "tur-_past + verb_agent + (hi)n-turre + _NULL + adeemaa" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PerfectCompoundTenseAffirmative
-
-orm:orm-Verb-adeem-PerfectCompoundTenseAffirmative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PerfectCompoundTenseAffirmative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID587d0cd4-6cff-4a50-a036-7571f0134f6c a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PerfectCompoundTenseAffirmative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:Perfect ;
-	orm:polarity orm:Affirmative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemee(n) jira (adeemeera)" ;
-	orm:token-note "jir-_pres + verb_past + jira + adeemeera + adeemee(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PerfectCompoundTenseNegative
-
-orm:orm-Verb-adeem-PerfectCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PerfectCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:IDf8b12256-833a-458a-bd2e-c5ee76791bbc a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PerfectCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:Perfect ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "hin-adeem-ne ⊤ (_NULL)" ;
-	orm:token-note "⊤ + verb_pastNeg + ⊤ + _NULL + hin-adeem-ne" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PluperfectCompoundTenseAffirmative
-
-orm:orm-Verb-adeem-PluperfectCompoundTenseAffirmative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PluperfectCompoundTenseAffirmative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:IDb288de89-dfbc-48ff-aca5-20cd55fab647 a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PluperfectCompoundTenseAffirmative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:Pluperfect ;
-	orm:polarity orm:Affirmative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemee(n) ture (_NULL)" ;
-	orm:token-note "tur-_past + verb_past + ture + _NULL + adeemee(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PluperfectCompoundTenseNegative
-
-orm:orm-Verb-adeem-PluperfectCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PluperfectCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID9fbf5ded-8d7b-421f-9db1-1d52feda895f a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PluperfectCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:Pluperfect ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "hin-adeemne(n) ture (_NULL)" ;
-	orm:token-note "tur-_past + verb_pastNeg + ture + _NULL + hin-adeemne(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PluperfectProgressiveCompoundTenseAffirmative
-
-orm:orm-Verb-adeem-PluperfectProgressiveCompoundTenseAffirmative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PluperfectProgressiveCompoundTenseAffirmative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID969b3d97-62fa-4c20-8f8b-70d512ce59e1 a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PluperfectProgressiveCompoundTenseAffirmative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:PluperfectProgressive ;
-	orm:polarity orm:Affirmative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemaa(n) jira(n) ture (_NULL)" ;
-	orm:token-note "jir-_pres+ tur-_past + verb_agent + jira(n) ture + _NULL + adeemaa(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PluperfectProgressiveCompoundTenseNegative
-
-orm:orm-Verb-adeem-PluperfectProgressiveCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PluperfectProgressiveCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:IDb5d6c509-344e-4b19-be98-fa492cf742af a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PluperfectProgressiveCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:PluperfectProgressive ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemaa (hi)n-jiru(n) ture (_NULL)" ;
-	orm:token-note "jir-_presNeg+ tur-_past + verb_agent + (hi)n-jiru(n) ture + _NULL + adeemaa" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PresentProgressiveCompoundTenseAffirmative
-
-orm:orm-Verb-adeem-PresentProgressiveCompoundTenseAffirmative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PresentProgressiveCompoundTenseAffirmative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID779b9185-434e-4618-b676-d8d91ff3cb2c a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PresentProgressiveCompoundTenseAffirmative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:PresentProgressive ;
-	orm:polarity orm:Affirmative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemaa(n) jira (_NULL)" ;
-	orm:token-note "jir-_pres + verb_agent + jira + _NULL + adeemaa(n)" ;
-	.
-
-#TERMCLUSTER: orm-Verb-adeem-PresentProgressiveCompoundTenseNegative
-
-orm:orm-Verb-adeem-PresentProgressiveCompoundTenseNegative a aamas:Termcluster ;
-	rdfs:label "orm-Verb-adeem-PresentProgressiveCompoundTenseNegative" ;
-	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main; all verb forms are 'Singular Person3 Masc'" 
-	.
-
-aama:ID16f32edc-7c78-4842-943a-d94e25561e61 a aamas:Term ;
-	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verb-adeem-PresentProgressiveCompoundTenseNegative ;
-	aamas:lexeme orm:lex-adeem ;
-	orm:pos orm:Verb ;
-	orm:tam orm:PresentProgressive ;
-	orm:polarity orm:Negative ;
-	orm:formType orm:CompoundTense ;
-	orm:number orm:Singular ;
-	orm:person orm:Person3 ;
-	orm:gender orm:Masc ;
-	orm:token "adeemaa hin-jiru (_NULL)" ;
-	orm:token-note "jir-_presNeg + verb_agent + hin-jiru + _NULL + adeemaa" ;
-	.
-
 #TERMCLUSTER: orm-Verb-beek-
 
 orm:orm-Verb-beek- a aamas:Termcluster ;
@@ -1041,7 +637,7 @@ orm:orm-Verb-beek- a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDf7a3aa29-7993-40c0-b9cd-4ad20fc2428d a aamas:Term ;
+aama:IDbe8dfb12-2147-4e93-af91-914283a358a5 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1051,7 +647,7 @@ aama:IDf7a3aa29-7993-40c0-b9cd-4ad20fc2428d a aamas:Term ;
 	orm:token "beek-sis-aa" ;
 	.
 
-aama:ID90fe9e20-133b-4841-b109-a1bec7522230 a aamas:Term ;
+aama:ID64a08333-8b8f-4092-b623-2b734040b657 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1061,7 +657,7 @@ aama:ID90fe9e20-133b-4841-b109-a1bec7522230 a aamas:Term ;
 	orm:token "beek-am-naan" ;
 	.
 
-aama:ID61c1e896-2601-4ef2-be46-d0c78a6c1783 a aamas:Term ;
+aama:ID88bf30d3-be92-41dc-b502-5d0d2b4724e4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1071,7 +667,7 @@ aama:ID61c1e896-2601-4ef2-be46-d0c78a6c1783 a aamas:Term ;
 	orm:token "beek-aa" ;
 	.
 
-aama:ID768cdc99-a81a-494c-b30c-9da779f41661 a aamas:Term ;
+aama:IDa781879b-accf-45f6-a179-73fea81c028b a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1081,7 +677,7 @@ aama:ID768cdc99-a81a-494c-b30c-9da779f41661 a aamas:Term ;
 	orm:token "beek-an-naan" ;
 	.
 
-aama:IDa303a33b-70c4-4995-a9fc-90ac1049f26b a aamas:Term ;
+aama:ID1ffb08df-b798-4085-a1c3-dab6b2c4ce60 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1091,7 +687,7 @@ aama:IDa303a33b-70c4-4995-a9fc-90ac1049f26b a aamas:Term ;
 	orm:token "beek-uu" ;
 	.
 
-aama:ID40f9aa5f-3331-4eab-be12-19ddfc1bd9e7 a aamas:Term ;
+aama:ID3d6cc4c4-e95b-46a1-b5d1-78d9867ed119 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1101,7 +697,7 @@ aama:ID40f9aa5f-3331-4eab-be12-19ddfc1bd9e7 a aamas:Term ;
 	orm:token "beek-at-aa" ;
 	.
 
-aama:ID7ce829ac-ef52-4ad6-9048-34e055a6fe1b a aamas:Term ;
+aama:IDdcce8ff2-89d9-4054-8bd8-a0af2ae0e5d6 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1111,7 +707,7 @@ aama:ID7ce829ac-ef52-4ad6-9048-34e055a6fe1b a aamas:Term ;
 	orm:token "beek-naan" ;
 	.
 
-aama:ID2fcdf992-76ce-46ce-b857-8461f2837d9e a aamas:Term ;
+aama:ID3b446d7f-24f3-4e5d-a1c4-6efe69d60429 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1121,7 +717,7 @@ aama:ID2fcdf992-76ce-46ce-b857-8461f2837d9e a aamas:Term ;
 	orm:token "beek-sis-uu" ;
 	.
 
-aama:IDe943b1a6-7c21-44c9-9ae6-d2ca13fda549 a aamas:Term ;
+aama:ID7971dcfd-9c28-4202-a463-41896f61675b a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1131,7 +727,7 @@ aama:IDe943b1a6-7c21-44c9-9ae6-d2ca13fda549 a aamas:Term ;
 	orm:token "beek-am-aa" ;
 	.
 
-aama:ID4da58b80-e05d-4454-8859-801115d1ea45 a aamas:Term ;
+aama:ID80f67898-c5f6-4ef7-8c9c-5e32a59316e4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1141,7 +737,7 @@ aama:ID4da58b80-e05d-4454-8859-801115d1ea45 a aamas:Term ;
 	orm:token "beek-am-uu" ;
 	.
 
-aama:ID7562d858-5f2f-420b-ab53-f02ba5718b62 a aamas:Term ;
+aama:IDfd8c2cea-2a58-4b3a-a128-0332c673c23e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1151,7 +747,7 @@ aama:ID7562d858-5f2f-420b-ab53-f02ba5718b62 a aamas:Term ;
 	orm:token "beek-at-uu" ;
 	.
 
-aama:ID9db6854a-46a0-46e2-bf80-652e63f0f1f3 a aamas:Term ;
+aama:ID773a9d01-615c-4b05-8e10-29435ef7acc8 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek- ;
 	aamas:lexeme orm:lex-beek ;
@@ -1169,7 +765,7 @@ orm:orm-Verb-beek-BImperativeAffirmative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDd3cf9363-905c-420e-ad26-cc272e6124df a aamas:Term ;
+aama:ID411514e5-22ee-4843-b67c-852ae3077062 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BImperativeAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1183,7 +779,7 @@ aama:IDd3cf9363-905c-420e-ad26-cc272e6124df a aamas:Term ;
 	orm:token "beek-i ~ -u" ;
 	.
 
-aama:IDf59ebd9c-9398-430e-903b-f60b6ae1cd91 a aamas:Term ;
+aama:ID3ce7b703-d4cc-40fe-b2c1-bd5d37511e17 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BImperativeAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1205,7 +801,7 @@ orm:orm-Verb-beek-BImperativeNegative a aamas:Termcluster ;
 	rdfs:comment "G76p." 
 	.
 
-aama:ID44ac901f-611b-4d3a-bd63-5d4ec5f2b024 a aamas:Term ;
+aama:ID0bb2cd0f-c958-44fb-82e4-b8798f8f2e02 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BImperativeNegative ;
 	orm:derivedStem orm:B ;
@@ -1219,7 +815,7 @@ aama:ID44ac901f-611b-4d3a-bd63-5d4ec5f2b024 a aamas:Term ;
 	orm:token "beek-ini" ;
 	.
 
-aama:IDccdc4764-e492-4bad-83e8-f87c3c1029fa a aamas:Term ;
+aama:IDd4ada08f-ecfc-463d-a830-fd1369ffd85f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BImperativeNegative ;
 	orm:derivedStem orm:B ;
@@ -1238,10 +834,10 @@ aama:IDccdc4764-e492-4bad-83e8-f87c3c1029fa a aamas:Term ;
 orm:orm-Verb-beek-BJussiveAffirmative a aamas:Termcluster ;
 	rdfs:label "orm-Verb-beek-BJussiveAffirmative" ;
 	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.188" 
+	rdfs:comment "G76p.188 :: Structure: ha-Verb_pres-aff-sub" 
 	.
 
-aama:ID90b165c0-e52c-4a5a-ad97-e0af7ff1e450 a aamas:Term ;
+aama:ID948b853b-febf-4663-823d-489df6b8334a a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BJussiveAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1253,7 +849,6 @@ aama:ID90b165c0-e52c-4a5a-ad97-e0af7ff1e450 a aamas:Term ;
 	orm:person orm:Person3 ;
 	orm:gender orm:Masc ;
 	orm:token "ha-beek-u" ;
-	orm:token-note "ha-Verb_pres-aff-sub" ;
 	.
 
 #TERMCLUSTER: orm-Verb-beek-BJussiveNegative
@@ -1261,10 +856,10 @@ aama:ID90b165c0-e52c-4a5a-ad97-e0af7ff1e450 a aamas:Term ;
 orm:orm-Verb-beek-BJussiveNegative a aamas:Termcluster ;
 	rdfs:label "orm-Verb-beek-BJussiveNegative" ;
 	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.188" 
+	rdfs:comment "G76p.188 :: Structure: hin-VerbStem-in_invariant" 
 	.
 
-aama:IDe1f4a3fa-3cba-410d-a624-930aa04468e4 a aamas:Term ;
+aama:ID868c25b7-8e50-48f2-b186-92a67ec21bbd a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BJussiveNegative ;
 	orm:derivedStem orm:B ;
@@ -1276,7 +871,6 @@ aama:IDe1f4a3fa-3cba-410d-a624-930aa04468e4 a aamas:Term ;
 	orm:person orm:Person3 ;
 	orm:gender orm:Masc ;
 	orm:token "hin-beek-in" ;
-	orm:token-note "hin-VerbStem-in_invariant" ;
 	.
 
 #TERMCLUSTER: orm-Verb-beek-BPastAffirmative
@@ -1287,7 +881,7 @@ orm:orm-Verb-beek-BPastAffirmative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDf2f72081-e114-42a8-8312-40335c2df300 a aamas:Term ;
+aama:ID0fdf5adf-f8f3-43e0-85ea-2fe9f1b95f13 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1301,7 +895,7 @@ aama:IDf2f72081-e114-42a8-8312-40335c2df300 a aamas:Term ;
 	orm:token "beek-e" ;
 	.
 
-aama:IDad910091-8d0e-410c-9b08-40fa08171cae a aamas:Term ;
+aama:ID435fb205-ab52-4718-aec9-f5aa9615e8fe a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1315,7 +909,7 @@ aama:IDad910091-8d0e-410c-9b08-40fa08171cae a aamas:Term ;
 	orm:token "beek-te" ;
 	.
 
-aama:ID833de4c7-ea46-4f40-acce-5ce58520805b a aamas:Term ;
+aama:ID9346ad66-1166-4d0f-879e-2532a5f417c3 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1329,7 +923,7 @@ aama:ID833de4c7-ea46-4f40-acce-5ce58520805b a aamas:Term ;
 	orm:token "beek-e" ;
 	.
 
-aama:ID78bcbd24-88d9-45e6-aa78-1c30e27ce02d a aamas:Term ;
+aama:IDdbf3cf8d-6c8b-441c-bb2c-3a24210c8f31 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1343,7 +937,7 @@ aama:ID78bcbd24-88d9-45e6-aa78-1c30e27ce02d a aamas:Term ;
 	orm:token "beek-te" ;
 	.
 
-aama:IDee47d56e-a102-4a52-bb27-18cc84f0e054 a aamas:Term ;
+aama:IDc3913ef3-9bef-4d74-9c0b-52fc9f158a0f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1357,7 +951,7 @@ aama:IDee47d56e-a102-4a52-bb27-18cc84f0e054 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID13ab0e85-2ff3-4aca-aefa-bab04c836ff8 a aamas:Term ;
+aama:IDc56fbb3e-9372-4a1f-94fd-d3ea7ae62b78 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1371,7 +965,7 @@ aama:ID13ab0e85-2ff3-4aca-aefa-bab04c836ff8 a aamas:Term ;
 	orm:token "beek-tan(i)" ;
 	.
 
-aama:ID1f8ce7d9-803a-4a10-be74-338d61dd03ca a aamas:Term ;
+aama:IDff4f7a77-9998-46b7-86ed-3e0e0cb06b7e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastAffirmative ;
 	orm:derivedStem orm:B ;
@@ -1393,7 +987,7 @@ orm:orm-Verb-beek-BPastNegative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDb62aa470-b0ff-47db-b2a9-d435857c550a a aamas:Term ;
+aama:IDbe1665c3-77f8-4f48-95c9-e4dfbe6cf441 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastNegative ;
 	orm:derivedStem orm:B ;
@@ -1407,7 +1001,7 @@ aama:IDb62aa470-b0ff-47db-b2a9-d435857c550a a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID4eb16d8c-2464-45c8-bf66-2fb469348e56 a aamas:Term ;
+aama:ID4b2a5566-9984-4959-b009-795c4b9fe08c a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastNegative ;
 	orm:derivedStem orm:B ;
@@ -1421,7 +1015,7 @@ aama:ID4eb16d8c-2464-45c8-bf66-2fb469348e56 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID35321101-db21-4671-9b42-7abae78413d3 a aamas:Term ;
+aama:ID14846ed3-aa0c-4ec8-9c3f-725ef4855625 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastNegative ;
 	orm:derivedStem orm:B ;
@@ -1435,7 +1029,7 @@ aama:ID35321101-db21-4671-9b42-7abae78413d3 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID83954375-2b21-4a36-8bba-6be39716bc48 a aamas:Term ;
+aama:ID601aac9d-d69c-450e-a702-eb064cc7cdf6 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastNegative ;
 	orm:derivedStem orm:B ;
@@ -1449,7 +1043,7 @@ aama:ID83954375-2b21-4a36-8bba-6be39716bc48 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:IDab1ac688-16f4-4b60-bb1b-4e69ce071d71 a aamas:Term ;
+aama:IDa4a1d730-851c-4915-b7c2-e635a7f684c7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastNegative ;
 	orm:derivedStem orm:B ;
@@ -1463,7 +1057,7 @@ aama:IDab1ac688-16f4-4b60-bb1b-4e69ce071d71 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:IDfd0b4186-c832-4334-873f-6991a69694bd a aamas:Term ;
+aama:ID4522b697-c0b9-4e73-b12e-639ef43c0485 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastNegative ;
 	orm:derivedStem orm:B ;
@@ -1477,7 +1071,7 @@ aama:IDfd0b4186-c832-4334-873f-6991a69694bd a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:IDb17ea7b3-5f79-4239-9908-2ab67ad33587 a aamas:Term ;
+aama:ID4dab1496-c2dc-4f8a-828a-8be9c990d96f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPastNegative ;
 	orm:derivedStem orm:B ;
@@ -1499,7 +1093,7 @@ orm:orm-Verb-beek-BPresentAffirmativeMain a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDb2b930f4-5f2c-43db-b481-22166b5ae704 a aamas:Term ;
+aama:ID0ea7426c-da4c-48d1-bf6e-472fa14b936f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -1514,7 +1108,7 @@ aama:IDb2b930f4-5f2c-43db-b481-22166b5ae704 a aamas:Term ;
 	orm:token "beek-a" ;
 	.
 
-aama:ID6f33d8f1-e471-4548-a2b5-b7ff3945afb7 a aamas:Term ;
+aama:ID936ef4ab-1e02-4eff-a335-8295765ec24f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -1529,7 +1123,7 @@ aama:ID6f33d8f1-e471-4548-a2b5-b7ff3945afb7 a aamas:Term ;
 	orm:token "beek-ta" ;
 	.
 
-aama:ID77c0d515-fbee-4b50-b49b-47c3d00829ad a aamas:Term ;
+aama:ID1db84105-88ae-4f19-9404-e0be4d54d323 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -1544,7 +1138,7 @@ aama:ID77c0d515-fbee-4b50-b49b-47c3d00829ad a aamas:Term ;
 	orm:token "beek-a" ;
 	.
 
-aama:ID32d3b219-4bd1-4a25-ad32-216e1d8dde69 a aamas:Term ;
+aama:IDba3ac802-029a-4c8a-aa51-186491f88592 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -1559,7 +1153,7 @@ aama:ID32d3b219-4bd1-4a25-ad32-216e1d8dde69 a aamas:Term ;
 	orm:token "beek-ti" ;
 	.
 
-aama:IDd45efe0c-50cc-4904-9d61-3f2807174619 a aamas:Term ;
+aama:ID745f5582-8950-4877-b575-831940d3f554 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -1574,7 +1168,7 @@ aama:IDd45efe0c-50cc-4904-9d61-3f2807174619 a aamas:Term ;
 	orm:token "beek-na" ;
 	.
 
-aama:ID1907287f-123b-45c1-8c33-6ad6cb14dc61 a aamas:Term ;
+aama:ID296e1756-0490-4908-aa05-fe34749ad4f4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -1589,7 +1183,7 @@ aama:ID1907287f-123b-45c1-8c33-6ad6cb14dc61 a aamas:Term ;
 	orm:token "beek-tu" ;
 	.
 
-aama:ID54b16693-703f-4a90-a6f9-dbe4a655f9b5 a aamas:Term ;
+aama:ID43957e7d-56be-44e6-a637-04e33f8e2635 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -1612,7 +1206,7 @@ orm:orm-Verb-beek-BPresentAffirmativeSubordinate a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID890b7a8f-a125-4660-80fc-0dd409cfd213 a aamas:Term ;
+aama:ID861abb56-a534-4b9a-afb3-ccabb67db3e0 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1627,7 +1221,7 @@ aama:ID890b7a8f-a125-4660-80fc-0dd409cfd213 a aamas:Term ;
 	orm:token "beek-u" ;
 	.
 
-aama:ID5bc3c385-9ff2-4fc0-bb3c-b71baeee5e71 a aamas:Term ;
+aama:IDb3349de0-51f7-4740-8d68-433687996414 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1642,7 +1236,7 @@ aama:ID5bc3c385-9ff2-4fc0-bb3c-b71baeee5e71 a aamas:Term ;
 	orm:token "beek-tu" ;
 	.
 
-aama:IDc76d952c-a4ce-46a2-9b51-3cb2e0a80928 a aamas:Term ;
+aama:IDc3d5a7ed-51d7-43a0-a10a-b94657b4b028 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1657,7 +1251,7 @@ aama:IDc76d952c-a4ce-46a2-9b51-3cb2e0a80928 a aamas:Term ;
 	orm:token "beek-u" ;
 	.
 
-aama:ID7a1cb9b3-b9f9-4ca3-ad67-0cec16a68d19 a aamas:Term ;
+aama:ID7add9771-0365-49f6-84ad-b87f3227e351 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1672,7 +1266,7 @@ aama:ID7a1cb9b3-b9f9-4ca3-ad67-0cec16a68d19 a aamas:Term ;
 	orm:token "beek-tu" ;
 	.
 
-aama:ID39d54744-2108-4245-8750-ce3c44380f5a a aamas:Term ;
+aama:IDf7d71f22-3507-4d40-8bc9-85907728a24f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1687,7 +1281,7 @@ aama:ID39d54744-2108-4245-8750-ce3c44380f5a a aamas:Term ;
 	orm:token "beek-nu" ;
 	.
 
-aama:ID13f44486-2190-4c1e-84fc-9e077b112239 a aamas:Term ;
+aama:ID71f48654-e07c-4794-b0d1-89280521b64b a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1702,7 +1296,7 @@ aama:ID13f44486-2190-4c1e-84fc-9e077b112239 a aamas:Term ;
 	orm:token "beek-tani/u" ;
 	.
 
-aama:ID8ebc484a-0370-4761-acfb-58519498ae6f a aamas:Term ;
+aama:ID85ba0242-3289-44a5-be79-39e46cd535ff a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1725,7 +1319,7 @@ orm:orm-Verb-beek-BPresentNegativeMain a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDe8cc53b9-2396-4f5b-b048-787ebc7bc22e a aamas:Term ;
+aama:ID7e6ca718-30fc-42d1-a3e0-1c72dffd5289 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -1740,7 +1334,7 @@ aama:IDe8cc53b9-2396-4f5b-b048-787ebc7bc22e a aamas:Term ;
 	orm:token "beek-u" ;
 	.
 
-aama:IDd71f24ef-cad8-4430-bdf4-53b7f1f4a1ab a aamas:Term ;
+aama:IDbe5ec0cd-a8b9-4778-80c9-51f0e1b3dedf a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -1755,7 +1349,7 @@ aama:IDd71f24ef-cad8-4430-bdf4-53b7f1f4a1ab a aamas:Term ;
 	orm:token "beek-tu" ;
 	.
 
-aama:ID7a80788e-f463-42db-9486-ae98b4a10b00 a aamas:Term ;
+aama:ID26cf0f47-0a9b-4301-97da-fc432b57c663 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -1770,7 +1364,7 @@ aama:ID7a80788e-f463-42db-9486-ae98b4a10b00 a aamas:Term ;
 	orm:token "beek-u" ;
 	.
 
-aama:ID28dcff0b-3f40-4bab-a2d0-c8633bb1e905 a aamas:Term ;
+aama:IDd9d60cbb-21d6-44e3-9fe3-53148ac640be a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -1785,7 +1379,7 @@ aama:ID28dcff0b-3f40-4bab-a2d0-c8633bb1e905 a aamas:Term ;
 	orm:token "beek-tu" ;
 	.
 
-aama:IDe8e90d0e-f12a-46fb-8a24-0c7324127c89 a aamas:Term ;
+aama:ID09dad4af-8033-496a-b33f-0172a02cabab a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -1800,7 +1394,7 @@ aama:IDe8e90d0e-f12a-46fb-8a24-0c7324127c89 a aamas:Term ;
 	orm:token "beek-nu" ;
 	.
 
-aama:ID2b1ce953-6336-4422-a8a9-ba8ff9259f3f a aamas:Term ;
+aama:ID68770419-31e1-46e9-aeeb-2bc99a2c2988 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -1815,7 +1409,7 @@ aama:ID2b1ce953-6336-4422-a8a9-ba8ff9259f3f a aamas:Term ;
 	orm:token "beek-tani/u" ;
 	.
 
-aama:IDded644be-c5e0-4dba-9f9d-b26c113f11fe a aamas:Term ;
+aama:IDbe6aa3df-3ae5-4538-895b-f2d26ac073dc a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -1838,7 +1432,7 @@ orm:orm-Verb-beek-BPresentNegativeSubordinate a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID735ece68-1db9-45a1-ba7a-74350c65df29 a aamas:Term ;
+aama:IDd70202cb-adb5-4181-98b6-0ac5d2e490ea a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1853,7 +1447,7 @@ aama:ID735ece68-1db9-45a1-ba7a-74350c65df29 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID9ee5d221-e5d2-4936-934b-4c41ca631926 a aamas:Term ;
+aama:ID69767fae-bc04-4796-bb03-71b2d8021e30 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1868,7 +1462,7 @@ aama:ID9ee5d221-e5d2-4936-934b-4c41ca631926 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID372ff555-c249-49b6-99c2-6fefc1a3f677 a aamas:Term ;
+aama:ID4d2bd459-ad02-4090-962a-393094f8b1fb a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1883,7 +1477,7 @@ aama:ID372ff555-c249-49b6-99c2-6fefc1a3f677 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:IDf65320c1-f514-45ac-962c-897b49a98c29 a aamas:Term ;
+aama:IDd11d2421-c00a-47cc-bc8f-ab681d765e96 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1898,7 +1492,7 @@ aama:IDf65320c1-f514-45ac-962c-897b49a98c29 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID46a13dbf-4ffd-4e03-8973-0aac55c44374 a aamas:Term ;
+aama:ID4a7b5720-33eb-436a-b2cb-eb0862a28fa3 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1913,7 +1507,7 @@ aama:ID46a13dbf-4ffd-4e03-8973-0aac55c44374 a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID63c3a5fe-f817-4ce7-b790-1953fd20d12d a aamas:Term ;
+aama:IDb049e09e-149b-41ed-b941-0e5f4cb0ab1f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1928,7 +1522,7 @@ aama:ID63c3a5fe-f817-4ce7-b790-1953fd20d12d a aamas:Term ;
 	orm:token "beek-ne" ;
 	.
 
-aama:ID0a222f89-374c-478c-862d-49639f1a6ea2 a aamas:Term ;
+aama:ID22bb7906-3136-409d-b28b-4971ff00d6fb a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-BPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -1951,7 +1545,7 @@ orm:orm-Verb-beek-MImperativeAffirmative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDb19b3aba-5e38-4f6c-a57e-4d553477113f a aamas:Term ;
+aama:IDbb1a187e-ceeb-43ad-afaa-619d7b3a0159 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MImperativeAffirmative ;
 	orm:derivedStem orm:M ;
@@ -1965,7 +1559,7 @@ aama:IDb19b3aba-5e38-4f6c-a57e-4d553477113f a aamas:Term ;
 	orm:token "beek-am-i ~ -u" ;
 	.
 
-aama:ID8213ca42-bf81-48cf-a8d0-28650ad5b5ce a aamas:Term ;
+aama:ID06d34bb0-4e3f-402c-a487-f1a4e6be77ff a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MImperativeAffirmative ;
 	orm:derivedStem orm:M ;
@@ -1987,7 +1581,7 @@ orm:orm-Verb-beek-MImperativeNegative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDc8651d4a-d855-4137-875a-a12b31609e75 a aamas:Term ;
+aama:IDed3080a5-8143-4fe7-8871-26b87dfde3af a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MImperativeNegative ;
 	orm:derivedStem orm:M ;
@@ -2001,7 +1595,7 @@ aama:IDc8651d4a-d855-4137-875a-a12b31609e75 a aamas:Term ;
 	orm:token "beek-am-ini" ;
 	.
 
-aama:IDacd0fd57-c953-4b15-9219-bff624f57d85 a aamas:Term ;
+aama:ID8b273c44-0801-4124-af9a-577611a10f3f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MImperativeNegative ;
 	orm:derivedStem orm:M ;
@@ -2020,10 +1614,10 @@ aama:IDacd0fd57-c953-4b15-9219-bff624f57d85 a aamas:Term ;
 orm:orm-Verb-beek-MJussiveAffirmative a aamas:Termcluster ;
 	rdfs:label "orm-Verb-beek-MJussiveAffirmative" ;
 	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.188" 
+	rdfs:comment "G76p.188 :: Structure: ha-Verb_pres-aff-sub" 
 	.
 
-aama:ID6fb2832c-2a0e-4def-8033-5823f719e804 a aamas:Term ;
+aama:ID4ad7891d-4368-4c82-a826-bee46b5cefd2 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MJussiveAffirmative ;
 	orm:derivedStem orm:M ;
@@ -2035,7 +1629,6 @@ aama:ID6fb2832c-2a0e-4def-8033-5823f719e804 a aamas:Term ;
 	orm:person orm:Person3 ;
 	orm:gender orm:Masc ;
 	orm:token "ha-beek-am-u" ;
-	orm:token-note "ha-Verb_pres-aff-sub" ;
 	.
 
 #TERMCLUSTER: orm-Verb-beek-MJussiveNegative
@@ -2043,10 +1636,10 @@ aama:ID6fb2832c-2a0e-4def-8033-5823f719e804 a aamas:Term ;
 orm:orm-Verb-beek-MJussiveNegative a aamas:Termcluster ;
 	rdfs:label "orm-Verb-beek-MJussiveNegative" ;
 	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.188" 
+	rdfs:comment "G76p.188 :: Structure: hin-VerbStem-in_invariant" 
 	.
 
-aama:ID700248b9-a7c1-47a3-afad-6ef8d64d4e85 a aamas:Term ;
+aama:ID835d8922-f3bb-4322-b24f-13589e73bf55 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MJussiveNegative ;
 	orm:derivedStem orm:M ;
@@ -2058,7 +1651,6 @@ aama:ID700248b9-a7c1-47a3-afad-6ef8d64d4e85 a aamas:Term ;
 	orm:person orm:Person3 ;
 	orm:gender orm:Masc ;
 	orm:token "hin-beek-am-in" ;
-	orm:token-note "hin-VerbStem-in_invariant" ;
 	.
 
 #TERMCLUSTER: orm-Verb-beek-MPastAffirmative
@@ -2069,7 +1661,7 @@ orm:orm-Verb-beek-MPastAffirmative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID5d248bd9-1a5b-483a-9896-064c39befec4 a aamas:Term ;
+aama:IDb9ae0990-9c1b-40d0-b65c-d762f2e92d22 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastAffirmative ;
 	orm:derivedStem orm:M ;
@@ -2083,7 +1675,7 @@ aama:ID5d248bd9-1a5b-483a-9896-064c39befec4 a aamas:Term ;
 	orm:token "beek-am-e" ;
 	.
 
-aama:ID3081054a-6919-4ec6-a129-87da547f26f7 a aamas:Term ;
+aama:ID94846c7b-762e-474e-be46-401e1257b529 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastAffirmative ;
 	orm:derivedStem orm:M ;
@@ -2097,7 +1689,7 @@ aama:ID3081054a-6919-4ec6-a129-87da547f26f7 a aamas:Term ;
 	orm:token "beek-am-te" ;
 	.
 
-aama:ID774f3568-9d39-4aae-bd2d-b93681d10e2d a aamas:Term ;
+aama:ID1f6c26d1-196b-4493-94ed-fbf6f3e6e9c4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastAffirmative ;
 	orm:derivedStem orm:M ;
@@ -2111,7 +1703,7 @@ aama:ID774f3568-9d39-4aae-bd2d-b93681d10e2d a aamas:Term ;
 	orm:token "beek-am-e" ;
 	.
 
-aama:ID0e3a5284-fe46-4484-b22e-1de47ed3d5f0 a aamas:Term ;
+aama:ID94e3b61e-7425-4aff-bb87-08d38020ee86 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastAffirmative ;
 	orm:derivedStem orm:M ;
@@ -2125,7 +1717,7 @@ aama:ID0e3a5284-fe46-4484-b22e-1de47ed3d5f0 a aamas:Term ;
 	orm:token "beek-am-te" ;
 	.
 
-aama:IDa9f2063a-9a7e-495a-94f6-f30d5f8446ef a aamas:Term ;
+aama:ID797c3167-d4ab-4d3f-a711-05fd06af80f2 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastAffirmative ;
 	orm:derivedStem orm:M ;
@@ -2139,7 +1731,7 @@ aama:IDa9f2063a-9a7e-495a-94f6-f30d5f8446ef a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID622bfa94-e7a3-4a20-b3d2-38e6d882a51e a aamas:Term ;
+aama:ID42b2745f-b7fe-427e-9d2b-558c67618b51 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastAffirmative ;
 	orm:derivedStem orm:M ;
@@ -2153,7 +1745,7 @@ aama:ID622bfa94-e7a3-4a20-b3d2-38e6d882a51e a aamas:Term ;
 	orm:token "beek-am-tan(i)" ;
 	.
 
-aama:IDa7f1a983-540c-456e-a07d-76dbb4b62dcc a aamas:Term ;
+aama:ID0de012cc-5e67-440c-8fed-5711aa9decf1 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastAffirmative ;
 	orm:derivedStem orm:M ;
@@ -2175,7 +1767,7 @@ orm:orm-Verb-beek-MPastNegative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID9a98e98a-3b9e-468a-ba6d-1d8bda55bb9a a aamas:Term ;
+aama:IDde0407c9-f58f-4ca2-aaec-1b4fe48f077f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastNegative ;
 	orm:derivedStem orm:M ;
@@ -2189,7 +1781,7 @@ aama:ID9a98e98a-3b9e-468a-ba6d-1d8bda55bb9a a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID7be974cb-8c62-4119-bf57-0729e33f5dc8 a aamas:Term ;
+aama:IDadaa9762-46c1-40c3-9802-44b81dc95761 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastNegative ;
 	orm:derivedStem orm:M ;
@@ -2203,7 +1795,7 @@ aama:ID7be974cb-8c62-4119-bf57-0729e33f5dc8 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID325319fb-f9ec-44ae-89a6-36e598fc2cd2 a aamas:Term ;
+aama:IDf88b60f2-eb52-42bf-af5f-db2b38ca97d9 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastNegative ;
 	orm:derivedStem orm:M ;
@@ -2217,7 +1809,7 @@ aama:ID325319fb-f9ec-44ae-89a6-36e598fc2cd2 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID5043cfc9-0ce2-4972-9925-ac85dc87f748 a aamas:Term ;
+aama:IDc1ad3a05-8a96-49cd-b57d-f33d6948c96d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastNegative ;
 	orm:derivedStem orm:M ;
@@ -2231,7 +1823,7 @@ aama:ID5043cfc9-0ce2-4972-9925-ac85dc87f748 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID262dbbd0-d5b8-4e76-ba48-6b204b90a833 a aamas:Term ;
+aama:ID528ab39d-3a4a-4864-ba2d-8bad6e2d0f70 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastNegative ;
 	orm:derivedStem orm:M ;
@@ -2245,7 +1837,7 @@ aama:ID262dbbd0-d5b8-4e76-ba48-6b204b90a833 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:IDfd7fb79b-aa7e-4fb4-a5de-2a21859e84be a aamas:Term ;
+aama:ID063321cb-9563-4baa-a167-044d046972bd a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastNegative ;
 	orm:derivedStem orm:M ;
@@ -2259,7 +1851,7 @@ aama:IDfd7fb79b-aa7e-4fb4-a5de-2a21859e84be a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID2922885f-8e85-4419-ab3a-5a269b20a2f6 a aamas:Term ;
+aama:ID1584487d-6378-405d-9d7c-817e88fafa21 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPastNegative ;
 	orm:derivedStem orm:M ;
@@ -2281,7 +1873,7 @@ orm:orm-Verb-beek-MPresentAffirmativeMain a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID2dfd822d-1359-418a-aeac-6e30b6b8b602 a aamas:Term ;
+aama:ID1ce483ba-54a7-4931-9e4b-9cc083e00e9d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -2296,7 +1888,7 @@ aama:ID2dfd822d-1359-418a-aeac-6e30b6b8b602 a aamas:Term ;
 	orm:token "beek-am-a" ;
 	.
 
-aama:ID368cdfec-56f0-43eb-9c89-0d7230ee21a1 a aamas:Term ;
+aama:ID199f322b-97df-41b3-9e6a-e69f96e1f03e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -2311,7 +1903,7 @@ aama:ID368cdfec-56f0-43eb-9c89-0d7230ee21a1 a aamas:Term ;
 	orm:token "beek-am-ta" ;
 	.
 
-aama:ID76baf8a9-ba1c-444e-ac54-84dbdad5326c a aamas:Term ;
+aama:IDe5e244e0-7e60-4ef8-80d6-6cb898e2d1e5 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -2326,7 +1918,7 @@ aama:ID76baf8a9-ba1c-444e-ac54-84dbdad5326c a aamas:Term ;
 	orm:token "beek-am-a" ;
 	.
 
-aama:ID9546c966-d0b5-4993-bc1b-58e86ce9c1a4 a aamas:Term ;
+aama:ID02b91a5b-4964-4561-8692-7d0cecac7655 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -2341,7 +1933,7 @@ aama:ID9546c966-d0b5-4993-bc1b-58e86ce9c1a4 a aamas:Term ;
 	orm:token "beek-am-ti" ;
 	.
 
-aama:ID5d8bc457-e193-4d97-bac6-51e37d37324b a aamas:Term ;
+aama:IDa823df13-672a-4288-9dac-7f67bceb375f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -2356,7 +1948,7 @@ aama:ID5d8bc457-e193-4d97-bac6-51e37d37324b a aamas:Term ;
 	orm:token "beek-am-na" ;
 	.
 
-aama:ID83ba494b-75cc-4356-9359-6bcf7d4dae6b a aamas:Term ;
+aama:ID1bab838b-0415-4e39-acdf-b163180dd49f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -2371,7 +1963,7 @@ aama:ID83ba494b-75cc-4356-9359-6bcf7d4dae6b a aamas:Term ;
 	orm:token "beek-am-tu" ;
 	.
 
-aama:ID80076ede-0fd5-440a-aba5-5b47cad2f056 a aamas:Term ;
+aama:ID7e618587-2432-4d23-827e-1ad141f4494e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -2394,7 +1986,7 @@ orm:orm-Verb-beek-MPresentAffirmativeSubordinate a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID4190c381-a0a2-498a-a055-16ed9fc77cc7 a aamas:Term ;
+aama:IDa301ed77-23cd-43b7-aeb2-ed1493dd47df a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2409,7 +2001,7 @@ aama:ID4190c381-a0a2-498a-a055-16ed9fc77cc7 a aamas:Term ;
 	orm:token "beek-am-u" ;
 	.
 
-aama:ID184266bc-0655-4ab4-a873-6c05ca42b6bb a aamas:Term ;
+aama:IDd61aab43-68e4-46a9-b8e0-36c95bc45fec a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2424,7 +2016,7 @@ aama:ID184266bc-0655-4ab4-a873-6c05ca42b6bb a aamas:Term ;
 	orm:token "beek-am-tu" ;
 	.
 
-aama:IDbda3247d-cde4-4650-a844-0851813d8774 a aamas:Term ;
+aama:ID7c3b2181-9067-49f0-bece-f383b9485c20 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2439,7 +2031,7 @@ aama:IDbda3247d-cde4-4650-a844-0851813d8774 a aamas:Term ;
 	orm:token "beek-am-u" ;
 	.
 
-aama:IDe267dbae-6efd-46fc-92a2-9612c281e238 a aamas:Term ;
+aama:ID90ec3733-dc90-41d6-93e4-efc92302596c a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2454,7 +2046,7 @@ aama:IDe267dbae-6efd-46fc-92a2-9612c281e238 a aamas:Term ;
 	orm:token "beek-am-tu" ;
 	.
 
-aama:ID3dd4e9fa-cc57-48fb-a726-4d40a988c295 a aamas:Term ;
+aama:IDca9cbb95-e875-47cc-b8c7-27ea77721e35 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2469,7 +2061,7 @@ aama:ID3dd4e9fa-cc57-48fb-a726-4d40a988c295 a aamas:Term ;
 	orm:token "beek-am-nu" ;
 	.
 
-aama:IDd2eaf47d-5727-44dd-8d72-10ba4bc12f39 a aamas:Term ;
+aama:ID3ff587d5-88f7-43a8-abcf-dabd7ec42650 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2484,7 +2076,7 @@ aama:IDd2eaf47d-5727-44dd-8d72-10ba4bc12f39 a aamas:Term ;
 	orm:token "beek-am-tani/u" ;
 	.
 
-aama:ID21bf15e0-6545-43f3-9459-520d65f530c9 a aamas:Term ;
+aama:ID9098f227-f7f7-43ce-b282-7d06800cdfe7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2507,7 +2099,7 @@ orm:orm-Verb-beek-MPresentNegativeMain a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID8d4dd762-d62d-439d-82fc-8e1adfe7ead8 a aamas:Term ;
+aama:ID44f0227c-4f12-4f73-b015-1fe064bc222d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -2522,7 +2114,7 @@ aama:ID8d4dd762-d62d-439d-82fc-8e1adfe7ead8 a aamas:Term ;
 	orm:token "beek-am-u" ;
 	.
 
-aama:ID317308fe-d529-4ebd-85e4-d02c9372468b a aamas:Term ;
+aama:ID672df933-9886-4146-bcc1-6a276f66828b a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -2537,7 +2129,7 @@ aama:ID317308fe-d529-4ebd-85e4-d02c9372468b a aamas:Term ;
 	orm:token "beek-am-tu" ;
 	.
 
-aama:ID267e9017-2820-4e30-b58d-faaff5b8e8ff a aamas:Term ;
+aama:ID9350cac1-0b7d-4825-a8b9-eee4772b3a65 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -2552,7 +2144,7 @@ aama:ID267e9017-2820-4e30-b58d-faaff5b8e8ff a aamas:Term ;
 	orm:token "beek-am-u" ;
 	.
 
-aama:ID334be5a6-ba84-47ca-b7ab-d551f5610933 a aamas:Term ;
+aama:IDb662f545-f8a5-4b59-a15a-07e5c61fe302 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -2567,7 +2159,7 @@ aama:ID334be5a6-ba84-47ca-b7ab-d551f5610933 a aamas:Term ;
 	orm:token "beek-am-tu" ;
 	.
 
-aama:ID50a0e339-3efd-4a42-b9dc-6701c2cd9f75 a aamas:Term ;
+aama:ID6b10f84b-9a1f-454f-ba7d-d4b9aedaea05 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -2582,7 +2174,7 @@ aama:ID50a0e339-3efd-4a42-b9dc-6701c2cd9f75 a aamas:Term ;
 	orm:token "beek-am-nu" ;
 	.
 
-aama:IDf88097d7-9cab-4486-8b46-d90c6a5bc010 a aamas:Term ;
+aama:ID5a829006-1e76-4787-bca3-a5bc5fb0b594 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -2597,7 +2189,7 @@ aama:IDf88097d7-9cab-4486-8b46-d90c6a5bc010 a aamas:Term ;
 	orm:token "beek-am-tani/u" ;
 	.
 
-aama:ID314a5cd4-cabd-4c87-b772-664f80cab54c a aamas:Term ;
+aama:IDfbeffd2d-3b42-4a88-a20c-1eed30d2e64d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -2620,7 +2212,7 @@ orm:orm-Verb-beek-MPresentNegativeSubordinate a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDc09e2f71-6602-4831-a328-ff940b28f828 a aamas:Term ;
+aama:ID13326a2d-0009-4982-a8e2-a1ad25bdefb4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2635,7 +2227,7 @@ aama:IDc09e2f71-6602-4831-a328-ff940b28f828 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID1f109fac-51d4-459f-b164-80bdd0dd7a5a a aamas:Term ;
+aama:ID8eab8238-d29a-4daa-b39d-dc75ef030e95 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2650,7 +2242,7 @@ aama:ID1f109fac-51d4-459f-b164-80bdd0dd7a5a a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID2a7f43e2-6b95-4270-898b-5ec813f47a32 a aamas:Term ;
+aama:ID9a70a98e-084c-44f5-86c9-011c65fde7e2 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2665,7 +2257,7 @@ aama:ID2a7f43e2-6b95-4270-898b-5ec813f47a32 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:IDd773b77b-e855-4924-b579-128c08ca96c6 a aamas:Term ;
+aama:ID530d799c-4226-44b4-97f4-cc6267fb2f63 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2680,7 +2272,7 @@ aama:IDd773b77b-e855-4924-b579-128c08ca96c6 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID6668ca53-c105-4c4b-9192-eb1b7c9484b3 a aamas:Term ;
+aama:ID3d5612f4-8a70-4917-9b26-6d06b1656c9d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2695,7 +2287,7 @@ aama:ID6668ca53-c105-4c4b-9192-eb1b7c9484b3 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID498a60e3-3d28-4654-af6e-223fe64bce58 a aamas:Term ;
+aama:IDfe9ad8eb-6375-423f-9d01-724e2e4cc7bd a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2710,7 +2302,7 @@ aama:ID498a60e3-3d28-4654-af6e-223fe64bce58 a aamas:Term ;
 	orm:token "beek-am-ne" ;
 	.
 
-aama:ID44813169-0dba-4abd-b85a-62132fd3b4e0 a aamas:Term ;
+aama:ID9d72a616-739a-41f2-b074-b79233e4ccff a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-MPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -2733,7 +2325,7 @@ orm:orm-Verb-beek-SImperativeAffirmative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID8d3daa92-92fe-4400-b0ea-b3ee4d3eed39 a aamas:Term ;
+aama:ID7b6c193f-2292-47e6-b13b-49af35d4f183 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SImperativeAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2747,7 +2339,7 @@ aama:ID8d3daa92-92fe-4400-b0ea-b3ee4d3eed39 a aamas:Term ;
 	orm:token "beek-sis-i ~ -u" ;
 	.
 
-aama:IDd4852433-f5f1-4754-8ce5-3a36cb18fb2a a aamas:Term ;
+aama:ID5a146b34-15d6-4097-bdae-bdb3e98f25a7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SImperativeAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2769,7 +2361,7 @@ orm:orm-Verb-beek-SImperativeNegative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDd6a7c299-ccde-4e33-b2d6-074b7f4426c7 a aamas:Term ;
+aama:IDed1822d0-c022-4370-ac5f-982c87c26e5d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SImperativeNegative ;
 	orm:derivedStem orm:S ;
@@ -2783,7 +2375,7 @@ aama:IDd6a7c299-ccde-4e33-b2d6-074b7f4426c7 a aamas:Term ;
 	orm:token "beek-sis-ini" ;
 	.
 
-aama:IDd2b206f2-9947-46bf-96a0-3601bae38b40 a aamas:Term ;
+aama:ID23d1c017-c9a8-4c1b-8bc6-8842ef50867e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SImperativeNegative ;
 	orm:derivedStem orm:S ;
@@ -2802,10 +2394,10 @@ aama:IDd2b206f2-9947-46bf-96a0-3601bae38b40 a aamas:Term ;
 orm:orm-Verb-beek-SJussiveAffirmative a aamas:Termcluster ;
 	rdfs:label "orm-Verb-beek-SJussiveAffirmative" ;
 	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.188" 
+	rdfs:comment "G76p.188 :: Structure: ha-Verb_pres-aff-sub" 
 	.
 
-aama:ID95fda870-77ea-4ba2-ac94-0c144fb19c91 a aamas:Term ;
+aama:IDcb5227ba-a024-4ec3-af75-1296d08c6ca9 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SJussiveAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2817,7 +2409,6 @@ aama:ID95fda870-77ea-4ba2-ac94-0c144fb19c91 a aamas:Term ;
 	orm:person orm:Person3 ;
 	orm:gender orm:Masc ;
 	orm:token "ha-beek-sis-u" ;
-	orm:token-note "ha-Verb_pres-aff-sub" ;
 	.
 
 #TERMCLUSTER: orm-Verb-beek-SJussiveNegative
@@ -2825,10 +2416,10 @@ aama:ID95fda870-77ea-4ba2-ac94-0c144fb19c91 a aamas:Term ;
 orm:orm-Verb-beek-SJussiveNegative a aamas:Termcluster ;
 	rdfs:label "orm-Verb-beek-SJussiveNegative" ;
 	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.188" 
+	rdfs:comment "G76p.188 :: Structure: hin-VerbStem-in_invariant" 
 	.
 
-aama:IDecba72f9-030d-4717-bf72-0ff3af9a6ffc a aamas:Term ;
+aama:ID7a0b7e74-9ac8-469d-89c4-4e4b3cab9e32 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SJussiveNegative ;
 	orm:derivedStem orm:S ;
@@ -2840,7 +2431,6 @@ aama:IDecba72f9-030d-4717-bf72-0ff3af9a6ffc a aamas:Term ;
 	orm:person orm:Person3 ;
 	orm:gender orm:Masc ;
 	orm:token "hin-beek-sis-in" ;
-	orm:token-note "hin-VerbStem-in_invariant" ;
 	.
 
 #TERMCLUSTER: orm-Verb-beek-SPastAffirmative
@@ -2851,7 +2441,7 @@ orm:orm-Verb-beek-SPastAffirmative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID427fcd12-e8cf-4196-8a4e-358500c77794 a aamas:Term ;
+aama:ID2fba3918-b30c-4b26-8e5e-bbeb779d1ad8 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2865,7 +2455,7 @@ aama:ID427fcd12-e8cf-4196-8a4e-358500c77794 a aamas:Term ;
 	orm:token "beek-sis-e" ;
 	.
 
-aama:ID89e251b0-ebb0-4f60-ae58-20aa92d4fc0c a aamas:Term ;
+aama:ID449c3d09-7547-451f-a29b-c38611f15203 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2879,7 +2469,7 @@ aama:ID89e251b0-ebb0-4f60-ae58-20aa92d4fc0c a aamas:Term ;
 	orm:token "beek-sif-te" ;
 	.
 
-aama:ID9a339645-4b7d-40b0-acec-15c93f8bd010 a aamas:Term ;
+aama:ID1a6cfddc-f713-42d7-89de-a688ca28fa60 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2893,7 +2483,7 @@ aama:ID9a339645-4b7d-40b0-acec-15c93f8bd010 a aamas:Term ;
 	orm:token "beek-sis-e" ;
 	.
 
-aama:IDe092954e-a122-4b34-9394-f0cf0b302f00 a aamas:Term ;
+aama:IDb179589f-68f2-4dab-b1be-84b76ce14433 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2907,7 +2497,7 @@ aama:IDe092954e-a122-4b34-9394-f0cf0b302f00 a aamas:Term ;
 	orm:token "beek-sif-te" ;
 	.
 
-aama:ID5efc9844-d50b-4bed-9163-79d5b6f11de7 a aamas:Term ;
+aama:ID0fe6613e-a2fd-481c-a5c9-d6cb1143464e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2921,7 +2511,7 @@ aama:ID5efc9844-d50b-4bed-9163-79d5b6f11de7 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID9538ac3b-7005-4e09-90de-6dd353655849 a aamas:Term ;
+aama:ID92401468-ee83-4209-9abf-158069fc2edd a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2935,7 +2525,7 @@ aama:ID9538ac3b-7005-4e09-90de-6dd353655849 a aamas:Term ;
 	orm:token "beek-sif-tan(i)" ;
 	.
 
-aama:IDf1d45923-9fe7-47d5-93a9-a78e8a7e2ae3 a aamas:Term ;
+aama:IDcd77c32a-f2b3-407f-bb15-393b9bb6384b a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastAffirmative ;
 	orm:derivedStem orm:S ;
@@ -2957,7 +2547,7 @@ orm:orm-Verb-beek-SPastNegative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID51c85e6e-009f-4c71-a7b4-c5aad55d6ff0 a aamas:Term ;
+aama:ID3002dc37-d6d6-47ba-9468-438a8335a49d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastNegative ;
 	orm:derivedStem orm:S ;
@@ -2971,7 +2561,7 @@ aama:ID51c85e6e-009f-4c71-a7b4-c5aad55d6ff0 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:IDf6dcbfe7-79b6-401e-bf9d-87a042e56dc8 a aamas:Term ;
+aama:IDfe4ef214-da8c-4ded-91a2-1fc91986f14f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastNegative ;
 	orm:derivedStem orm:S ;
@@ -2985,7 +2575,7 @@ aama:IDf6dcbfe7-79b6-401e-bf9d-87a042e56dc8 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID2a97d332-0ebf-4720-82ec-3ed07d39c081 a aamas:Term ;
+aama:ID452ffdf3-7c3b-4e26-beb4-73d420448cc3 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastNegative ;
 	orm:derivedStem orm:S ;
@@ -2999,7 +2589,7 @@ aama:ID2a97d332-0ebf-4720-82ec-3ed07d39c081 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID7e2e943b-6d87-49c6-9eb1-7b99be2e2cd9 a aamas:Term ;
+aama:IDf6cfad5e-81cb-437a-8baa-2a77c1fcb3b0 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastNegative ;
 	orm:derivedStem orm:S ;
@@ -3013,7 +2603,7 @@ aama:ID7e2e943b-6d87-49c6-9eb1-7b99be2e2cd9 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID0de62e96-2c6e-41a9-bf3d-891bb8bbde94 a aamas:Term ;
+aama:ID2596892d-7686-4f35-896f-e2fe06d32415 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastNegative ;
 	orm:derivedStem orm:S ;
@@ -3027,7 +2617,7 @@ aama:ID0de62e96-2c6e-41a9-bf3d-891bb8bbde94 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:IDd482d60d-8399-4e1b-8ffb-d45fb91fcb63 a aamas:Term ;
+aama:IDc5d2f0b2-c20c-4c69-b972-e1d3f3e561dc a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastNegative ;
 	orm:derivedStem orm:S ;
@@ -3041,7 +2631,7 @@ aama:IDd482d60d-8399-4e1b-8ffb-d45fb91fcb63 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID9dddb841-17aa-4654-8f40-cc2794e27cc9 a aamas:Term ;
+aama:IDac833bdb-56ee-48da-a211-d57b4f049047 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPastNegative ;
 	orm:derivedStem orm:S ;
@@ -3063,7 +2653,7 @@ orm:orm-Verb-beek-SPresentAffirmativeMain a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID01718780-c8fc-4a7a-9f9e-d09495f9b241 a aamas:Term ;
+aama:IDe36b892f-6931-4935-9fe7-032bf951eed2 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3078,7 +2668,7 @@ aama:ID01718780-c8fc-4a7a-9f9e-d09495f9b241 a aamas:Term ;
 	orm:token "beek-sis-a" ;
 	.
 
-aama:IDa321c8b0-4686-47cb-823f-797584869b06 a aamas:Term ;
+aama:IDf6e8504e-c18d-43b2-8c3b-9e0de23630c5 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3093,7 +2683,7 @@ aama:IDa321c8b0-4686-47cb-823f-797584869b06 a aamas:Term ;
 	orm:token "beek-sif-ta" ;
 	.
 
-aama:ID96479466-5b21-4f22-b420-78d5387060a1 a aamas:Term ;
+aama:ID3146d3c5-0529-4090-a26f-a21752b0abc3 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3108,7 +2698,7 @@ aama:ID96479466-5b21-4f22-b420-78d5387060a1 a aamas:Term ;
 	orm:token "beek-sis-a" ;
 	.
 
-aama:ID75c87f37-bb10-4d4d-9109-8f7a8be26075 a aamas:Term ;
+aama:ID3546089d-1e38-48c7-a294-a40d8f1aa81c a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3123,7 +2713,7 @@ aama:ID75c87f37-bb10-4d4d-9109-8f7a8be26075 a aamas:Term ;
 	orm:token "beek-sif-ti" ;
 	.
 
-aama:IDc316df89-4331-4202-b747-15a6788a7ea0 a aamas:Term ;
+aama:IDe70fd9d6-e302-4983-860d-669add450de4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3138,7 +2728,7 @@ aama:IDc316df89-4331-4202-b747-15a6788a7ea0 a aamas:Term ;
 	orm:token "beek-sif-na" ;
 	.
 
-aama:IDc72115a1-59a8-4601-bc22-b63f0e1b5788 a aamas:Term ;
+aama:ID81a02493-f780-46ba-9f2c-d5f8972792f8 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3153,7 +2743,7 @@ aama:IDc72115a1-59a8-4601-bc22-b63f0e1b5788 a aamas:Term ;
 	orm:token "beek-sif-tu" ;
 	.
 
-aama:ID0d45ce8a-dd32-4f8e-9370-c9123643fa26 a aamas:Term ;
+aama:IDb898984e-c54f-48b9-82a2-0bf8a7755b47 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3176,7 +2766,7 @@ orm:orm-Verb-beek-SPresentAffirmativeSubordinate a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDa2c36cec-395c-40c1-85cc-1c1b75caf5bd a aamas:Term ;
+aama:ID6bd1c92d-4451-4f0a-b4d1-eeb64bcb539b a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3191,7 +2781,7 @@ aama:IDa2c36cec-395c-40c1-85cc-1c1b75caf5bd a aamas:Term ;
 	orm:token "beek-sis-u" ;
 	.
 
-aama:IDd3fe11c1-58aa-496d-af4f-b1db17f488de a aamas:Term ;
+aama:ID0109e6f1-f5ee-4207-9f46-aa7ca2244d13 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3206,7 +2796,7 @@ aama:IDd3fe11c1-58aa-496d-af4f-b1db17f488de a aamas:Term ;
 	orm:token "beek-sif-tu" ;
 	.
 
-aama:IDe6ad5d92-bb73-4257-a3e4-15bf69e44a13 a aamas:Term ;
+aama:ID5837eaa5-d050-4c61-b5bd-df20a9853bb0 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3221,7 +2811,7 @@ aama:IDe6ad5d92-bb73-4257-a3e4-15bf69e44a13 a aamas:Term ;
 	orm:token "beek-sis-u" ;
 	.
 
-aama:ID349b40c3-4815-43df-96e6-909597d2e9f9 a aamas:Term ;
+aama:ID315a02c4-e9c7-4092-856a-1e486c8c7cd7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3236,7 +2826,7 @@ aama:ID349b40c3-4815-43df-96e6-909597d2e9f9 a aamas:Term ;
 	orm:token "beek-sif-tu" ;
 	.
 
-aama:ID53389439-ab8c-425c-8860-28f21b84177e a aamas:Term ;
+aama:ID93e8f006-5957-4add-a2e0-7f6339f97eb2 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3251,7 +2841,7 @@ aama:ID53389439-ab8c-425c-8860-28f21b84177e a aamas:Term ;
 	orm:token "beek-sif-nu" ;
 	.
 
-aama:ID236dc917-e0eb-4cb9-b2a0-b52ab597ba70 a aamas:Term ;
+aama:ID68f83d4b-a460-43d2-99d5-fc53429f6820 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3266,7 +2856,7 @@ aama:ID236dc917-e0eb-4cb9-b2a0-b52ab597ba70 a aamas:Term ;
 	orm:token "beek-sif-tani/u" ;
 	.
 
-aama:IDc23e1148-dbd9-4425-a815-e379c9a843b0 a aamas:Term ;
+aama:ID783b9987-77eb-4818-8e0a-4f2029b3c955 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3289,7 +2879,7 @@ orm:orm-Verb-beek-SPresentNegativeMain a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID5a222b63-a4ef-4413-85bb-3bf2dfa1e779 a aamas:Term ;
+aama:IDa9e282f6-1692-454a-93e1-1680ca154198 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -3304,7 +2894,7 @@ aama:ID5a222b63-a4ef-4413-85bb-3bf2dfa1e779 a aamas:Term ;
 	orm:token "beek-sis-u" ;
 	.
 
-aama:IDf1c9c5c7-bbf5-4316-8eb7-70e4539470a7 a aamas:Term ;
+aama:IDdabb6991-4403-4f4b-99ab-bbc527451768 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -3319,7 +2909,7 @@ aama:IDf1c9c5c7-bbf5-4316-8eb7-70e4539470a7 a aamas:Term ;
 	orm:token "beek-sif-tu" ;
 	.
 
-aama:IDc3ebc13a-20a1-4b64-8c64-004470b3e756 a aamas:Term ;
+aama:ID1809719d-eec6-4035-92fc-3c7e15d34b20 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -3334,7 +2924,7 @@ aama:IDc3ebc13a-20a1-4b64-8c64-004470b3e756 a aamas:Term ;
 	orm:token "beek-sis-u" ;
 	.
 
-aama:ID75061d7e-7b8b-475e-9bf7-f78e9591ae71 a aamas:Term ;
+aama:IDd1c430e7-8b46-4faa-9cb4-12d130be35aa a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -3349,7 +2939,7 @@ aama:ID75061d7e-7b8b-475e-9bf7-f78e9591ae71 a aamas:Term ;
 	orm:token "beek-sif-tu" ;
 	.
 
-aama:ID404e7456-59a1-4527-a640-946f069dea7c a aamas:Term ;
+aama:IDd50dd0d8-0036-4058-9ccb-c1e24eb5c6f3 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -3364,7 +2954,7 @@ aama:ID404e7456-59a1-4527-a640-946f069dea7c a aamas:Term ;
 	orm:token "beek-sif-nu" ;
 	.
 
-aama:IDb66da35e-21ee-4333-99e3-132592c7f0fa a aamas:Term ;
+aama:IDc3cac18f-e476-4e1f-83e7-19dec7340f9c a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -3379,7 +2969,7 @@ aama:IDb66da35e-21ee-4333-99e3-132592c7f0fa a aamas:Term ;
 	orm:token "beek-sif-tani/u" ;
 	.
 
-aama:ID120ac092-ebdd-4d2f-b46d-c88ee827775c a aamas:Term ;
+aama:IDc00f97d1-6fab-4d6e-af5f-8b4414392f2d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -3402,7 +2992,7 @@ orm:orm-Verb-beek-SPresentNegativeSubordinate a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDf7769461-2185-4cd4-a5f2-50dbb940472a a aamas:Term ;
+aama:ID284ff4ec-e186-4d4d-b7ae-63f46756ebb4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3417,7 +3007,7 @@ aama:IDf7769461-2185-4cd4-a5f2-50dbb940472a a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID46cf8e8c-a2a3-469e-b0f6-440988adfc51 a aamas:Term ;
+aama:ID7e38f1f9-9cbb-4962-9961-b013322ca1c8 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3432,7 +3022,7 @@ aama:ID46cf8e8c-a2a3-469e-b0f6-440988adfc51 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:IDe5c75257-7842-4c35-8270-5cad7c60356a a aamas:Term ;
+aama:ID8570ea1d-d1c2-4101-8991-9da17d8a2b2d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3447,7 +3037,7 @@ aama:IDe5c75257-7842-4c35-8270-5cad7c60356a a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID573a7941-c84d-4969-8123-c4007b5bb775 a aamas:Term ;
+aama:ID0bcd8176-28f3-4fae-89b9-fc4aa17cb51e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3462,7 +3052,7 @@ aama:ID573a7941-c84d-4969-8123-c4007b5bb775 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID2b9c2df4-397a-492e-b16b-69f98f8eb235 a aamas:Term ;
+aama:ID30b00793-f624-4399-ac16-2d80ba3b12c7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3477,7 +3067,7 @@ aama:ID2b9c2df4-397a-492e-b16b-69f98f8eb235 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:IDe2935c34-4f5a-441f-8d8c-86c90a4bb8a1 a aamas:Term ;
+aama:ID9879557e-7361-408e-af67-09228a36ed52 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3492,7 +3082,7 @@ aama:IDe2935c34-4f5a-441f-8d8c-86c90a4bb8a1 a aamas:Term ;
 	orm:token "beek-sif-ne" ;
 	.
 
-aama:ID782901e3-e306-46c0-a826-660e2861f1fe a aamas:Term ;
+aama:ID0beb8b0f-6789-474d-a290-dfc312ebd30e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-SPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3515,7 +3105,7 @@ orm:orm-Verb-beek-TImperativeAffirmative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID36eff75d-4de1-4520-8a4e-ef3296a74c68 a aamas:Term ;
+aama:ID11f4a565-af5a-4bb5-b6b0-23f4337c2188 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TImperativeAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3529,7 +3119,7 @@ aama:ID36eff75d-4de1-4520-8a4e-ef3296a74c68 a aamas:Term ;
 	orm:token "beek-at-i ~ -u" ;
 	.
 
-aama:ID7688f727-87ff-4a38-9ba5-3c9ecd07a676 a aamas:Term ;
+aama:ID6031cafe-701f-4cd3-8f6e-dfa39d7a2daa a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TImperativeAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3551,7 +3141,7 @@ orm:orm-Verb-beek-TImperativeNegative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID1f74bb7d-8dd6-4a70-a554-c08cbd29fe1b a aamas:Term ;
+aama:ID4203833a-81fd-48e0-a5a1-30c174e513dd a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TImperativeNegative ;
 	orm:derivedStem orm:T ;
@@ -3565,7 +3155,7 @@ aama:ID1f74bb7d-8dd6-4a70-a554-c08cbd29fe1b a aamas:Term ;
 	orm:token "beek-at-ini" ;
 	.
 
-aama:ID532f37b0-c59a-42fb-b504-db962e18100b a aamas:Term ;
+aama:ID3df2a706-4b25-498c-99d5-532b92392034 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TImperativeNegative ;
 	orm:derivedStem orm:T ;
@@ -3584,10 +3174,10 @@ aama:ID532f37b0-c59a-42fb-b504-db962e18100b a aamas:Term ;
 orm:orm-Verb-beek-TJussiveAffirmative a aamas:Termcluster ;
 	rdfs:label "orm-Verb-beek-TJussiveAffirmative" ;
 	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.188" 
+	rdfs:comment "G76p.188 :: Structure: ha-Verb_pres-aff-sub" 
 	.
 
-aama:ID77af01b2-63bd-4a66-87a2-bfa9c825605b a aamas:Term ;
+aama:ID3d839af9-4e4c-4618-99ba-d58783285cb6 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TJussiveAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3599,7 +3189,6 @@ aama:ID77af01b2-63bd-4a66-87a2-bfa9c825605b a aamas:Term ;
 	orm:person orm:Person3 ;
 	orm:gender orm:Masc ;
 	orm:token "ha-beek-at-u" ;
-	orm:token-note "ha-Verb_pres-aff-sub" ;
 	.
 
 #TERMCLUSTER: orm-Verb-beek-TJussiveNegative
@@ -3607,10 +3196,10 @@ aama:ID77af01b2-63bd-4a66-87a2-bfa9c825605b a aamas:Term ;
 orm:orm-Verb-beek-TJussiveNegative a aamas:Termcluster ;
 	rdfs:label "orm-Verb-beek-TJussiveNegative" ;
 	aamas:lang aama:Oromo ;
-	rdfs:comment "G76p.188" 
+	rdfs:comment "G76p.188 :: Structure: hin-VerbStem-in_invariant" 
 	.
 
-aama:IDd9ee8006-11de-4c58-8a01-f2ceaea53d90 a aamas:Term ;
+aama:ID85c98b58-cf45-4c52-903e-6202312614fc a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TJussiveNegative ;
 	orm:derivedStem orm:T ;
@@ -3622,7 +3211,6 @@ aama:IDd9ee8006-11de-4c58-8a01-f2ceaea53d90 a aamas:Term ;
 	orm:person orm:Person3 ;
 	orm:gender orm:Masc ;
 	orm:token "hin-beek-at-in" ;
-	orm:token-note "hin-VerbStem-in_invariant" ;
 	.
 
 #TERMCLUSTER: orm-Verb-beek-TPastAffirmative
@@ -3633,7 +3221,7 @@ orm:orm-Verb-beek-TPastAffirmative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID81c797e3-1882-4a2c-8486-db66b97118ad a aamas:Term ;
+aama:ID80b0c2ed-39d7-4a7c-b6a9-63b26554b817 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3644,10 +3232,10 @@ aama:ID81c797e3-1882-4a2c-8486-db66b97118ad a aamas:Term ;
 	orm:number orm:Singular ;
 	orm:person orm:Person1 ;
 	orm:gender orm:Common ;
-	orm:token "beek-ad-e" ;
+	orm:token "beek-aɗ-e" ;
 	.
 
-aama:IDc2a8a8c4-6593-4d78-a319-9f068bb94675 a aamas:Term ;
+aama:IDcdf15129-7d62-4c03-9a1c-0dd597c1f24a a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3661,7 +3249,7 @@ aama:IDc2a8a8c4-6593-4d78-a319-9f068bb94675 a aamas:Term ;
 	orm:token "beek-at-te" ;
 	.
 
-aama:IDeca2587c-4bd8-47e3-99a6-daba83420b55 a aamas:Term ;
+aama:IDb1651c19-ac3d-423e-97ca-eee5044b6920 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3675,7 +3263,7 @@ aama:IDeca2587c-4bd8-47e3-99a6-daba83420b55 a aamas:Term ;
 	orm:token "beek-at-e" ;
 	.
 
-aama:IDbc13a325-6604-406c-9fec-0193829a2f8c a aamas:Term ;
+aama:ID7b831a45-c6cc-4112-a3a4-1bdcbf6d9ef1 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3689,7 +3277,7 @@ aama:IDbc13a325-6604-406c-9fec-0193829a2f8c a aamas:Term ;
 	orm:token "beek-at-te" ;
 	.
 
-aama:ID6400d816-0e39-4bde-9319-ebc37af56d9b a aamas:Term ;
+aama:IDe7c28739-5197-470f-bd15-dd3742dd0d47 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3703,7 +3291,7 @@ aama:ID6400d816-0e39-4bde-9319-ebc37af56d9b a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:IDf11cb0b1-0a54-4192-a4c9-f8205f5d46c4 a aamas:Term ;
+aama:IDb577162e-5fac-4f8a-a0c4-b7ada02f1880 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3717,7 +3305,7 @@ aama:IDf11cb0b1-0a54-4192-a4c9-f8205f5d46c4 a aamas:Term ;
 	orm:token "beek-at-tan(i)" ;
 	.
 
-aama:ID08ba0f9b-34c4-4683-8c7d-b7e9eb66e61a a aamas:Term ;
+aama:ID4b743b6a-dda1-48a1-bd70-371862489a05 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastAffirmative ;
 	orm:derivedStem orm:T ;
@@ -3739,7 +3327,7 @@ orm:orm-Verb-beek-TPastNegative a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID36eea836-4ede-4226-8366-b4f06359deee a aamas:Term ;
+aama:IDe31a7ec6-69ff-4cc4-a071-23bb4ff87ccc a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastNegative ;
 	orm:derivedStem orm:T ;
@@ -3753,7 +3341,7 @@ aama:ID36eea836-4ede-4226-8366-b4f06359deee a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:ID28c2f452-0dc9-4497-93e5-81cba257b53c a aamas:Term ;
+aama:ID6134e013-3b57-4550-b09c-b84b7e8a61ad a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastNegative ;
 	orm:derivedStem orm:T ;
@@ -3767,7 +3355,7 @@ aama:ID28c2f452-0dc9-4497-93e5-81cba257b53c a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:ID5ce2affc-152d-4913-88dd-0827cf8ee2ef a aamas:Term ;
+aama:IDadd580ba-fb98-4a22-a04f-c9dafa86811c a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastNegative ;
 	orm:derivedStem orm:T ;
@@ -3781,7 +3369,7 @@ aama:ID5ce2affc-152d-4913-88dd-0827cf8ee2ef a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:ID06629a1e-62d4-4c80-b5ef-43f2466c12cb a aamas:Term ;
+aama:ID5da8e7dd-5ced-4f5f-ab80-04d6d1e55e7c a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastNegative ;
 	orm:derivedStem orm:T ;
@@ -3795,7 +3383,7 @@ aama:ID06629a1e-62d4-4c80-b5ef-43f2466c12cb a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:IDbd172685-c5db-4b7f-b5eb-74ce2ae9ab3f a aamas:Term ;
+aama:IDce2a6af5-768d-4d34-a257-e32c5107fdcf a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastNegative ;
 	orm:derivedStem orm:T ;
@@ -3809,7 +3397,7 @@ aama:IDbd172685-c5db-4b7f-b5eb-74ce2ae9ab3f a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:ID31fb2bb1-5a0b-4b5f-8c91-c40ab0fbde75 a aamas:Term ;
+aama:ID4b23c6b5-3672-4f3e-be2a-7367615a2eeb a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastNegative ;
 	orm:derivedStem orm:T ;
@@ -3823,7 +3411,7 @@ aama:ID31fb2bb1-5a0b-4b5f-8c91-c40ab0fbde75 a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:IDa8609e08-2349-4d98-8d7c-358517614e02 a aamas:Term ;
+aama:ID2fa446ec-b802-4203-8036-e98983368686 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPastNegative ;
 	orm:derivedStem orm:T ;
@@ -3845,7 +3433,7 @@ orm:orm-Verb-beek-TPresentAffirmativeMain a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID7916026f-c36e-4b4f-aeed-efe00b561d48 a aamas:Term ;
+aama:IDdc3c8963-c35a-438c-a9f9-13d0e82f13da a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3857,10 +3445,10 @@ aama:ID7916026f-c36e-4b4f-aeed-efe00b561d48 a aamas:Term ;
 	orm:number orm:Singular ;
 	orm:person orm:Person1 ;
 	orm:gender orm:Common ;
-	orm:token "beek-ad-a" ;
+	orm:token "beek-aɗ-a" ;
 	.
 
-aama:IDc1487e16-903f-4773-b2b0-f6d1484dbf90 a aamas:Term ;
+aama:ID022ed5b8-195f-40b9-ad9f-01b8699ae342 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3875,7 +3463,7 @@ aama:IDc1487e16-903f-4773-b2b0-f6d1484dbf90 a aamas:Term ;
 	orm:token "beek-at-ta" ;
 	.
 
-aama:ID05cf28bb-65eb-4ac9-a25f-4bce9f09e8a4 a aamas:Term ;
+aama:ID9c6093d2-c0f7-4521-a05a-59069ef9fe7b a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3890,7 +3478,7 @@ aama:ID05cf28bb-65eb-4ac9-a25f-4bce9f09e8a4 a aamas:Term ;
 	orm:token "beek-at-a" ;
 	.
 
-aama:ID84143f78-cfc6-4531-9fe0-f325ccb02eac a aamas:Term ;
+aama:ID26a44c8d-94d3-4514-b453-661bdd5418e0 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3905,7 +3493,7 @@ aama:ID84143f78-cfc6-4531-9fe0-f325ccb02eac a aamas:Term ;
 	orm:token "beek-at-ti" ;
 	.
 
-aama:IDf8205622-2985-41ea-bc38-78ccbffee053 a aamas:Term ;
+aama:IDe7396c1d-2aa5-4620-b80c-414a7d39aa27 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3920,7 +3508,7 @@ aama:IDf8205622-2985-41ea-bc38-78ccbffee053 a aamas:Term ;
 	orm:token "beek-an-na" ;
 	.
 
-aama:ID33dba965-0628-4c1d-9c09-fcad8019f05e a aamas:Term ;
+aama:IDed19ff07-a7a7-441e-82f1-2050dd55049d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3935,7 +3523,7 @@ aama:ID33dba965-0628-4c1d-9c09-fcad8019f05e a aamas:Term ;
 	orm:token "beek-at-tu" ;
 	.
 
-aama:IDfbfa046b-4e05-4534-aeb1-44c5bc21492f a aamas:Term ;
+aama:IDb138d94f-ca36-4e55-95bc-57833aabb2a7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeMain ;
 	orm:clauseType orm:Main ;
@@ -3958,7 +3546,7 @@ orm:orm-Verb-beek-TPresentAffirmativeSubordinate a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID0410f289-ddf1-4d42-b0db-14175f688878 a aamas:Term ;
+aama:IDf3e28ac5-d735-4ac9-8f39-d66f4f14cf07 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3970,10 +3558,10 @@ aama:ID0410f289-ddf1-4d42-b0db-14175f688878 a aamas:Term ;
 	orm:number orm:Singular ;
 	orm:person orm:Person1 ;
 	orm:gender orm:Common ;
-	orm:token "beek-ad-u" ;
+	orm:token "beek-aɗ-u" ;
 	.
 
-aama:ID4e5925d1-6d99-468a-9c3a-9d609afec0df a aamas:Term ;
+aama:ID7c874800-c912-4e45-ae4f-10a2da99ebec a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -3988,7 +3576,7 @@ aama:ID4e5925d1-6d99-468a-9c3a-9d609afec0df a aamas:Term ;
 	orm:token "beek-at-tu" ;
 	.
 
-aama:IDb7a869a2-8521-42ef-94da-184c01e3749d a aamas:Term ;
+aama:ID5fc2c5cb-97b4-4f66-8248-724e02e77cff a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4003,7 +3591,7 @@ aama:IDb7a869a2-8521-42ef-94da-184c01e3749d a aamas:Term ;
 	orm:token "beek-at-u" ;
 	.
 
-aama:ID59280858-84bc-4ad1-9117-8e3e415e9307 a aamas:Term ;
+aama:ID0c5d5a0e-ee36-4555-8aa2-0612c30c18b7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4018,7 +3606,7 @@ aama:ID59280858-84bc-4ad1-9117-8e3e415e9307 a aamas:Term ;
 	orm:token "beek-at-tu" ;
 	.
 
-aama:ID049653b6-4370-458e-bbe8-44a027e6efb0 a aamas:Term ;
+aama:ID33c5591c-9f42-4a7c-acf0-87743da1e63e a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4033,7 +3621,7 @@ aama:ID049653b6-4370-458e-bbe8-44a027e6efb0 a aamas:Term ;
 	orm:token "beek-an-nu" ;
 	.
 
-aama:IDdb97649e-153c-47d1-8613-533ab54470b3 a aamas:Term ;
+aama:ID50cced5c-4986-44de-9153-93c235bdedc4 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4048,7 +3636,7 @@ aama:IDdb97649e-153c-47d1-8613-533ab54470b3 a aamas:Term ;
 	orm:token "beek-at-tani/u" ;
 	.
 
-aama:IDd6a97a53-1d3d-4de0-b1bf-48216eec21c3 a aamas:Term ;
+aama:ID704df165-e716-4ff0-bfd2-03b606d2e0d8 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentAffirmativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4071,7 +3659,7 @@ orm:orm-Verb-beek-TPresentNegativeMain a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:ID300e733e-c72d-4af8-a630-4b91fbc5af97 a aamas:Term ;
+aama:ID3b96df4d-bb33-4634-8fcb-c8d38fc4c9d9 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -4083,10 +3671,10 @@ aama:ID300e733e-c72d-4af8-a630-4b91fbc5af97 a aamas:Term ;
 	orm:number orm:Singular ;
 	orm:person orm:Person1 ;
 	orm:gender orm:Common ;
-	orm:token "beek-ad-u" ;
+	orm:token "beek-aɗ-u" ;
 	.
 
-aama:ID5deb76c1-f39f-446e-9540-d0ef1728dfd9 a aamas:Term ;
+aama:IDf286c7be-10af-49dc-abf6-aaee8e2711fe a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -4101,7 +3689,7 @@ aama:ID5deb76c1-f39f-446e-9540-d0ef1728dfd9 a aamas:Term ;
 	orm:token "beek-at-tu" ;
 	.
 
-aama:IDcc0be834-6c0e-40f6-9f11-0ef25f568096 a aamas:Term ;
+aama:ID82faac86-7457-4660-9a5c-0620a935e2b6 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -4116,7 +3704,7 @@ aama:IDcc0be834-6c0e-40f6-9f11-0ef25f568096 a aamas:Term ;
 	orm:token "beek-at-u" ;
 	.
 
-aama:IDa323cd4f-0507-4dcd-a488-4d6b152fc247 a aamas:Term ;
+aama:ID0326a3f9-0fb2-4423-9642-c452735d5625 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -4131,7 +3719,7 @@ aama:IDa323cd4f-0507-4dcd-a488-4d6b152fc247 a aamas:Term ;
 	orm:token "beek-at-tu" ;
 	.
 
-aama:IDc8871a74-4951-408d-a51a-9d9b583ffb33 a aamas:Term ;
+aama:IDadb40f3d-83f5-4521-8412-2bc443c1e12f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -4146,7 +3734,7 @@ aama:IDc8871a74-4951-408d-a51a-9d9b583ffb33 a aamas:Term ;
 	orm:token "beek-an-nu" ;
 	.
 
-aama:ID1551b53d-81d2-41ac-b8e4-ae84f4b6fd61 a aamas:Term ;
+aama:ID6d5f7497-90d8-4426-bd34-039abdf85cc6 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -4161,7 +3749,7 @@ aama:ID1551b53d-81d2-41ac-b8e4-ae84f4b6fd61 a aamas:Term ;
 	orm:token "beek-at-tani/u" ;
 	.
 
-aama:ID8ca76628-b9a9-43b7-b37b-fa6630a74e16 a aamas:Term ;
+aama:ID42bbc321-a8cb-4c53-91eb-9cd6f0160964 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeMain ;
 	orm:clauseType orm:Main ;
@@ -4184,7 +3772,7 @@ orm:orm-Verb-beek-TPresentNegativeSubordinate a aamas:Termcluster ;
 	rdfs:comment "G76p.188" 
 	.
 
-aama:IDbda9ffaf-e179-4967-ae73-b480a9218010 a aamas:Term ;
+aama:ID4a31e78a-f3bb-4b67-815d-9c87c1ced109 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4199,7 +3787,7 @@ aama:IDbda9ffaf-e179-4967-ae73-b480a9218010 a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:ID546c8abe-1005-44f2-949b-b28ae3c4fc1d a aamas:Term ;
+aama:ID2de0065f-ca66-4763-9a04-f2a571cff37d a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4214,7 +3802,7 @@ aama:ID546c8abe-1005-44f2-949b-b28ae3c4fc1d a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:ID3b50fa4a-7183-4c82-9102-640400d24829 a aamas:Term ;
+aama:IDcd173a61-edef-4a33-b0e3-de8fdd73474f a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4229,7 +3817,7 @@ aama:ID3b50fa4a-7183-4c82-9102-640400d24829 a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:IDa5a1cf49-d47d-4308-babf-95851ed77714 a aamas:Term ;
+aama:ID95bf8c7d-a21f-4b92-9a43-7f147ac8c706 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4244,7 +3832,7 @@ aama:IDa5a1cf49-d47d-4308-babf-95851ed77714 a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:ID2e7a8921-1188-4ed9-9f5f-a6a7c0f02f9b a aamas:Term ;
+aama:ID9c884bdc-a5d6-44a9-8825-6d426b3c86fb a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4259,7 +3847,7 @@ aama:ID2e7a8921-1188-4ed9-9f5f-a6a7c0f02f9b a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:IDa48ef451-a1ce-4b54-bfe2-24325a9e80e0 a aamas:Term ;
+aama:IDab2f0734-8d7e-494a-b2b6-89e950b85eef a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4274,7 +3862,7 @@ aama:IDa48ef451-a1ce-4b54-bfe2-24325a9e80e0 a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-aama:IDb966c333-73d8-4978-b571-8799220199e6 a aamas:Term ;
+aama:ID0b699bd8-0673-4070-a3d3-525cf0df9028 a aamas:Term ;
 	aamas:lang aama:Oromo ;
 	aamas:memberOf orm:orm-Verb-beek-TPresentNegativeSubordinate ;
 	orm:clauseType orm:Subordinate ;
@@ -4289,17 +3877,17 @@ aama:IDb966c333-73d8-4978-b571-8799220199e6 a aamas:Term ;
 	orm:token "beek-an-ne" ;
 	.
 
-#TERMCLUSTER: orm-Verbmorph-CompoundTense--adeem-
+#TERMCLUSTER: orm-Verb:morph-CompoundTense:-adeem-
 
-orm:orm-Verbmorph-CompoundTense--adeem- a aamas:Termcluster ;
-	rdfs:label "orm-Verbmorph-CompoundTense--adeem-" ;
+orm:orm-Verb:morph-CompoundTense:-adeem- a aamas:Termcluster ;
+	rdfs:label "orm-Verb:morph-CompoundTense:-adeem-" ;
 	aamas:lang aama:Oromo ;
 	rdfs:comment "G76p.189 :: Template: structAux + structMain + token-aux + token-encliticized + token-main.; 'token' forms are all 'Singular Person3 Masc'" 
 	.
 
-aama:ID4eacd264-02c3-4326-967d-d893f7ed2483 a aamas:Term ;
+aama:ID892e88e0-f84a-4152-bef8-23b572794850 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4309,9 +3897,9 @@ aama:ID4eacd264-02c3-4326-967d-d893f7ed2483 a aamas:Term ;
 	orm:token-note "tur-_past + hín-verb_pres + ture + _NULL + nan/hin-adeema(n)" ;
 	.
 
-aama:IDcd935ef1-9e8c-45db-a91b-514e6f81778b a aamas:Term ;
+aama:ID39f45b1d-4529-43d0-aab4-bfe6a921f913 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4321,9 +3909,9 @@ aama:IDcd935ef1-9e8c-45db-a91b-514e6f81778b a aamas:Term ;
 	orm:token-note "jir-_pres + verb_infinitive+f + jira + _NULL + adeemuu-f(an)" ;
 	.
 
-aama:ID6b7bb7b5-0efd-4d61-9e6f-ec9892be3c3a a aamas:Term ;
+aama:IDcbcd5470-2665-4807-899a-b0ae7c504db8 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4333,9 +3921,9 @@ aama:ID6b7bb7b5-0efd-4d61-9e6f-ec9892be3c3a a aamas:Term ;
 	orm:token-note "taʔa _sg 3 m –invar + hín-verb_pres + taʔa + _NULL + nan/hin-adeema" ;
 	.
 
-aama:ID6ef681c0-8611-4452-8181-bc433c598f41 a aamas:Term ;
+aama:IDe0d7b779-c0d6-4678-97fe-58fe5ec0d812 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4345,9 +3933,9 @@ aama:ID6ef681c0-8611-4452-8181-bc433c598f41 a aamas:Term ;
 	orm:token-note "tur-_past + verb_infinitive+f + ture + _NULL + adeemuu-f(an)" ;
 	.
 
-aama:IDc187bfb0-f4c9-4323-be4e-15ef4d75faf6 a aamas:Term ;
+aama:IDb50ea82b-0deb-4e64-a968-9320f41d4d64 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4357,9 +3945,9 @@ aama:IDc187bfb0-f4c9-4323-be4e-15ef4d75faf6 a aamas:Term ;
 	orm:token-note "tur-_past + verb_agent + ture + _NULL + adeemaa(n)" ;
 	.
 
-aama:IDe6a2fd5d-49e4-4e22-8c84-dbe55736b9e4 a aamas:Term ;
+aama:ID377a8f14-eedb-456e-bda1-de569fe88e88 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4369,9 +3957,9 @@ aama:IDe6a2fd5d-49e4-4e22-8c84-dbe55736b9e4 a aamas:Term ;
 	orm:token-note "jir-_pres + verb_past + jira + adeemeera + adeemee(n)" ;
 	.
 
-aama:ID48ef0f1f-e8dd-4d5f-b959-4050174ee191 a aamas:Term ;
+aama:ID8ae79f79-6014-4a93-ad60-ad7d84f34c38 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4381,9 +3969,9 @@ aama:ID48ef0f1f-e8dd-4d5f-b959-4050174ee191 a aamas:Term ;
 	orm:token-note "tur-_past + verb_past + ture + _NULL + adeemee(n)" ;
 	.
 
-aama:IDbefba037-3992-4ebb-b439-b824ce33dcd3 a aamas:Term ;
+aama:IDe4275e7f-022c-41e5-b320-e0eabe714422 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4393,9 +3981,9 @@ aama:IDbefba037-3992-4ebb-b439-b824ce33dcd3 a aamas:Term ;
 	orm:token-note "jir-_pres+ tur-_past + verb_agent + jira(n) ture + _NULL + adeemaa(n)" ;
 	.
 
-aama:ID28ed923c-58de-4c09-80c8-ce199d13e72b a aamas:Term ;
+aama:IDb40b303c-d5d2-4056-ae82-2854d906e9e0 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4405,9 +3993,9 @@ aama:ID28ed923c-58de-4c09-80c8-ce199d13e72b a aamas:Term ;
 	orm:token-note "jir-_pres + verb_agent + jira + _NULL + adeemaa(n)" ;
 	.
 
-aama:IDe1ca72af-f66b-4549-a1bb-5390bd1427bb a aamas:Term ;
+aama:ID0c4bea56-a0da-4c58-acdd-5121beaae211 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4417,9 +4005,9 @@ aama:IDe1ca72af-f66b-4549-a1bb-5390bd1427bb a aamas:Term ;
 	orm:token-note "tur-_past + verb_presNeg + ture + _NULL + hin-adeemu(n)" ;
 	.
 
-aama:ID9c375cd4-26e8-4c77-847b-3607897a82c2 a aamas:Term ;
+aama:IDcb0978f6-52d2-4ee8-9a55-4ad1ccad0495 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4429,9 +4017,9 @@ aama:ID9c375cd4-26e8-4c77-847b-3607897a82c2 a aamas:Term ;
 	orm:token-note "jir-_presNeg + verb_infinitive+f + (hi)n-jiru + _NULL + adeemuu-f" ;
 	.
 
-aama:ID80289173-600c-4e44-901b-f8c6ac5f77ad a aamas:Term ;
+aama:ID80bff6eb-0726-4f2c-8fff-9581ce6337bd a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4441,9 +4029,9 @@ aama:ID80289173-600c-4e44-901b-f8c6ac5f77ad a aamas:Term ;
 	orm:token-note "taʔa _sg 3 m –invar + verb_presNeg + taʔa + _NULL + hin-adeemu(n)" ;
 	.
 
-aama:ID1cc2e7ce-9825-4911-9d60-e679de08c342 a aamas:Term ;
+aama:IDa32acc08-36e3-4ca0-85e5-25b0aff4b3b8 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4453,9 +4041,9 @@ aama:ID1cc2e7ce-9825-4911-9d60-e679de08c342 a aamas:Term ;
 	orm:token-note "tur-_pastNeg + verb_infinitive+f + (hi)n-turre + _NULL + adeemuu-f" ;
 	.
 
-aama:IDc30d6a7a-aa4f-4ee4-ad76-d1ee6e23ddba a aamas:Term ;
+aama:ID44bc8227-b385-4cdb-a3ac-9ffb4a3eec89 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4465,9 +4053,9 @@ aama:IDc30d6a7a-aa4f-4ee4-ad76-d1ee6e23ddba a aamas:Term ;
 	orm:token-note "tur-_past + verb_agent + (hi)n-turre + _NULL + adeemaa" ;
 	.
 
-aama:ID44078dd4-8a34-496e-8eb3-5f57375b62e2 a aamas:Term ;
+aama:IDf919d13f-9d79-4ca3-a8d9-156aa8e9346d a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4477,9 +4065,9 @@ aama:ID44078dd4-8a34-496e-8eb3-5f57375b62e2 a aamas:Term ;
 	orm:token-note "⊤ + verb_pastNeg + ⊤ + _NULL + hin-adeem-ne" ;
 	.
 
-aama:IDd79c5e32-4cdd-4f03-8287-7d10579aefc0 a aamas:Term ;
+aama:IDcb768916-02af-4b46-876e-7bcf70b00b3f a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4489,9 +4077,9 @@ aama:IDd79c5e32-4cdd-4f03-8287-7d10579aefc0 a aamas:Term ;
 	orm:token-note "tur-_past + verb_pastNeg + ture + _NULL + hin-adeemne(n)" ;
 	.
 
-aama:ID42932a5a-338e-4d76-9a8e-21eaf26eb228 a aamas:Term ;
+aama:IDee656536-637d-4f07-845d-5b0fc27419a7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4501,9 +4089,9 @@ aama:ID42932a5a-338e-4d76-9a8e-21eaf26eb228 a aamas:Term ;
 	orm:token-note "jir-_presNeg+ tur-_past + verb_agent + (hi)n-jiru(n) ture + _NULL + adeemaa" ;
 	.
 
-aama:ID82d150c9-131e-4d73-96b7-0a68e9f98d5f a aamas:Term ;
+aama:IDa37f8346-de05-43c0-81ee-6eac7efb4708 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-CompoundTense--adeem- ;
+	aamas:memberOf orm:orm-Verb:morph-CompoundTense:-adeem- ;
 	aamas:lexeme orm:lex-adeem ;
 	orm:pos orm:Verb ;
 	orm:morphClass orm:CompoundTense ;
@@ -4513,17 +4101,17 @@ aama:ID82d150c9-131e-4d73-96b7-0a68e9f98d5f a aamas:Term ;
 	orm:token-note "jir-_presNeg + verb_agent + hin-jiru + _NULL + adeemaa" ;
 	.
 
-#TERMCLUSTER: orm-Verbmorph-Copula--COPULA-
+#TERMCLUSTER: orm-Verb:morph-Copula:-COPULA-
 
-orm:orm-Verbmorph-Copula--COPULA- a aamas:Termcluster ;
-	rdfs:label "orm-Verbmorph-Copula--COPULA-" ;
+orm:orm-Verb:morph-Copula:-COPULA- a aamas:Termcluster ;
+	rdfs:label "orm-Verb:morph-Copula:-COPULA-" ;
 	aamas:lang aama:Oromo ;
 	rdfs:comment "G76p.185" 
 	.
 
-aama:ID7a6a41d9-c44c-459b-be77-bcb219c16412 a aamas:Term ;
+aama:ID207300c9-414e-4b6a-8568-73921f71b756 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4533,9 +4121,9 @@ aama:ID7a6a41d9-c44c-459b-be77-bcb219c16412 a aamas:Term ;
 	orm:token "taʔ-" ;
 	.
 
-aama:ID50f38dcc-5cb4-420b-aadc-40ebbd07f614 a aamas:Term ;
+aama:ID2072df80-5801-4660-90fc-aaa755d43c6a a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4545,9 +4133,9 @@ aama:ID50f38dcc-5cb4-420b-aadc-40ebbd07f614 a aamas:Term ;
 	orm:token "tur-" ;
 	.
 
-aama:IDf4ffbcd6-4ee7-4206-a439-645588035a43 a aamas:Term ;
+aama:ID7c1268c3-6de4-4f42-9c23-367a1dcc2eb7 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4557,9 +4145,9 @@ aama:IDf4ffbcd6-4ee7-4206-a439-645588035a43 a aamas:Term ;
 	orm:token "jir-" ;
 	.
 
-aama:ID510315c7-62aa-47cc-a724-2fc0dda63b9d a aamas:Term ;
+aama:ID1f841448-e080-4176-805a-515549065279 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4569,9 +4157,9 @@ aama:ID510315c7-62aa-47cc-a724-2fc0dda63b9d a aamas:Term ;
 	orm:token "taʔ-" ;
 	.
 
-aama:IDe8473476-a12b-42af-8eb8-6bb491d66cc0 a aamas:Term ;
+aama:ID9283431e-5fdd-47e9-bfe4-44fc59207a97 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4581,9 +4169,9 @@ aama:IDe8473476-a12b-42af-8eb8-6bb491d66cc0 a aamas:Term ;
 	orm:token "taʔ-" ;
 	.
 
-aama:ID3c669f53-72bb-4cec-8b3e-13a9a4ee2a66 a aamas:Term ;
+aama:ID41ae3216-221d-4daa-88b8-45da6047bd16 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4593,9 +4181,9 @@ aama:ID3c669f53-72bb-4cec-8b3e-13a9a4ee2a66 a aamas:Term ;
 	orm:token "taʔ-" ;
 	.
 
-aama:IDd7282275-ccad-44f8-b847-d2bab95345b8 a aamas:Term ;
+aama:IDcc4ec866-2533-4ca5-9647-68d73a18addf a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4605,9 +4193,9 @@ aama:IDd7282275-ccad-44f8-b847-d2bab95345b8 a aamas:Term ;
 	orm:token "ɗa" ;
 	.
 
-aama:ID05dd39d5-4996-407e-a73a-851dcbd5bc3e a aamas:Term ;
+aama:ID778e9547-a9fa-4f70-a865-f64a730bdc1c a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4617,9 +4205,9 @@ aama:ID05dd39d5-4996-407e-a73a-851dcbd5bc3e a aamas:Term ;
 	orm:token "taʔ-" ;
 	.
 
-aama:ID1a5c663f-ddc7-4554-bbae-ce7315814b3a a aamas:Term ;
+aama:IDb83e7252-90c8-45c5-bc25-8ff6f5ca8dfe a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
@@ -4629,9 +4217,9 @@ aama:ID1a5c663f-ddc7-4554-bbae-ce7315814b3a a aamas:Term ;
 	orm:token "tur-" ;
 	.
 
-aama:ID06d3c6ee-7a0f-4110-8c29-0e9dd3e5b60a a aamas:Term ;
+aama:ID1cecd437-55e1-4106-83d9-db9d10a54631 a aamas:Term ;
 	aamas:lang aama:Oromo ;
-	aamas:memberOf orm:orm-Verbmorph-Copula--COPULA- ;
+	aamas:memberOf orm:orm-Verb:morph-Copula:-COPULA- ;
 	aamas:lexeme orm:lex-COPULA ;
 	orm:morphClass orm:Copula ;
 	orm:pos orm:Verb ;
